@@ -1,0 +1,73 @@
+{
+  "dataset_name": "Halophyte Grass Library Search Dataset",
+  "version": "1.0",
+  "record_count": 30,
+  "mechanism_counts": {
+    "Non-Secreting": 20,
+    "Salt-Secreting": 10
+  },
+  "notes": [
+    "GR50 ranges are split into min, max, and average values for filtering.",
+    "Shoot/root ion columns are split into separate numeric fields.",
+    "Asterisks from the source are stored as secretion_marker_present instead of being kept in numeric values.",
+    "This dataset is prepared for dictionary search and frontend/backend filtering; it is also ML-ready for the next phase."
+  ],
+  "fields": {
+    "id": "Stable slug identifier generated from scientific name.",
+    "species_full_name": "Scientific name with common name in parentheses.",
+    "scientific_name": "Scientific grass species name.",
+    "common_name": "Common grass name from the source.",
+    "common_name_aliases": "Split common-name aliases for search.",
+    "mechanism": "Salt-Secreting or Non-Secreting.",
+    "is_salt_secreting": "Boolean convenience field for frontend filters.",
+    "salt_tolerance_level": "Computed class based on GR50 average: Low <10, Moderate 10-19.99, High 20-39.99, Very High >=40.",
+    "gr50_min_ds_m": "Minimum GR50 value in dS/m.",
+    "gr50_max_ds_m": "Maximum GR50 value in dS/m.",
+    "gr50_avg_ds_m": "Average GR50 value in dS/m.",
+    "na_shoot_mmol_kg_dw": "Na+ shoot content in mmol Kg-1 Tissue DW.",
+    "na_root_mmol_kg_dw": "Na+ root content in mmol Kg-1 Tissue DW.",
+    "cl_shoot_mmol_kg_dw": "Cl− shoot content in mmol Kg-1 Tissue DW.",
+    "cl_root_mmol_kg_dw": "Cl− root content in mmol Kg-1 Tissue DW.",
+    "k_shoot_mmol_kg_dw": "K+ shoot content in mmol Kg-1 Tissue DW.",
+    "k_root_mmol_kg_dw": "K+ root content in mmol Kg-1 Tissue DW.",
+    "search_text": "Lowercase concatenated search field for quick frontend search."
+  },
+  "filters": {
+    "mechanisms": [
+      "Non-Secreting",
+      "Salt-Secreting"
+    ],
+    "salt_tolerance_levels": [
+      "Low",
+      "Moderate",
+      "High",
+      "Very High"
+    ],
+    "ion_levels": [
+      "Low",
+      "Moderate",
+      "High"
+    ],
+    "gr50_range": {
+      "min_ds_m": 4.0,
+      "max_ds_m": 65.0
+    },
+    "numeric_fields": [
+      "gr50_avg_ds_m",
+      "na_shoot_mmol_kg_dw",
+      "na_root_mmol_kg_dw",
+      "cl_shoot_mmol_kg_dw",
+      "cl_root_mmol_kg_dw",
+      "k_shoot_mmol_kg_dw",
+      "k_root_mmol_kg_dw"
+    ],
+    "qualitative_filter_fields": [
+      "na_shoot_level",
+      "na_root_level",
+      "cl_shoot_level",
+      "cl_root_level",
+      "k_shoot_level",
+      "k_root_level"
+    ]
+  }
+}

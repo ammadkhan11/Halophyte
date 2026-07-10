@@ -1,0 +1,38 @@
+{
+  "mechanisms": [
+    "Non-Secreting",
+    "Salt-Secreting"
+  ],
+  "salt_tolerance_levels": [
+    "Low",
+    "Moderate",
+    "High",
+    "Very High"
+  ],
+  "ion_levels": [
+    "Low",
+    "Moderate",
+    "High"
+  ],
+  "gr50_range": {
+    "min_ds_m": 4.0,
+    "max_ds_m": 65.0
+  },
+  "numeric_fields": [
+    "gr50_avg_ds_m",
+    "na_shoot_mmol_kg_dw",
+    "na_root_mmol_kg_dw",
+    "cl_shoot_mmol_kg_dw",
+    "cl_root_mmol_kg_dw",
+    "k_shoot_mmol_kg_dw",
+    "k_root_mmol_kg_dw"
+  ],
+  "qualitative_filter_fields": [
+    "na_shoot_level",
+    "na_root_level",
+    "cl_shoot_level",
+    "cl_root_level",
+    "k_shoot_level",
+    "k_root_level"
+  ]
+}

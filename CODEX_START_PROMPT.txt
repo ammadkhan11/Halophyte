@@ -1,0 +1,30 @@
+Build Phase 1 of our FYP web app: the Halophyte Grass Dictionary / Filtered Library Search.
+
+Use the files:
+- src/data/grassLibraryData.ts
+- src/data/grassLibrarySearch.ts
+
+Requirements:
+1. Create a clean React + TypeScript UI for searching the grass library.
+2. Add a search bar that matches scientific name, common name, aliases, mechanism, and ion levels using search_text.
+3. Add filters for:
+   - Mechanism: All, Salt-Secreting, Non-Secreting
+   - Salt tolerance level: All, Low, Moderate, High, Very High
+   - GR50 average min/max
+   - Ion filter: Na Shoot, Na Root, Cl Shoot, Cl Root, K Shoot, K Root + Low/Moderate/High
+4. Display results as clean cards or a table with:
+   - Scientific name and common name
+   - Mechanism
+   - GR50 range and average
+   - Na+, Cl−, K+ shoot/root qualitative and numeric values
+   - References
+5. Add a grass detail view/modal when a result is clicked.
+6. Keep the UI simple, academic, and modern. Use Tailwind CSS if available.
+7. Do not build ML prediction yet. Only build the dictionary/search library module.
+
+Acceptance test:
+- Searching “rice” should show Oryza sativa.
+- Filtering Salt-Secreting should show 10 grasses.
+- Filtering Non-Secreting should show 20 grasses.
+- Searching “cordgrass” should show Spartina alterniflora and Spartina patens.
+- GR50 min 40 should show high salt-tolerance grasses only.
