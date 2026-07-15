@@ -1,0 +1,171 @@
+{
+  "record_count": 30,
+  "numeric_fields": [
+    "gr50_avg",
+    "na_shoot",
+    "na_root",
+    "cl_shoot",
+    "cl_root",
+    "k_shoot",
+    "k_root"
+  ],
+  "mechanism_encoder_mapping": {
+    "Non-Secreting": 0,
+    "Salt-Secreting": 1
+  },
+  "overall_model_ranking": [
+    {
+      "model_name": "knn_5",
+      "average_mae": 123.86198412698413,
+      "average_rmse": 211.7874421676376,
+      "average_r2": 0.38128850219525
+    },
+    {
+      "model_name": "knn_3",
+      "average_mae": 124.07380952380952,
+      "average_rmse": 214.39467102183625,
+      "average_r2": 0.3806770200448075
+    },
+    {
+      "model_name": "random_forest",
+      "average_mae": 128.6963390117158,
+      "average_rmse": 219.25379276687886,
+      "average_r2": 0.3604823952626588
+    },
+    {
+      "model_name": "ridge_regression",
+      "average_mae": 145.01949462085426,
+      "average_rmse": 229.02456543029447,
+      "average_r2": 0.22583427071111897
+    },
+    {
+      "model_name": "decision_tree",
+      "average_mae": 148.80952380952382,
+      "average_rmse": 255.1817782448824,
+      "average_r2": 0.1424997987536389
+    }
+  ],
+  "best_model_per_known_input_by_lowest_rmse": [
+    {
+      "known_input_field": "cl_root",
+      "model_name": "ridge_regression",
+      "target_fields": "gr50_avg, na_shoot, na_root, cl_shoot, k_shoot, k_root",
+      "average_mae": 135.57295912700314,
+      "average_rmse": 208.14813289632693,
+      "average_r2": 0.3145805562336849
+    },
+    {
+      "known_input_field": "cl_shoot",
+      "model_name": "knn_3",
+      "target_fields": "gr50_avg, na_shoot, na_root, cl_root, k_shoot, k_root",
+      "average_mae": 97.45462962962962,
+      "average_rmse": 170.64743227477908,
+      "average_r2": 0.503666918518319
+    },
+    {
+      "known_input_field": "gr50_avg",
+      "model_name": "knn_3",
+      "target_fields": "na_shoot, na_root, cl_shoot, cl_root, k_shoot, k_root",
+      "average_mae": 135.3148148148148,
+      "average_rmse": 211.61387501476702,
+      "average_r2": 0.45530237340495966
+    },
+    {
+      "known_input_field": "k_root",
+      "model_name": "knn_3",
+      "target_fields": "gr50_avg, na_shoot, na_root, cl_shoot, cl_root, k_shoot",
+      "average_mae": 133.20555555555555,
+      "average_rmse": 216.92955276816832,
+      "average_r2": 0.45244165402953634
+    },
+    {
+      "known_input_field": "k_shoot",
+      "model_name": "knn_5",
+      "target_fields": "gr50_avg, na_shoot, na_root, cl_shoot, cl_root, k_root",
+      "average_mae": 143.9922222222222,
+      "average_rmse": 248.10355476874753,
+      "average_r2": 0.25544291003631375
+    },
+    {
+      "known_input_field": "na_root",
+      "model_name": "knn_3",
+      "target_fields": "gr50_avg, na_shoot, cl_shoot, cl_root, k_shoot, k_root",
+      "average_mae": 112.91388888888889,
+      "average_rmse": 214.87964151940074,
+      "average_r2": 0.3876063980862077
+    },
+    {
+      "known_input_field": "na_shoot",
+      "model_name": "random_forest",
+      "target_fields": "gr50_avg, na_root, cl_shoot, cl_root, k_shoot, k_root",
+      "average_mae": 102.26250324074074,
+      "average_rmse": 168.24499995701092,
+      "average_r2": 0.4828724511707198
+    }
+  ],
+  "selected_model_per_known_input_for_app": [
+    {
+      "known_input_field": "gr50_avg",
+      "metric_best_model": "knn_3",
+      "metric_best_rmse": 211.61387501476702,
+      "selected_model_for_app": "knn_3",
+      "selected_model_rmse": 211.61387501476702,
+      "selection_reason": "knn_3 is within 10 percent of the best RMSE and supports similar grass lookup."
+    },
+    {
+      "known_input_field": "na_shoot",
+      "metric_best_model": "random_forest",
+      "metric_best_rmse": 168.24499995701092,
+      "selected_model_for_app": "knn_3",
+      "selected_model_rmse": 170.56534626259523,
+      "selection_reason": "knn_3 is within 10 percent of the best RMSE and supports similar grass lookup."
+    },
+    {
+      "known_input_field": "na_root",
+      "metric_best_model": "knn_3",
+      "metric_best_rmse": 214.87964151940074,
+      "selected_model_for_app": "knn_3",
+      "selected_model_rmse": 214.87964151940074,
+      "selection_reason": "knn_3 is within 10 percent of the best RMSE and supports similar grass lookup."
+    },
+    {
+      "known_input_field": "cl_shoot",
+      "metric_best_model": "knn_3",
+      "metric_best_rmse": 170.64743227477908,
+      "selected_model_for_app": "knn_3",
+      "selected_model_rmse": 170.64743227477908,
+      "selection_reason": "knn_3 is within 10 percent of the best RMSE and supports similar grass lookup."
+    },
+    {
+      "known_input_field": "cl_root",
+      "metric_best_model": "ridge_regression",
+      "metric_best_rmse": 208.14813289632693,
+      "selected_model_for_app": "ridge_regression",
+      "selected_model_rmse": 208.14813289632693,
+      "selection_reason": "Metric-best model selected because knn_3 was not close enough by RMSE."
+    },
+    {
+      "known_input_field": "k_shoot",
+      "metric_best_model": "knn_5",
+      "metric_best_rmse": 248.10355476874753,
+      "selected_model_for_app": "knn_3",
+      "selected_model_rmse": 266.2642148294912,
+      "selection_reason": "knn_3 is within 10 percent of the best RMSE and supports similar grass lookup."
+    },
+    {
+      "known_input_field": "k_root",
+      "metric_best_model": "knn_3",
+      "metric_best_rmse": 216.92955276816832,
+      "selected_model_for_app": "knn_3",
+      "selected_model_rmse": 216.92955276816832,
+      "selection_reason": "knn_3 is within 10 percent of the best RMSE and supports similar grass lookup."
+    }
+  ],
+  "selection_policy": "Prefer knn_3 when its RMSE is within 10 percent of the metric-best model; otherwise use the metric-best model.",
+  "evaluation_method": "Leave-One-Out Cross Validation",
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "R2 score"
+  ]
+}

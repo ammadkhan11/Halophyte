@@ -25,7 +25,11 @@ import {
   formatRange,
 } from '../utils/grassFormatters';
 
-export default function GrassLibrary() {
+type GrassLibraryProps = {
+  onViewResearchEvidence: (context: { species: string; mechanism: string }) => void;
+};
+
+export default function GrassLibrary({ onViewResearchEvidence }: GrassLibraryProps) {
   const [filters, setFilters] = useState<GrassSearchFilters>({ ...defaultGrassSearchFilters });
   const [sortOption, setSortOption] = useState<GrassSortOption>(defaultGrassSortOption);
   const [selectedGrass, setSelectedGrass] = useState<GrassLibraryRecord | null>(null);
@@ -158,7 +162,14 @@ export default function GrassLibrary() {
       <UnitConversionHelper />
 
       {selectedGrass && (
-        <GrassDetailModal grass={selectedGrass} onClose={() => setSelectedGrass(null)} />
+        <GrassDetailModal
+          grass={selectedGrass}
+          onClose={() => setSelectedGrass(null)}
+          onViewResearchEvidence={(grass) => {
+            setSelectedGrass(null);
+            onViewResearchEvidence({ species: grass.scientific_name, mechanism: grass.mechanism });
+          }}
+        />
       )}
     </main>
   );

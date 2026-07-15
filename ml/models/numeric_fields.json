@@ -1,0 +1,11 @@
+{
+  "numeric_fields": [
+    "gr50_avg",
+    "na_shoot",
+    "na_root",
+    "cl_shoot",
+    "cl_root",
+    "k_shoot",
+    "k_root"
+  ]
+}
