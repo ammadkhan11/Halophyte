@@ -44,9 +44,11 @@ export default function GrassLibrary() {
     <main className="library-page">
       <header className="page-hero">
         <div>
-          <p className="eyebrow">Phase 1 Library</p>
-          <h1>Halophyte Grass Dictionary</h1>
-          <p className="page-subtitle">Academic reference library for salinity tolerance, secretion mechanisms, and ion accumulation profiles.</p>
+          <p className="eyebrow">Reference Library</p>
+          <h1>Halophyte Grass Library</h1>
+          <p className="page-subtitle">
+            Curated species records for salinity tolerance, secretion mechanisms, GR50 ranges, and ion accumulation profiles.
+          </p>
         </div>
       </header>
 
@@ -73,7 +75,7 @@ export default function GrassLibrary() {
         <div className="results-header">
           <div>
             <p className="eyebrow">Grass Library</p>
-            <h2 id="results-heading">Grass Records</h2>
+            <h2 id="results-heading">Species Records</h2>
           </div>
           <span className="result-count">{results.length} shown</span>
         </div>

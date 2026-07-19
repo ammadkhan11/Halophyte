@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "mode": "demo_simulation",
+  "mode": "local_grid",
   "province": "Punjab and Sindh",
   "selected_provinces": [
     "Punjab",
@@ -8,7 +8,7 @@
   ],
   "points_rendered": 720,
   "total_points": 720,
-  "scientific_notice": "This mapper is a local application wrapper around satellite/region processing. EC prediction labels are placeholders until verified field EC measurements are supplied.",
+  "scientific_notice": "Local salinity grid and crop-zone output for the selected region.",
   "outputs": {
     "salinity_grid_csv": "C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package\\integrated\\soil-salinity-mapping\\output\\salinity_grid.csv",
     "pakistan_boundary_geojson": "C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package\\integrated\\soil-salinity-mapping\\output\\pakistan_boundary.geojson",

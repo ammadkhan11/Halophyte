@@ -1,0 +1,21 @@
+# Digital Twin for Biosaline Agriculture — Crop Salinity Predictor
+# Python 3.10+
+
+# Core data handling
+numpy>=1.23.0
+pandas>=1.5.0
+
+# ML surrogate model
+scikit-learn>=1.2.0
+
+# Web app
+streamlit>=1.28.0
+
+# Visualization
+plotly>=5.15.0
+
+# Config files
+pyyaml>=6.0
+
+# Excel file reading
+openpyxl>=3.1.0

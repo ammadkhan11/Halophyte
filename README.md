@@ -14,6 +14,7 @@ Final year project web application for exploring halophyte grass records and est
 - Embedded Halophyte Knowledge Graph module served unchanged from its standalone HTML frontend.
 - Embedded Halophyte Field Match module served unchanged from its standalone HTML frontend.
 - Pakistan Soil Salinity Mapper route with local setup/status checks and generated-map support.
+- Crop Salinity Screening route for the biosaline agriculture phase, converted from Streamlit to the main React/FastAPI app.
 - Backend API with dataset/model metadata and prediction endpoints.
 
 ## Phase 1: Grass Dictionary
@@ -44,6 +45,7 @@ The main React app uses path-based navigation so direct refresh works in Vite de
 
 - `/` - main Halophyte grass library.
 - `/prediction` - salt tolerance prediction model.
+- `/crop-salinity-screening` - biosaline crop salinity risk screening, without profit or economics.
 - `/knowledge-graph` - embedded Halophyte Knowledge Graph standalone HTML app.
 - `/field-match` - embedded Halophyte Field Match standalone HTML app.
 - `/soil-salinity-mapping` - Pakistan Soil Salinity Mapper app page.
@@ -60,6 +62,10 @@ The local Streamlit app extracted from the soil salinity notebook is available a
 
 - `integrated/soil-salinity-mapping/app.py`
 
+The biosaline agriculture phase source still includes its original Streamlit app for reference, but the integrated local route is:
+
+- `/crop-salinity-screening`
+
 ## Tech Stack
 
 - React
@@ -70,6 +76,8 @@ The local Streamlit app extracted from the soil salinity notebook is available a
 - numpy
 - scikit-learn
 - joblib
+- PyYAML
+- openpyxl
 
 ## Folder Structure
 
@@ -89,6 +97,7 @@ project-root/
       mini-projects/
   integrated/
     soil-salinity-mapping/
+  FYP-halophyte-No-Profit-Feature/
   src/
     components/
     data/
@@ -114,6 +123,12 @@ project-root/
 ## Start the Integrated Project
 
 Run the backend and frontend in two terminals.
+
+For the usual local workflow on Windows, this helper starts the backend and frontend together:
+
+```powershell
+npm.cmd run dev:all
+```
 
 ### Backend
 
@@ -181,6 +196,9 @@ python -m py_compile backend\main.py backend\model_loader.py backend\prediction_
 - `GET /grasses` - grass options for frontend dropdowns.
 - `GET /model-metrics` - notebook evaluation artifacts if available.
 - `POST /predict` - Phase 2 prediction endpoint.
+- `GET /biosaline-crop-screening/status` - Crop Salinity Screening setup, dataset, and model status.
+- `GET /biosaline-crop-screening/crops` - crop options loaded from the biosaline phase config.
+- `POST /biosaline-crop-screening/predict` - Maas-Hoffman/surrogate crop salinity screening endpoint.
 
 ## Supervisor Note
 

@@ -1,13 +1,22 @@
 import { useEffect, useState } from 'react';
+import { BarChart3, Database, GitBranch, Map, Microscope, Sprout } from 'lucide-react';
 import GrassLibrary from './pages/GrassLibrary';
 import Prediction from './pages/Prediction';
+import CropSalinityScreening from './pages/CropSalinityScreening';
 import SoilSalinityMapper from './pages/SoilSalinityMapper';
 
-type AppPage = 'library' | 'prediction' | 'knowledgeGraph' | 'fieldMatch' | 'miniProjects';
+type AppPage =
+  | 'library'
+  | 'prediction'
+  | 'cropSalinityScreening'
+  | 'knowledgeGraph'
+  | 'fieldMatch'
+  | 'miniProjects';
 
 const ROUTES: Record<AppPage, string> = {
   library: '/',
   prediction: '/prediction',
+  cropSalinityScreening: '/crop-salinity-screening',
   knowledgeGraph: '/knowledge-graph',
   fieldMatch: '/field-match',
   miniProjects: '/soil-salinity-mapping',
@@ -16,6 +25,13 @@ const ROUTES: Record<AppPage, string> = {
 function pageFromPath(pathname: string): AppPage {
   if (pathname === '/prediction') {
     return 'prediction';
+  }
+  if (
+    pathname === '/crop-salinity-screening' ||
+    pathname === '/biosaline-crop-screening' ||
+    pathname === '/salinity-risk-model'
+  ) {
+    return 'cropSalinityScreening';
   }
   if (pathname === '/knowledge-graph') {
     return 'knowledgeGraph';
@@ -28,6 +44,15 @@ function pageFromPath(pathname: string): AppPage {
   }
   return 'library';
 }
+
+const NAV_ITEMS: Array<{ page: AppPage; label: string; icon: typeof Database }> = [
+  { page: 'library', label: 'Grass Library', icon: Database },
+  { page: 'prediction', label: 'Prediction Model', icon: BarChart3 },
+  { page: 'miniProjects', label: 'Soil Salinity Mapper', icon: Map },
+  { page: 'cropSalinityScreening', label: 'Crop Salinity Screening', icon: Sprout },
+  { page: 'knowledgeGraph', label: 'Knowledge Graph', icon: GitBranch },
+  { page: 'fieldMatch', label: 'Field Match', icon: Microscope },
+];
 
 function StaticModulePage({ title, src }: { title: string; src: string }) {
   return (
@@ -57,12 +82,13 @@ export default function App() {
     setActivePage(page);
   };
 
-  const renderNavButton = (page: AppPage, label: string) => (
+  const renderNavButton = ({ page, label, icon: Icon }: { page: AppPage; label: string; icon: typeof Database }) => (
     <button
       className={activePage === page ? 'nav-button nav-button-active' : 'nav-button'}
       type="button"
       onClick={() => navigate(page)}
     >
+      <Icon aria-hidden="true" size={15} />
       {label}
     </button>
   );
@@ -70,22 +96,23 @@ export default function App() {
   return (
     <>
       <nav className="app-navigation" aria-label="Main navigation">
-        <div>
-          <strong>Halophyte Grass Dictionary</strong>
-          <span>Library, prediction, field match, and mini-project modules</span>
+        <div className="app-brand">
+          <span className="brand-mark" aria-hidden="true">H</span>
+          <div>
+            <strong>Biosaline Halophyte Intelligence Platform</strong>
+            <span>Decision support for halophyte, salinity, and crop screening workflows</span>
+          </div>
         </div>
         <div className="app-navigation-actions">
-          {renderNavButton('library', 'Grass Library')}
-          {renderNavButton('prediction', 'Prediction Model')}
-          {renderNavButton('knowledgeGraph', 'Knowledge Graph')}
-          {renderNavButton('fieldMatch', 'Field Match')}
-          {renderNavButton('miniProjects', 'Soil Salinity Mapper')}
+          {NAV_ITEMS.map((item) => renderNavButton(item))}
         </div>
       </nav>
       {activePage === 'library' ? (
         <GrassLibrary />
       ) : activePage === 'prediction' ? (
         <Prediction />
+      ) : activePage === 'cropSalinityScreening' ? (
+        <CropSalinityScreening />
       ) : activePage === 'knowledgeGraph' ? (
         <StaticModulePage title="Halophyte Knowledge Graph" src="/modules/knowledge-graph/index.html" />
       ) : activePage === 'fieldMatch' ? (

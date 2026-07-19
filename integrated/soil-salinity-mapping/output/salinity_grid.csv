@@ -1,721 +1,721 @@
-Province,Latitude,Longitude,Predicted_EC,Label_Source
-Punjab,32.730714,71.977158,1.675,demo_simulation_placeholder
-Punjab,33.280886,73.553945,2.125,demo_simulation_placeholder
-Punjab,28.312153,75.251296,0.654,demo_simulation_placeholder
-Punjab,32.647408,74.094992,1.344,demo_simulation_placeholder
-Punjab,28.532739,72.047354,1.59,demo_simulation_placeholder
-Punjab,30.110187,74.953266,1.72,demo_simulation_placeholder
-Punjab,31.885123,74.318846,1.296,demo_simulation_placeholder
-Punjab,30.582192,70.686156,2.552,demo_simulation_placeholder
-Punjab,31.304801,69.689285,2.8,demo_simulation_placeholder
-Punjab,33.079603,73.153153,2.091,demo_simulation_placeholder
-Punjab,32.62757,71.462608,1.481,demo_simulation_placeholder
-Punjab,34.009537,74.748039,1.936,demo_simulation_placeholder
-Punjab,32.759493,70.487296,1.676,demo_simulation_placeholder
-Punjab,30.733687,69.567203,3.319,demo_simulation_placeholder
-Punjab,28.702882,73.466599,1.606,demo_simulation_placeholder
-Punjab,32.540954,75.201809,0.625,demo_simulation_placeholder
-Punjab,29.817865,71.559804,2.214,demo_simulation_placeholder
-Punjab,30.752113,70.455775,2.605,demo_simulation_placeholder
-Punjab,28.54449,72.2018,1.636,demo_simulation_placeholder
-Punjab,29.174911,73.385865,1.847,demo_simulation_placeholder
-Punjab,30.541487,74.379337,2.2,demo_simulation_placeholder
-Punjab,32.251723,71.205437,1.392,demo_simulation_placeholder
-Punjab,33.109689,74.209063,1.614,demo_simulation_placeholder
-Punjab,30.218609,71.058801,2.428,demo_simulation_placeholder
-Punjab,32.136221,70.15249,1.782,demo_simulation_placeholder
-Punjab,28.999403,69.34491,2.583,demo_simulation_placeholder
-Punjab,32.815008,73.35559,1.82,demo_simulation_placeholder
-Punjab,32.283575,74.062447,1.29,demo_simulation_placeholder
-Punjab,30.682953,72.769321,2.812,demo_simulation_placeholder
-Punjab,28.60868,69.998633,1.87,demo_simulation_placeholder
-Punjab,32.044619,72.173687,1.688,demo_simulation_placeholder
-Punjab,31.374035,73.966493,1.924,demo_simulation_placeholder
-Punjab,31.825669,72.676834,1.931,demo_simulation_placeholder
-Punjab,31.334847,71.154096,2.01,demo_simulation_placeholder
-Punjab,27.900316,71.963976,1.938,demo_simulation_placeholder
-Punjab,29.0948,71.792025,1.654,demo_simulation_placeholder
-Punjab,33.24712,70.727031,1.98,demo_simulation_placeholder
-Punjab,28.078968,71.016442,1.624,demo_simulation_placeholder
-Punjab,29.608359,73.337691,2.245,demo_simulation_placeholder
-Punjab,31.320709,74.081779,1.916,demo_simulation_placeholder
-Punjab,32.018038,71.77896,1.577,demo_simulation_placeholder
-Punjab,32.991133,70.318535,1.94,demo_simulation_placeholder
-Punjab,27.847628,69.849292,2.429,demo_simulation_placeholder
-Punjab,32.395336,72.117451,1.605,demo_simulation_placeholder
-Punjab,28.748267,72.356373,1.681,demo_simulation_placeholder
-Punjab,28.690029,73.547554,1.564,demo_simulation_placeholder
-Punjab,30.600016,71.624229,2.544,demo_simulation_placeholder
-Punjab,29.659829,73.144724,2.348,demo_simulation_placeholder
-Punjab,30.051782,69.834665,2.964,demo_simulation_placeholder
-Punjab,28.467038,75.167576,0.635,demo_simulation_placeholder
-Punjab,33.605774,73.568214,2.403,demo_simulation_placeholder
-Punjab,29.428155,75.211976,1.008,demo_simulation_placeholder
-Punjab,32.761881,73.67303,1.626,demo_simulation_placeholder
-Punjab,30.62085,70.960674,2.482,demo_simulation_placeholder
-Punjab,28.326541,74.805875,0.902,demo_simulation_placeholder
-Punjab,30.662546,70.534417,2.596,demo_simulation_placeholder
-Punjab,29.688718,72.833239,2.405,demo_simulation_placeholder
-Punjab,28.849023,74.525347,1.041,demo_simulation_placeholder
-Punjab,32.630377,73.688724,1.546,demo_simulation_placeholder
-Punjab,30.508605,73.126584,2.816,demo_simulation_placeholder
-Punjab,31.496637,73.264064,2.156,demo_simulation_placeholder
-Punjab,28.248888,71.836425,1.633,demo_simulation_placeholder
-Punjab,27.970492,72.313344,1.983,demo_simulation_placeholder
-Punjab,29.844098,70.181598,2.527,demo_simulation_placeholder
-Punjab,28.372119,72.884632,1.801,demo_simulation_placeholder
-Punjab,28.808854,74.943233,0.759,demo_simulation_placeholder
-Punjab,31.476897,71.415906,1.902,demo_simulation_placeholder
-Punjab,31.540951,69.439104,2.826,demo_simulation_placeholder
-Punjab,33.930635,72.242051,2.689,demo_simulation_placeholder
-Punjab,32.787779,69.804653,2.19,demo_simulation_placeholder
-Punjab,30.863279,72.293313,2.649,demo_simulation_placeholder
-Punjab,33.795872,72.787541,2.724,demo_simulation_placeholder
-Punjab,30.777681,70.928552,2.436,demo_simulation_placeholder
-Punjab,29.855198,72.476102,2.508,demo_simulation_placeholder
-Punjab,30.552924,69.431834,3.496,demo_simulation_placeholder
-Punjab,33.070898,74.766581,1.222,demo_simulation_placeholder
-Punjab,28.611619,72.67962,1.735,demo_simulation_placeholder
-Punjab,28.405742,73.400665,1.677,demo_simulation_placeholder
-Punjab,29.52802,73.322478,2.175,demo_simulation_placeholder
-Punjab,32.425465,73.98875,1.33,demo_simulation_placeholder
-Punjab,28.400316,74.887672,0.818,demo_simulation_placeholder
-Punjab,29.196391,69.528217,2.528,demo_simulation_placeholder
-Punjab,31.306541,71.562626,2.09,demo_simulation_placeholder
-Punjab,33.093633,74.230334,1.587,demo_simulation_placeholder
-Punjab,29.761403,75.112686,1.367,demo_simulation_placeholder
-Punjab,29.590966,72.441848,2.264,demo_simulation_placeholder
-Punjab,29.363773,75.009866,1.061,demo_simulation_placeholder
-Punjab,28.769951,69.573955,2.271,demo_simulation_placeholder
-Punjab,30.528131,75.353491,1.622,demo_simulation_placeholder
-Punjab,33.495902,73.866509,2.141,demo_simulation_placeholder
-Punjab,33.490151,74.750025,1.616,demo_simulation_placeholder
-Punjab,31.072579,71.227167,2.24,demo_simulation_placeholder
-Punjab,32.718081,73.336134,1.767,demo_simulation_placeholder
-Punjab,30.128775,69.876247,2.972,demo_simulation_placeholder
-Punjab,32.554132,70.901009,1.44,demo_simulation_placeholder
-Punjab,33.789285,70.769921,2.411,demo_simulation_placeholder
-Punjab,28.497927,74.369787,1.125,demo_simulation_placeholder
-Punjab,28.696348,70.393537,1.594,demo_simulation_placeholder
-Punjab,31.595988,74.634828,1.32,demo_simulation_placeholder
-Punjab,28.976825,71.192974,1.471,demo_simulation_placeholder
-Punjab,32.753131,75.228141,0.71,demo_simulation_placeholder
-Punjab,30.954818,70.177775,2.669,demo_simulation_placeholder
-Punjab,27.790586,70.700902,1.938,demo_simulation_placeholder
-Punjab,28.556844,73.433718,1.624,demo_simulation_placeholder
-Punjab,28.491911,72.388613,1.698,demo_simulation_placeholder
-Punjab,32.212706,72.844811,1.756,demo_simulation_placeholder
-Punjab,28.998542,74.20516,1.305,demo_simulation_placeholder
-Punjab,32.350146,73.807802,1.403,demo_simulation_placeholder
-Punjab,28.551875,70.054898,1.83,demo_simulation_placeholder
-Punjab,33.729157,71.725227,2.422,demo_simulation_placeholder
-Punjab,29.656166,72.280363,2.284,demo_simulation_placeholder
-Punjab,32.008617,75.129302,0.715,demo_simulation_placeholder
-Punjab,29.5619,74.941331,1.283,demo_simulation_placeholder
-Punjab,27.861587,72.686708,2.153,demo_simulation_placeholder
-Punjab,31.820838,69.945974,2.114,demo_simulation_placeholder
-Punjab,28.612207,71.856597,1.521,demo_simulation_placeholder
-Punjab,33.980507,72.93586,2.807,demo_simulation_placeholder
-Punjab,33.764651,74.206602,2.171,demo_simulation_placeholder
-Punjab,30.73798,74.087057,2.327,demo_simulation_placeholder
-Punjab,27.815939,69.965778,2.357,demo_simulation_placeholder
-Punjab,33.091286,74.160584,1.625,demo_simulation_placeholder
-Punjab,29.212165,72.537695,1.95,demo_simulation_placeholder
-Punjab,31.639103,74.593208,1.309,demo_simulation_placeholder
-Punjab,31.620197,71.816687,1.87,demo_simulation_placeholder
-Punjab,30.132196,71.897881,2.533,demo_simulation_placeholder
-Punjab,31.937552,74.591693,1.088,demo_simulation_placeholder
-Punjab,30.65033,70.811821,2.502,demo_simulation_placeholder
-Punjab,29.238305,73.850687,1.643,demo_simulation_placeholder
-Punjab,33.007697,69.942196,2.234,demo_simulation_placeholder
-Punjab,28.132633,72.926045,1.937,demo_simulation_placeholder
-Punjab,28.650126,74.330452,1.133,demo_simulation_placeholder
-Punjab,29.717175,70.177619,2.419,demo_simulation_placeholder
-Punjab,33.686308,70.309744,2.554,demo_simulation_placeholder
-Punjab,29.550681,70.237042,2.223,demo_simulation_placeholder
-Punjab,28.450685,69.429003,2.431,demo_simulation_placeholder
-Punjab,28.06007,70.365313,1.857,demo_simulation_placeholder
-Punjab,28.046983,72.905977,2.002,demo_simulation_placeholder
-Punjab,32.124644,71.701146,1.51,demo_simulation_placeholder
-Punjab,29.766942,72.37761,2.41,demo_simulation_placeholder
-Punjab,33.387532,74.491903,1.694,demo_simulation_placeholder
-Punjab,27.982588,70.40714,1.897,demo_simulation_placeholder
-Punjab,29.238842,70.821264,1.678,demo_simulation_placeholder
-Punjab,31.413012,71.839201,2.067,demo_simulation_placeholder
-Punjab,28.020152,71.579046,1.723,demo_simulation_placeholder
-Punjab,31.104394,69.920199,2.763,demo_simulation_placeholder
-Punjab,33.117481,69.616967,2.63,demo_simulation_placeholder
-Punjab,33.711472,69.90459,2.878,demo_simulation_placeholder
-Punjab,33.183237,74.806184,1.298,demo_simulation_placeholder
-Punjab,34.067209,74.192358,2.304,demo_simulation_placeholder
-Punjab,32.766604,73.219148,1.833,demo_simulation_placeholder
-Punjab,32.763476,70.120768,1.909,demo_simulation_placeholder
-Punjab,31.184442,72.43676,2.453,demo_simulation_placeholder
-Punjab,33.274219,72.123076,2.164,demo_simulation_placeholder
-Punjab,30.203082,73.201336,2.734,demo_simulation_placeholder
-Punjab,29.432012,70.152587,2.173,demo_simulation_placeholder
-Punjab,30.806202,71.843025,2.539,demo_simulation_placeholder
-Punjab,29.211705,71.541822,1.67,demo_simulation_placeholder
-Punjab,30.081551,71.297723,2.364,demo_simulation_placeholder
-Punjab,30.166517,73.483034,2.613,demo_simulation_placeholder
-Punjab,29.629697,75.088033,1.261,demo_simulation_placeholder
-Punjab,33.656262,72.233554,2.528,demo_simulation_placeholder
-Punjab,29.834348,72.566152,2.508,demo_simulation_placeholder
-Punjab,33.215643,73.280783,2.181,demo_simulation_placeholder
-Punjab,32.928547,72.549606,1.968,demo_simulation_placeholder
-Punjab,31.813965,71.057749,1.592,demo_simulation_placeholder
-Punjab,32.476806,70.534668,1.534,demo_simulation_placeholder
-Punjab,32.216188,74.550386,1.003,demo_simulation_placeholder
-Punjab,28.558668,73.047716,1.736,demo_simulation_placeholder
-Punjab,28.318122,73.726865,1.538,demo_simulation_placeholder
-Punjab,28.249206,75.009233,0.817,demo_simulation_placeholder
-Punjab,28.593152,75.14917,0.622,demo_simulation_placeholder
-Punjab,32.905747,72.92146,1.977,demo_simulation_placeholder
-Punjab,32.787057,74.150201,1.391,demo_simulation_placeholder
-Punjab,33.849176,70.845638,2.426,demo_simulation_placeholder
-Punjab,31.535493,69.8798,2.41,demo_simulation_placeholder
-Punjab,31.705077,70.344877,1.911,demo_simulation_placeholder
-Punjab,31.372179,72.791826,2.333,demo_simulation_placeholder
-Punjab,30.728903,72.488054,2.759,demo_simulation_placeholder
-Punjab,32.665502,74.175393,1.308,demo_simulation_placeholder
-Punjab,30.898996,72.95752,2.713,demo_simulation_placeholder
-Punjab,33.753036,70.030375,2.8,demo_simulation_placeholder
-Punjab,28.461173,69.835025,2.037,demo_simulation_placeholder
-Punjab,31.976111,71.853511,1.621,demo_simulation_placeholder
-Punjab,32.733089,73.394512,1.753,demo_simulation_placeholder
-Punjab,29.868645,74.780036,1.659,demo_simulation_placeholder
-Punjab,32.656459,70.950263,1.474,demo_simulation_placeholder
-Punjab,30.067248,71.218084,2.349,demo_simulation_placeholder
-Punjab,28.724476,70.201479,1.719,demo_simulation_placeholder
-Punjab,33.784829,71.971215,2.532,demo_simulation_placeholder
-Punjab,30.191579,73.751083,2.469,demo_simulation_placeholder
-Punjab,31.294455,75.010454,1.36,demo_simulation_placeholder
-Punjab,32.77196,72.224154,1.777,demo_simulation_placeholder
-Punjab,30.146337,75.318452,1.546,demo_simulation_placeholder
-Punjab,32.365442,75.102287,0.646,demo_simulation_placeholder
-Punjab,28.470111,74.488255,1.056,demo_simulation_placeholder
-Punjab,31.84098,70.043722,2.019,demo_simulation_placeholder
-Punjab,31.523677,73.485188,2.044,demo_simulation_placeholder
-Punjab,27.779967,72.07134,2.082,demo_simulation_placeholder
-Punjab,33.065097,71.10169,1.752,demo_simulation_placeholder
-Punjab,30.680563,71.998116,2.637,demo_simulation_placeholder
-Punjab,29.662528,74.902496,1.401,demo_simulation_placeholder
-Punjab,32.778411,69.974589,2.035,demo_simulation_placeholder
-Punjab,34.180725,74.66312,2.017,demo_simulation_placeholder
-Punjab,29.545405,74.405069,1.615,demo_simulation_placeholder
-Punjab,28.391727,75.394539,0.556,demo_simulation_placeholder
-Punjab,32.026951,73.265763,1.757,demo_simulation_placeholder
-Punjab,28.287865,74.771904,0.943,demo_simulation_placeholder
-Punjab,27.888497,70.769051,1.828,demo_simulation_placeholder
-Punjab,28.629642,74.038284,1.3,demo_simulation_placeholder
-Punjab,28.988327,74.854893,0.884,demo_simulation_placeholder
-Punjab,31.965749,69.520593,2.418,demo_simulation_placeholder
-Punjab,27.735294,69.615113,2.753,demo_simulation_placeholder
-Punjab,31.638514,74.189039,1.565,demo_simulation_placeholder
-Punjab,29.250593,74.481394,1.304,demo_simulation_placeholder
-Punjab,28.072008,74.18588,1.46,demo_simulation_placeholder
-Punjab,33.73067,74.009861,2.256,demo_simulation_placeholder
-Punjab,32.237785,74.411679,1.09,demo_simulation_placeholder
-Punjab,27.960983,70.530871,1.852,demo_simulation_placeholder
-Punjab,28.512004,72.377639,1.691,demo_simulation_placeholder
-Punjab,32.543723,73.143072,1.746,demo_simulation_placeholder
-Punjab,33.232352,70.246799,2.203,demo_simulation_placeholder
-Punjab,32.475037,70.477553,1.561,demo_simulation_placeholder
-Punjab,29.459932,73.630419,1.966,demo_simulation_placeholder
-Punjab,34.071331,73.030416,2.822,demo_simulation_placeholder
-Punjab,28.054252,73.059485,1.982,demo_simulation_placeholder
-Punjab,27.975279,74.693289,1.216,demo_simulation_placeholder
-Punjab,32.312259,70.35608,1.614,demo_simulation_placeholder
-Punjab,28.296187,70.419553,1.671,demo_simulation_placeholder
-Punjab,34.070177,72.09722,2.685,demo_simulation_placeholder
-Punjab,32.796526,73.182091,1.862,demo_simulation_placeholder
-Punjab,31.420685,70.185295,2.271,demo_simulation_placeholder
-Punjab,33.849159,71.13819,2.395,demo_simulation_placeholder
-Punjab,31.457112,73.568633,2.063,demo_simulation_placeholder
-Punjab,31.920016,75.037626,0.816,demo_simulation_placeholder
-Punjab,28.664853,72.400952,1.684,demo_simulation_placeholder
-Punjab,30.326224,72.192429,2.704,demo_simulation_placeholder
-Punjab,28.474914,70.117977,1.797,demo_simulation_placeholder
-Punjab,29.507491,71.158698,1.878,demo_simulation_placeholder
-Punjab,30.481371,73.027024,2.833,demo_simulation_placeholder
-Punjab,31.825089,71.812046,1.704,demo_simulation_placeholder
-Punjab,30.35709,70.627534,2.566,demo_simulation_placeholder
-Punjab,31.523991,71.23395,1.837,demo_simulation_placeholder
-Punjab,27.934389,71.85224,1.872,demo_simulation_placeholder
-Punjab,30.781862,70.676116,2.497,demo_simulation_placeholder
-Punjab,31.420977,72.751209,2.285,demo_simulation_placeholder
-Punjab,32.263014,73.252486,1.69,demo_simulation_placeholder
-Punjab,31.940815,71.228906,1.509,demo_simulation_placeholder
-Punjab,32.818309,72.649781,1.902,demo_simulation_placeholder
-Punjab,30.504218,73.118676,2.818,demo_simulation_placeholder
-Punjab,30.044273,72.427709,2.638,demo_simulation_placeholder
-Punjab,32.488587,74.707058,0.905,demo_simulation_placeholder
-Punjab,33.686872,72.372161,2.588,demo_simulation_placeholder
-Punjab,31.081788,74.17921,2.069,demo_simulation_placeholder
-Punjab,29.743929,74.408032,1.796,demo_simulation_placeholder
-Punjab,30.911921,70.006726,2.828,demo_simulation_placeholder
-Punjab,28.168384,74.436159,1.236,demo_simulation_placeholder
-Punjab,28.061191,71.01173,1.638,demo_simulation_placeholder
-Punjab,29.871845,70.355266,2.436,demo_simulation_placeholder
-Punjab,29.740307,73.830425,2.103,demo_simulation_placeholder
-Punjab,27.795438,74.345758,1.603,demo_simulation_placeholder
-Punjab,33.267562,71.570796,1.993,demo_simulation_placeholder
-Punjab,28.698484,72.965126,1.741,demo_simulation_placeholder
-Punjab,28.477872,71.526008,1.452,demo_simulation_placeholder
-Punjab,33.92979,75.372333,1.563,demo_simulation_placeholder
-Punjab,32.718682,71.196865,1.495,demo_simulation_placeholder
-Punjab,32.169823,73.602979,1.555,demo_simulation_placeholder
-Punjab,30.220971,73.209421,2.74,demo_simulation_placeholder
-Punjab,27.76973,70.575252,2.005,demo_simulation_placeholder
-Punjab,31.113074,70.298883,2.469,demo_simulation_placeholder
-Punjab,28.778395,74.401456,1.102,demo_simulation_placeholder
-Punjab,34.129365,72.691414,2.832,demo_simulation_placeholder
-Punjab,33.153953,75.340962,0.976,demo_simulation_placeholder
-Punjab,28.620373,72.034298,1.577,demo_simulation_placeholder
-Punjab,30.251723,69.788301,3.108,demo_simulation_placeholder
-Punjab,32.609646,71.946052,1.605,demo_simulation_placeholder
-Punjab,30.750625,70.219105,2.749,demo_simulation_placeholder
-Punjab,28.876023,74.833332,0.848,demo_simulation_placeholder
-Punjab,27.990219,70.720399,1.754,demo_simulation_placeholder
-Punjab,29.598386,72.290205,2.233,demo_simulation_placeholder
-Punjab,31.511894,72.309069,2.12,demo_simulation_placeholder
-Punjab,28.24675,70.786371,1.549,demo_simulation_placeholder
-Punjab,33.183325,73.189291,2.177,demo_simulation_placeholder
-Punjab,31.919469,73.38824,1.772,demo_simulation_placeholder
-Punjab,32.65887,69.654462,2.259,demo_simulation_placeholder
-Punjab,30.082955,72.591117,2.694,demo_simulation_placeholder
-Punjab,29.899967,74.451321,1.9,demo_simulation_placeholder
-Punjab,30.836721,73.988628,2.333,demo_simulation_placeholder
-Punjab,33.238101,72.379228,2.204,demo_simulation_placeholder
-Punjab,33.61209,72.881456,2.6,demo_simulation_placeholder
-Punjab,33.226783,71.377604,1.918,demo_simulation_placeholder
-Punjab,30.94231,72.541607,2.66,demo_simulation_placeholder
-Punjab,28.382368,71.73117,1.536,demo_simulation_placeholder
-Punjab,33.662695,73.148077,2.607,demo_simulation_placeholder
-Punjab,28.853793,71.367019,1.436,demo_simulation_placeholder
-Punjab,28.94542,69.451421,2.45,demo_simulation_placeholder
-Punjab,33.728493,72.034065,2.517,demo_simulation_placeholder
-Punjab,29.698978,72.950711,2.412,demo_simulation_placeholder
-Punjab,27.747544,70.995935,1.915,demo_simulation_placeholder
-Punjab,32.269718,73.165996,1.712,demo_simulation_placeholder
-Punjab,34.081739,73.084182,2.815,demo_simulation_placeholder
-Punjab,30.803788,73.944739,2.37,demo_simulation_placeholder
-Punjab,33.571631,73.696245,2.3,demo_simulation_placeholder
-Punjab,33.960873,74.070232,2.343,demo_simulation_placeholder
-Punjab,33.334209,69.996035,2.487,demo_simulation_placeholder
-Punjab,32.460688,71.984541,1.572,demo_simulation_placeholder
-Punjab,31.295175,73.290025,2.335,demo_simulation_placeholder
-Punjab,34.003798,75.305926,1.617,demo_simulation_placeholder
-Punjab,29.573484,73.775896,1.977,demo_simulation_placeholder
-Punjab,32.574893,71.413606,1.451,demo_simulation_placeholder
-Punjab,28.505154,69.549776,2.297,demo_simulation_placeholder
-Punjab,32.75273,72.287168,1.783,demo_simulation_placeholder
-Punjab,34.106011,72.136338,2.703,demo_simulation_placeholder
-Punjab,34.05646,71.810614,2.592,demo_simulation_placeholder
-Punjab,32.858934,69.817398,2.227,demo_simulation_placeholder
-Punjab,31.310501,74.192565,1.864,demo_simulation_placeholder
-Punjab,33.710561,74.317757,2.069,demo_simulation_placeholder
-Punjab,27.94031,71.573484,1.789,demo_simulation_placeholder
-Punjab,28.01654,69.966622,2.18,demo_simulation_placeholder
-Punjab,32.089487,73.650875,1.553,demo_simulation_placeholder
-Punjab,32.729184,74.579285,1.088,demo_simulation_placeholder
-Punjab,32.506305,74.185317,1.242,demo_simulation_placeholder
-Punjab,28.018264,70.730664,1.727,demo_simulation_placeholder
-Punjab,31.742336,74.534564,1.262,demo_simulation_placeholder
-Punjab,27.729251,72.439239,2.234,demo_simulation_placeholder
-Punjab,32.102368,69.480604,2.395,demo_simulation_placeholder
-Punjab,30.308811,74.763373,1.925,demo_simulation_placeholder
-Punjab,32.065483,70.749716,1.497,demo_simulation_placeholder
-Punjab,33.243077,71.422992,1.94,demo_simulation_placeholder
-Punjab,33.24674,71.123556,1.918,demo_simulation_placeholder
-Punjab,31.537082,71.721334,1.917,demo_simulation_placeholder
-Punjab,29.486363,74.708001,1.361,demo_simulation_placeholder
-Punjab,28.919359,69.817351,2.086,demo_simulation_placeholder
-Punjab,29.922525,73.677599,2.349,demo_simulation_placeholder
-Punjab,32.948305,75.392335,0.776,demo_simulation_placeholder
-Punjab,29.626353,71.788446,2.104,demo_simulation_placeholder
-Punjab,28.589338,72.806719,1.745,demo_simulation_placeholder
-Punjab,34.18427,73.575374,2.647,demo_simulation_placeholder
-Punjab,31.568883,71.693451,1.88,demo_simulation_placeholder
-Punjab,33.649442,72.331191,2.551,demo_simulation_placeholder
-Punjab,28.573385,71.528809,1.434,demo_simulation_placeholder
-Punjab,28.136583,70.532072,1.713,demo_simulation_placeholder
-Punjab,27.814847,72.065007,2.048,demo_simulation_placeholder
-Punjab,31.824512,71.394084,1.603,demo_simulation_placeholder
-Punjab,30.432482,75.151177,1.716,demo_simulation_placeholder
-Punjab,32.58776,72.599225,1.771,demo_simulation_placeholder
-Punjab,29.549516,74.77168,1.379,demo_simulation_placeholder
-Punjab,29.228131,71.284591,1.641,demo_simulation_placeholder
-Punjab,33.608921,72.530207,2.566,demo_simulation_placeholder
-Punjab,32.525067,72.903543,1.77,demo_simulation_placeholder
-Punjab,31.947355,71.126238,1.502,demo_simulation_placeholder
-Punjab,29.268918,71.267203,1.672,demo_simulation_placeholder
-Punjab,28.71037,74.633318,0.94,demo_simulation_placeholder
-Punjab,29.541105,72.725085,2.263,demo_simulation_placeholder
-Punjab,32.847834,74.081327,1.47,demo_simulation_placeholder
-Punjab,30.549511,72.20517,2.727,demo_simulation_placeholder
-Punjab,34.165561,73.415045,2.726,demo_simulation_placeholder
-Punjab,32.99515,74.805579,1.131,demo_simulation_placeholder
-Punjab,32.819334,70.429594,1.745,demo_simulation_placeholder
-Punjab,31.35411,69.921554,2.542,demo_simulation_placeholder
-Punjab,31.943994,75.127632,0.751,demo_simulation_placeholder
-Sindh,26.266207,68.434971,6.352,demo_simulation_placeholder
-Sindh,23.786382,70.91094,6.142,demo_simulation_placeholder
-Sindh,24.135614,66.593072,7.46,demo_simulation_placeholder
-Sindh,24.879546,66.707993,6.518,demo_simulation_placeholder
-Sindh,25.966613,68.825613,6.021,demo_simulation_placeholder
-Sindh,25.225364,66.639514,6.304,demo_simulation_placeholder
-Sindh,24.180322,68.207171,7.49,demo_simulation_placeholder
-Sindh,23.914748,69.681492,6.687,demo_simulation_placeholder
-Sindh,24.676507,67.819736,6.9,demo_simulation_placeholder
-Sindh,25.649454,68.358065,6.297,demo_simulation_placeholder
-Sindh,23.608636,66.926731,8.406,demo_simulation_placeholder
-Sindh,28.086376,66.405795,4.767,demo_simulation_placeholder
-Sindh,26.24247,68.700659,6.162,demo_simulation_placeholder
-Sindh,25.33209,68.427237,6.25,demo_simulation_placeholder
-Sindh,27.659022,70.353657,3.522,demo_simulation_placeholder
-Sindh,24.953812,67.915705,6.625,demo_simulation_placeholder
-Sindh,24.860911,68.655358,6.324,demo_simulation_placeholder
-Sindh,27.152943,67.472789,6.069,demo_simulation_placeholder
-Sindh,25.319826,70.772808,4.408,demo_simulation_placeholder
-Sindh,23.85256,68.565617,7.819,demo_simulation_placeholder
-Sindh,27.300102,67.107134,5.803,demo_simulation_placeholder
-Sindh,23.846345,67.049565,8.077,demo_simulation_placeholder
-Sindh,28.377881,66.443521,4.603,demo_simulation_placeholder
-Sindh,24.579274,66.547033,6.785,demo_simulation_placeholder
-Sindh,24.175273,69.314702,6.62,demo_simulation_placeholder
-Sindh,24.856522,69.075297,5.961,demo_simulation_placeholder
-Sindh,26.669016,70.392346,4.578,demo_simulation_placeholder
-Sindh,23.624655,70.410836,6.568,demo_simulation_placeholder
-Sindh,26.819419,67.164894,6.353,demo_simulation_placeholder
-Sindh,27.619274,70.42081,3.52,demo_simulation_placeholder
-Sindh,24.92217,70.71833,4.605,demo_simulation_placeholder
-Sindh,25.963179,69.236095,5.636,demo_simulation_placeholder
-Sindh,28.720178,68.09922,4.742,demo_simulation_placeholder
-Sindh,27.828429,67.896476,5.245,demo_simulation_placeholder
-Sindh,27.75591,69.223449,4.423,demo_simulation_placeholder
-Sindh,24.72505,68.345923,6.661,demo_simulation_placeholder
-Sindh,25.251705,66.767109,6.337,demo_simulation_placeholder
-Sindh,23.755141,68.02845,8.251,demo_simulation_placeholder
-Sindh,23.698978,67.177792,8.342,demo_simulation_placeholder
-Sindh,27.370953,69.728029,4.36,demo_simulation_placeholder
-Sindh,27.440618,67.89062,5.641,demo_simulation_placeholder
-Sindh,28.228101,69.191004,4.07,demo_simulation_placeholder
-Sindh,24.255337,67.075478,7.416,demo_simulation_placeholder
-Sindh,27.204096,67.212837,5.961,demo_simulation_placeholder
-Sindh,26.237922,71.06134,4.465,demo_simulation_placeholder
-Sindh,23.62084,66.477925,8.249,demo_simulation_placeholder
-Sindh,28.76404,69.147803,3.992,demo_simulation_placeholder
-Sindh,24.259932,70.61732,5.452,demo_simulation_placeholder
-Sindh,28.177978,68.920142,4.359,demo_simulation_placeholder
-Sindh,26.833319,67.68398,6.401,demo_simulation_placeholder
-Sindh,23.862702,69.194468,7.253,demo_simulation_placeholder
-Sindh,25.132727,69.519019,5.343,demo_simulation_placeholder
-Sindh,27.948475,66.485355,4.901,demo_simulation_placeholder
-Sindh,26.697712,67.487019,6.488,demo_simulation_placeholder
-Sindh,28.14422,67.592223,5.01,demo_simulation_placeholder
-Sindh,26.776005,69.001642,5.742,demo_simulation_placeholder
-Sindh,25.660066,69.584818,5.228,demo_simulation_placeholder
-Sindh,27.374002,69.064608,5.007,demo_simulation_placeholder
-Sindh,27.543796,71.02206,3.401,demo_simulation_placeholder
-Sindh,25.780216,68.81854,5.988,demo_simulation_placeholder
-Sindh,23.664843,70.141334,6.684,demo_simulation_placeholder
-Sindh,26.305196,68.317419,6.419,demo_simulation_placeholder
-Sindh,24.089174,70.581385,5.744,demo_simulation_placeholder
-Sindh,25.654038,69.608134,5.205,demo_simulation_placeholder
-Sindh,24.376746,70.919283,5.189,demo_simulation_placeholder
-Sindh,24.527897,67.337847,7.074,demo_simulation_placeholder
-Sindh,28.066711,70.689139,3.002,demo_simulation_placeholder
-Sindh,24.703167,68.608064,6.514,demo_simulation_placeholder
-Sindh,27.414174,70.528319,3.707,demo_simulation_placeholder
-Sindh,25.571074,68.829992,5.945,demo_simulation_placeholder
-Sindh,27.456925,69.836339,4.128,demo_simulation_placeholder
-Sindh,27.671393,69.078689,4.643,demo_simulation_placeholder
-Sindh,24.143999,70.648674,5.627,demo_simulation_placeholder
-Sindh,28.100977,70.151058,3.268,demo_simulation_placeholder
-Sindh,24.119285,67.360668,7.698,demo_simulation_placeholder
-Sindh,27.466722,66.508758,5.37,demo_simulation_placeholder
-Sindh,28.691968,68.17258,4.711,demo_simulation_placeholder
-Sindh,27.340425,70.571584,3.798,demo_simulation_placeholder
-Sindh,25.652075,67.899923,6.475,demo_simulation_placeholder
-Sindh,26.765454,69.13065,5.626,demo_simulation_placeholder
-Sindh,25.727528,69.228341,5.594,demo_simulation_placeholder
-Sindh,28.463983,68.597909,4.487,demo_simulation_placeholder
-Sindh,24.623059,68.172868,6.862,demo_simulation_placeholder
-Sindh,25.649356,67.016211,6.403,demo_simulation_placeholder
-Sindh,24.446932,69.617442,5.901,demo_simulation_placeholder
-Sindh,25.365284,70.888022,4.376,demo_simulation_placeholder
-Sindh,24.866703,66.864945,6.579,demo_simulation_placeholder
-Sindh,27.518224,70.540869,3.551,demo_simulation_placeholder
-Sindh,25.046189,67.349814,6.576,demo_simulation_placeholder
-Sindh,24.565984,68.853458,6.479,demo_simulation_placeholder
-Sindh,26.035767,67.619367,6.579,demo_simulation_placeholder
-Sindh,23.8349,68.663009,7.775,demo_simulation_placeholder
-Sindh,28.588528,69.46684,3.666,demo_simulation_placeholder
-Sindh,26.176634,66.920253,6.47,demo_simulation_placeholder
-Sindh,24.912669,67.785438,6.678,demo_simulation_placeholder
-Sindh,27.576978,70.520541,3.508,demo_simulation_placeholder
-Sindh,28.288538,71.027472,2.786,demo_simulation_placeholder
-Sindh,28.708307,70.879096,2.711,demo_simulation_placeholder
-Sindh,23.973475,67.04763,7.869,demo_simulation_placeholder
-Sindh,25.183226,68.998622,5.835,demo_simulation_placeholder
-Sindh,24.104285,70.375246,5.822,demo_simulation_placeholder
-Sindh,26.807132,68.949113,5.768,demo_simulation_placeholder
-Sindh,24.459619,67.590301,7.191,demo_simulation_placeholder
-Sindh,24.433623,70.404086,5.291,demo_simulation_placeholder
-Sindh,26.637985,69.855108,4.994,demo_simulation_placeholder
-Sindh,25.139371,68.144887,6.449,demo_simulation_placeholder
-Sindh,25.705246,69.97207,4.88,demo_simulation_placeholder
-Sindh,27.616236,67.372024,5.451,demo_simulation_placeholder
-Sindh,28.496002,66.96708,4.727,demo_simulation_placeholder
-Sindh,28.259835,66.87186,4.793,demo_simulation_placeholder
-Sindh,24.975607,70.378449,4.718,demo_simulation_placeholder
-Sindh,24.533359,68.343769,6.892,demo_simulation_placeholder
-Sindh,25.939268,67.552717,6.559,demo_simulation_placeholder
-Sindh,27.293275,70.401273,3.951,demo_simulation_placeholder
-Sindh,28.147791,67.994814,4.956,demo_simulation_placeholder
-Sindh,26.360422,67.56751,6.599,demo_simulation_placeholder
-Sindh,24.872942,67.157894,6.658,demo_simulation_placeholder
-Sindh,28.488099,70.573547,2.821,demo_simulation_placeholder
-Sindh,27.642265,68.833009,4.895,demo_simulation_placeholder
-Sindh,26.151161,68.889805,5.995,demo_simulation_placeholder
-Sindh,26.390154,68.442446,6.34,demo_simulation_placeholder
-Sindh,24.285125,66.99062,7.345,demo_simulation_placeholder
-Sindh,28.551699,68.665545,4.417,demo_simulation_placeholder
-Sindh,28.556669,67.168811,4.77,demo_simulation_placeholder
-Sindh,26.482966,67.376271,6.562,demo_simulation_placeholder
-Sindh,24.91656,66.541257,6.437,demo_simulation_placeholder
-Sindh,24.218557,70.709188,5.485,demo_simulation_placeholder
-Sindh,25.271972,69.258207,5.558,demo_simulation_placeholder
-Sindh,26.018073,68.282121,6.41,demo_simulation_placeholder
-Sindh,26.365808,67.280023,6.565,demo_simulation_placeholder
-Sindh,28.74074,70.246047,2.991,demo_simulation_placeholder
-Sindh,27.456396,68.603169,5.277,demo_simulation_placeholder
-Sindh,24.394961,70.72713,5.207,demo_simulation_placeholder
-Sindh,25.375213,66.635501,6.273,demo_simulation_placeholder
-Sindh,25.380499,70.133948,4.731,demo_simulation_placeholder
-Sindh,26.838085,69.928941,4.803,demo_simulation_placeholder
-Sindh,27.726904,67.396187,5.352,demo_simulation_placeholder
-Sindh,28.403673,68.458551,4.602,demo_simulation_placeholder
-Sindh,26.922871,66.410851,6.042,demo_simulation_placeholder
-Sindh,28.765516,67.720213,4.832,demo_simulation_placeholder
-Sindh,23.922728,68.553832,7.713,demo_simulation_placeholder
-Sindh,24.270956,67.115936,7.402,demo_simulation_placeholder
-Sindh,26.887871,68.246759,6.21,demo_simulation_placeholder
-Sindh,28.393633,67.900036,4.844,demo_simulation_placeholder
-Sindh,27.376137,68.567167,5.426,demo_simulation_placeholder
-Sindh,27.031747,69.218568,5.305,demo_simulation_placeholder
-Sindh,26.058477,70.865287,4.47,demo_simulation_placeholder
-Sindh,25.382111,67.233007,6.447,demo_simulation_placeholder
-Sindh,27.126089,70.376236,4.186,demo_simulation_placeholder
-Sindh,23.809319,68.513274,7.924,demo_simulation_placeholder
-Sindh,28.240936,69.923208,3.357,demo_simulation_placeholder
-Sindh,28.7574,68.897645,4.226,demo_simulation_placeholder
-Sindh,27.031978,67.821657,6.202,demo_simulation_placeholder
-Sindh,28.527185,68.121777,4.74,demo_simulation_placeholder
-Sindh,27.440256,68.294759,5.496,demo_simulation_placeholder
-Sindh,26.521458,69.782978,5.104,demo_simulation_placeholder
-Sindh,26.246458,70.663306,4.546,demo_simulation_placeholder
-Sindh,25.780365,69.441237,5.392,demo_simulation_placeholder
-Sindh,25.380285,68.318336,6.307,demo_simulation_placeholder
-Sindh,25.888261,66.991293,6.442,demo_simulation_placeholder
-Sindh,24.076963,69.537203,6.559,demo_simulation_placeholder
-Sindh,27.008692,69.515676,5.034,demo_simulation_placeholder
-Sindh,23.702786,67.93477,8.357,demo_simulation_placeholder
-Sindh,24.628611,70.057312,5.268,demo_simulation_placeholder
-Sindh,28.075278,67.559398,5.06,demo_simulation_placeholder
-Sindh,27.072816,67.008005,6.069,demo_simulation_placeholder
-Sindh,25.030793,67.051676,6.517,demo_simulation_placeholder
-Sindh,25.074308,69.571262,5.32,demo_simulation_placeholder
-Sindh,28.3337,67.351855,4.876,demo_simulation_placeholder
-Sindh,26.418811,69.696538,5.209,demo_simulation_placeholder
-Sindh,28.555197,69.267284,3.869,demo_simulation_placeholder
-Sindh,24.926556,69.339747,5.644,demo_simulation_placeholder
-Sindh,25.266554,70.987803,4.379,demo_simulation_placeholder
-Sindh,25.678316,69.62151,5.195,demo_simulation_placeholder
-Sindh,23.720783,68.280289,8.201,demo_simulation_placeholder
-Sindh,28.15056,69.268069,4.045,demo_simulation_placeholder
-Sindh,25.908503,70.798906,4.455,demo_simulation_placeholder
-Sindh,28.040719,67.914414,5.057,demo_simulation_placeholder
-Sindh,26.431652,68.702174,6.149,demo_simulation_placeholder
-Sindh,26.887453,67.970323,6.313,demo_simulation_placeholder
-Sindh,24.869866,70.689558,4.656,demo_simulation_placeholder
-Sindh,28.404147,70.363618,2.954,demo_simulation_placeholder
-Sindh,28.686663,69.90146,3.253,demo_simulation_placeholder
-Sindh,27.57627,69.984173,3.864,demo_simulation_placeholder
-Sindh,26.09916,68.545325,6.265,demo_simulation_placeholder
-Sindh,24.849177,69.43065,5.616,demo_simulation_placeholder
-Sindh,25.104465,67.6117,6.568,demo_simulation_placeholder
-Sindh,26.646999,68.326917,6.331,demo_simulation_placeholder
-Sindh,24.738054,70.235463,5.014,demo_simulation_placeholder
-Sindh,28.074964,67.188188,5.007,demo_simulation_placeholder
-Sindh,23.639037,67.979811,8.44,demo_simulation_placeholder
-Sindh,27.747056,70.344117,3.445,demo_simulation_placeholder
-Sindh,24.319311,70.039379,5.711,demo_simulation_placeholder
-Sindh,24.201662,68.233294,7.443,demo_simulation_placeholder
-Sindh,28.792769,67.305177,4.811,demo_simulation_placeholder
-Sindh,24.400611,68.387162,7.053,demo_simulation_placeholder
-Sindh,26.822276,70.784634,4.316,demo_simulation_placeholder
-Sindh,28.70027,66.727311,4.636,demo_simulation_placeholder
-Sindh,24.317587,70.116468,5.654,demo_simulation_placeholder
-Sindh,25.007287,70.558791,4.606,demo_simulation_placeholder
-Sindh,27.049957,66.925671,6.07,demo_simulation_placeholder
-Sindh,27.929152,67.228875,5.137,demo_simulation_placeholder
-Sindh,25.802176,68.995269,5.834,demo_simulation_placeholder
-Sindh,26.203984,69.624966,5.286,demo_simulation_placeholder
-Sindh,26.993971,71.062597,4.119,demo_simulation_placeholder
-Sindh,28.796994,68.827359,4.296,demo_simulation_placeholder
-Sindh,24.095035,69.820864,6.259,demo_simulation_placeholder
-Sindh,28.678653,67.896134,4.797,demo_simulation_placeholder
-Sindh,25.998286,68.396452,6.343,demo_simulation_placeholder
-Sindh,23.86738,69.559643,6.882,demo_simulation_placeholder
-Sindh,25.437356,70.10108,4.752,demo_simulation_placeholder
-Sindh,27.927024,70.259785,3.334,demo_simulation_placeholder
-Sindh,25.766663,67.911265,6.493,demo_simulation_placeholder
-Sindh,27.493868,70.16653,3.799,demo_simulation_placeholder
-Sindh,26.154539,70.597246,4.565,demo_simulation_placeholder
-Sindh,24.348325,70.531623,5.352,demo_simulation_placeholder
-Sindh,24.099695,67.12157,7.68,demo_simulation_placeholder
-Sindh,26.375968,66.717337,6.406,demo_simulation_placeholder
-Sindh,23.874597,66.402438,7.835,demo_simulation_placeholder
-Sindh,25.868847,70.040732,4.856,demo_simulation_placeholder
-Sindh,23.781159,69.465611,7.113,demo_simulation_placeholder
-Sindh,27.880262,67.189604,5.171,demo_simulation_placeholder
-Sindh,24.363691,70.445765,5.371,demo_simulation_placeholder
-Sindh,27.880248,68.933026,4.586,demo_simulation_placeholder
-Sindh,27.859839,66.835954,5.089,demo_simulation_placeholder
-Sindh,25.651304,69.867649,4.961,demo_simulation_placeholder
-Sindh,24.93875,69.935946,5.066,demo_simulation_placeholder
-Sindh,26.221729,69.92625,5.009,demo_simulation_placeholder
-Sindh,26.016334,68.12915,6.478,demo_simulation_placeholder
-Sindh,24.739784,67.379383,6.827,demo_simulation_placeholder
-Sindh,27.507752,66.958879,5.451,demo_simulation_placeholder
-Sindh,24.047108,67.228569,7.793,demo_simulation_placeholder
-Sindh,24.511802,70.268606,5.264,demo_simulation_placeholder
-Sindh,25.672234,71.054826,4.369,demo_simulation_placeholder
-Sindh,24.313499,69.471637,6.244,demo_simulation_placeholder
-Sindh,25.933393,68.246715,6.411,demo_simulation_placeholder
-Sindh,28.150438,70.9853,2.875,demo_simulation_placeholder
-Sindh,28.138867,67.303813,4.984,demo_simulation_placeholder
-Sindh,24.748149,69.483547,5.66,demo_simulation_placeholder
-Sindh,25.103235,69.853208,5.039,demo_simulation_placeholder
-Sindh,26.545387,68.989271,5.87,demo_simulation_placeholder
-Sindh,27.908444,69.739504,3.775,demo_simulation_placeholder
-Sindh,23.738204,66.632458,8.119,demo_simulation_placeholder
-Sindh,26.728104,68.685103,6.047,demo_simulation_placeholder
-Sindh,24.95296,68.367684,6.446,demo_simulation_placeholder
-Sindh,27.541134,70.285074,3.672,demo_simulation_placeholder
-Sindh,26.51836,68.211237,6.439,demo_simulation_placeholder
-Sindh,25.007623,68.853017,6.053,demo_simulation_placeholder
-Sindh,25.236698,69.051247,5.769,demo_simulation_placeholder
-Sindh,27.118592,66.710572,5.922,demo_simulation_placeholder
-Sindh,23.605551,67.397703,8.521,demo_simulation_placeholder
-Sindh,28.25146,69.437567,3.811,demo_simulation_placeholder
-Sindh,24.494194,70.584241,5.117,demo_simulation_placeholder
-Sindh,26.043771,68.637631,6.188,demo_simulation_placeholder
-Sindh,28.464818,66.679587,4.644,demo_simulation_placeholder
-Sindh,24.718927,69.153125,6.019,demo_simulation_placeholder
-Sindh,24.61653,69.593777,5.7,demo_simulation_placeholder
-Sindh,24.71328,66.866038,6.728,demo_simulation_placeholder
-Sindh,24.676323,68.38685,6.691,demo_simulation_placeholder
-Sindh,24.515919,67.033053,7.019,demo_simulation_placeholder
-Sindh,28.073466,67.905867,5.033,demo_simulation_placeholder
-Sindh,25.475945,66.659771,6.277,demo_simulation_placeholder
-Sindh,25.458322,67.644594,6.488,demo_simulation_placeholder
-Sindh,26.774522,67.365334,6.426,demo_simulation_placeholder
-Sindh,28.2195,70.769433,2.87,demo_simulation_placeholder
-Sindh,24.119121,66.904794,7.586,demo_simulation_placeholder
-Sindh,24.199697,69.311976,6.583,demo_simulation_placeholder
-Sindh,24.234239,70.406197,5.593,demo_simulation_placeholder
-Sindh,27.522212,70.253102,3.71,demo_simulation_placeholder
-Sindh,26.335515,71.084383,4.463,demo_simulation_placeholder
-Sindh,23.829711,68.285945,8.027,demo_simulation_placeholder
-Sindh,25.284471,70.858634,4.395,demo_simulation_placeholder
-Sindh,26.599677,70.189098,4.74,demo_simulation_placeholder
-Sindh,24.485774,70.99958,5.022,demo_simulation_placeholder
-Sindh,26.192926,68.720259,6.144,demo_simulation_placeholder
-Sindh,28.648601,68.189442,4.702,demo_simulation_placeholder
-Sindh,25.66713,69.148338,5.663,demo_simulation_placeholder
-Sindh,24.265874,67.909102,7.452,demo_simulation_placeholder
-Sindh,24.604683,66.885432,6.86,demo_simulation_placeholder
-Sindh,28.103952,69.169856,4.175,demo_simulation_placeholder
-Sindh,25.465099,68.320746,6.302,demo_simulation_placeholder
-Sindh,25.843899,69.375801,5.471,demo_simulation_placeholder
-Sindh,28.419201,70.784064,2.769,demo_simulation_placeholder
-Sindh,25.635758,67.947534,6.461,demo_simulation_placeholder
-Sindh,25.945442,69.069291,5.795,demo_simulation_placeholder
-Sindh,26.001453,69.496141,5.384,demo_simulation_placeholder
-Sindh,26.482875,67.907363,6.55,demo_simulation_placeholder
-Sindh,25.3978,68.179386,6.373,demo_simulation_placeholder
-Sindh,24.092127,67.180494,7.707,demo_simulation_placeholder
-Sindh,27.360192,68.228755,5.65,demo_simulation_placeholder
-Sindh,24.715603,69.04456,6.128,demo_simulation_placeholder
-Sindh,27.528806,67.609885,5.549,demo_simulation_placeholder
-Sindh,27.899307,70.759273,3.121,demo_simulation_placeholder
-Sindh,26.706452,69.544054,5.252,demo_simulation_placeholder
-Sindh,23.873395,70.843943,6.015,demo_simulation_placeholder
-Sindh,25.640921,70.742332,4.419,demo_simulation_placeholder
-Sindh,26.610683,66.421708,6.255,demo_simulation_placeholder
-Sindh,23.800418,69.597968,6.952,demo_simulation_placeholder
-Sindh,26.525874,66.524702,6.316,demo_simulation_placeholder
-Sindh,27.465992,70.405083,3.69,demo_simulation_placeholder
-Sindh,26.181371,68.58906,6.243,demo_simulation_placeholder
-Sindh,23.62846,70.097254,6.771,demo_simulation_placeholder
-Sindh,25.319724,70.530189,4.497,demo_simulation_placeholder
-Sindh,25.539915,69.055866,5.737,demo_simulation_placeholder
-Sindh,25.005777,67.154765,6.559,demo_simulation_placeholder
-Sindh,27.629521,68.733975,4.99,demo_simulation_placeholder
-Sindh,26.389737,70.937455,4.472,demo_simulation_placeholder
-Sindh,28.610616,70.421518,2.877,demo_simulation_placeholder
-Sindh,24.575568,69.193082,6.149,demo_simulation_placeholder
-Sindh,28.166367,68.159981,4.886,demo_simulation_placeholder
-Sindh,24.125752,70.211526,5.892,demo_simulation_placeholder
-Sindh,26.10517,69.052646,5.839,demo_simulation_placeholder
-Sindh,28.70715,69.253894,3.88,demo_simulation_placeholder
-Sindh,25.809893,68.138927,6.432,demo_simulation_placeholder
-Sindh,25.77162,66.956476,6.407,demo_simulation_placeholder
-Sindh,27.732703,70.337269,3.463,demo_simulation_placeholder
-Sindh,25.078865,67.827844,6.565,demo_simulation_placeholder
-Sindh,28.146538,66.512661,4.753,demo_simulation_placeholder
-Sindh,26.306379,68.579276,6.254,demo_simulation_placeholder
-Sindh,27.188659,67.167941,5.97,demo_simulation_placeholder
-Sindh,27.07532,68.17065,6.055,demo_simulation_placeholder
-Sindh,26.817317,66.588447,6.181,demo_simulation_placeholder
-Sindh,26.000981,68.854579,6.003,demo_simulation_placeholder
-Sindh,24.714497,67.056231,6.783,demo_simulation_placeholder
-Sindh,24.580066,68.017463,6.972,demo_simulation_placeholder
-Sindh,24.103413,70.852403,5.635,demo_simulation_placeholder
-Sindh,25.705969,70.202157,4.702,demo_simulation_placeholder
-Sindh,28.666969,66.779456,4.651,demo_simulation_placeholder
-Sindh,26.988681,70.495623,4.277,demo_simulation_placeholder
-Sindh,26.898019,68.416423,6.108,demo_simulation_placeholder
-Sindh,25.841597,66.568725,6.3,demo_simulation_placeholder
-Sindh,26.379924,71.069652,4.46,demo_simulation_placeholder
-Sindh,28.585279,66.589876,4.593,demo_simulation_placeholder
-Sindh,27.270144,67.818295,5.906,demo_simulation_placeholder
-Sindh,28.295544,66.612039,4.691,demo_simulation_placeholder
-Sindh,28.466545,70.336136,2.95,demo_simulation_placeholder
-Sindh,24.211023,66.681174,7.365,demo_simulation_placeholder
-Sindh,27.94048,67.132061,5.104,demo_simulation_placeholder
-Sindh,26.38147,70.704001,4.527,demo_simulation_placeholder
-Sindh,26.55073,68.266997,6.402,demo_simulation_placeholder
-Sindh,25.914083,66.696651,6.355,demo_simulation_placeholder
-Sindh,28.637512,67.860075,4.803,demo_simulation_placeholder
-Sindh,24.58469,67.744422,7.019,demo_simulation_placeholder
-Sindh,28.614741,66.843144,4.672,demo_simulation_placeholder
-Sindh,28.109976,69.726866,3.622,demo_simulation_placeholder
-Sindh,27.9161,70.986718,3.062,demo_simulation_placeholder
-Sindh,27.979204,70.833897,3.032,demo_simulation_placeholder
-Sindh,24.260063,70.140206,5.726,demo_simulation_placeholder
-Sindh,26.437514,68.954429,5.931,demo_simulation_placeholder
-Sindh,28.274392,70.967478,2.799,demo_simulation_placeholder
-Sindh,27.265159,68.66981,5.51,demo_simulation_placeholder
-Sindh,25.9733,68.215805,6.434,demo_simulation_placeholder
-Sindh,25.480315,68.240082,6.343,demo_simulation_placeholder
-Sindh,24.066717,66.76395,7.628,demo_simulation_placeholder
-Sindh,27.655323,68.496543,5.142,demo_simulation_placeholder
-Sindh,28.439559,69.277439,3.886,demo_simulation_placeholder
-Sindh,23.782915,67.14036,8.203,demo_simulation_placeholder
-Sindh,24.670263,70.985959,4.79,demo_simulation_placeholder
-Sindh,24.737262,68.824052,6.305,demo_simulation_placeholder
-Sindh,28.46812,70.992806,2.716,demo_simulation_placeholder
+province,lat,lon,ec_ds_m,salinity_class,risk_level,crop_zone,recommendation,ndvi,ndsi,savi,dvi,data_mode
+Punjab,32.730714,71.977158,1.675,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.552,0.27,0.492,0.238,local_grid
+Punjab,33.280886,73.553945,2.125,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.541,0.302,0.483,0.231,local_grid
+Punjab,28.312153,75.251296,0.654,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.536,0.206,0.479,0.258,local_grid
+Punjab,32.647408,74.094992,1.344,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.562,0.256,0.501,0.24,local_grid
+Punjab,28.532739,72.047354,1.59,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.498,0.266,0.449,0.275,local_grid
+Punjab,30.110187,74.953266,1.72,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.49,0.268,0.441,0.236,local_grid
+Punjab,31.885123,74.318846,1.296,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.547,0.252,0.489,0.24,local_grid
+Punjab,30.582192,70.686156,2.552,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.469,0.3,0.425,0.258,local_grid
+Punjab,31.304801,69.689285,2.8,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.479,0.3,0.433,0.257,local_grid
+Punjab,33.079603,73.153153,2.091,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.541,0.3,0.483,0.23,local_grid
+Punjab,32.62757,71.462608,1.481,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.557,0.253,0.497,0.244,local_grid
+Punjab,34.009537,74.748039,1.936,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.543,0.283,0.485,0.245,local_grid
+Punjab,32.759493,70.487296,1.676,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.552,0.249,0.493,0.249,local_grid
+Punjab,30.733687,69.567203,3.319,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.446,0.327,0.405,0.257,local_grid
+Punjab,28.702882,73.466599,1.606,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.273,0.446,0.26,local_grid
+Punjab,32.540954,75.201809,0.625,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.586,0.205,0.52,0.253,local_grid
+Punjab,29.817865,71.559804,2.214,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.469,0.294,0.425,0.261,local_grid
+Punjab,30.752113,70.455775,2.605,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.471,0.3,0.426,0.257,local_grid
+Punjab,28.54449,72.2018,1.636,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.27,0.447,0.273,local_grid
+Punjab,29.174911,73.385865,1.847,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.481,0.287,0.435,0.253,local_grid
+Punjab,30.541487,74.379337,2.2,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.48,0.301,0.434,0.231,local_grid
+Punjab,32.251723,71.205437,1.392,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.553,0.244,0.493,0.25,local_grid
+Punjab,33.109689,74.209063,1.614,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.558,0.27,0.497,0.239,local_grid
+Punjab,30.218609,71.058801,2.428,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.466,0.299,0.422,0.259,local_grid
+Punjab,32.136221,70.15249,1.782,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.537,0.25,0.48,0.257,local_grid
+Punjab,28.999403,69.34491,2.583,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.457,0.284,0.415,0.274,local_grid
+Punjab,32.815008,73.35559,1.82,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.548,0.285,0.489,0.233,local_grid
+Punjab,32.283575,74.062447,1.29,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.557,0.253,0.497,0.24,local_grid
+Punjab,30.682953,72.769321,2.812,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.462,0.338,0.419,0.233,local_grid
+Punjab,28.60868,69.998633,1.87,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.487,0.253,0.44,0.282,local_grid
+Punjab,32.044619,72.173687,1.688,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.538,0.272,0.481,0.241,local_grid
+Punjab,31.374035,73.966493,1.924,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.511,0.289,0.459,0.233,local_grid
+Punjab,31.825669,72.676834,1.931,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.524,0.289,0.469,0.236,local_grid
+Punjab,31.334847,71.154096,2.01,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.507,0.277,0.456,0.252,local_grid
+Punjab,27.900316,71.963976,1.938,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.501,0.284,0.451,0.276,local_grid
+Punjab,29.0948,71.792025,1.654,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.489,0.266,0.441,0.272,local_grid
+Punjab,33.24712,70.727031,1.98,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.546,0.27,0.487,0.239,local_grid
+Punjab,28.078968,71.016442,1.624,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.507,0.254,0.456,0.284,local_grid
+Punjab,29.608359,73.337691,2.245,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.467,0.308,0.423,0.245,local_grid
+Punjab,31.320709,74.081779,1.916,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.51,0.288,0.458,0.233,local_grid
+Punjab,32.018038,71.77896,1.577,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.541,0.262,0.484,0.245,local_grid
+Punjab,32.991133,70.318535,1.94,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.545,0.261,0.487,0.245,local_grid
+Punjab,27.847628,69.849292,2.429,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.485,0.282,0.438,0.275,local_grid
+Punjab,32.395336,72.117451,1.605,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.549,0.267,0.49,0.24,local_grid
+Punjab,28.748267,72.356373,1.681,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.492,0.274,0.443,0.27,local_grid
+Punjab,28.690029,73.547554,1.564,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.271,0.447,0.26,local_grid
+Punjab,30.600016,71.624229,2.544,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.47,0.313,0.425,0.248,local_grid
+Punjab,29.659829,73.144724,2.348,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.463,0.314,0.42,0.245,local_grid
+Punjab,30.051782,69.834665,2.964,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.445,0.311,0.405,0.264,local_grid
+Punjab,28.467038,75.167576,0.635,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.533,0.206,0.477,0.258,local_grid
+Punjab,33.605774,73.568214,2.403,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.53,0.317,0.475,0.229,local_grid
+Punjab,29.428155,75.211976,1.008,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.51,0.226,0.458,0.247,local_grid
+Punjab,32.761881,73.67303,1.626,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.554,0.274,0.494,0.236,local_grid
+Punjab,30.62085,70.960674,2.482,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.472,0.301,0.427,0.255,local_grid
+Punjab,28.326541,74.805875,0.902,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.527,0.225,0.472,0.259,local_grid
+Punjab,30.662546,70.534417,2.596,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.469,0.301,0.425,0.258,local_grid
+Punjab,29.688718,72.833239,2.405,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.461,0.316,0.418,0.247,local_grid
+Punjab,28.849023,74.525347,1.041,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.513,0.236,0.46,0.255,local_grid
+Punjab,32.630377,73.688724,1.546,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.555,0.269,0.495,0.237,local_grid
+Punjab,30.508605,73.126584,2.816,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.458,0.34,0.416,0.232,local_grid
+Punjab,31.496637,73.264064,2.156,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.507,0.304,0.456,0.232,local_grid
+Punjab,28.248888,71.836425,1.633,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.503,0.266,0.452,0.278,local_grid
+Punjab,27.970492,72.313344,1.983,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.29,0.448,0.273,local_grid
+Punjab,29.844098,70.181598,2.527,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.458,0.292,0.416,0.268,local_grid
+Punjab,28.372119,72.884632,1.801,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.494,0.283,0.445,0.267,local_grid
+Punjab,28.808854,74.943233,0.759,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.523,0.216,0.469,0.256,local_grid
+Punjab,31.476897,71.415906,1.902,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.515,0.275,0.462,0.249,local_grid
+Punjab,31.540951,69.439104,2.826,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.485,0.298,0.437,0.257,local_grid
+Punjab,33.930635,72.242051,2.689,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.518,0.328,0.464,0.223,local_grid
+Punjab,32.787779,69.804653,2.19,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.535,0.268,0.478,0.249,local_grid
+Punjab,30.863279,72.293313,2.649,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.472,0.326,0.427,0.238,local_grid
+Punjab,33.795872,72.787541,2.724,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.518,0.334,0.465,0.223,local_grid
+Punjab,30.777681,70.928552,2.436,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.478,0.298,0.432,0.255,local_grid
+Punjab,29.855198,72.476102,2.508,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.32,0.416,0.248,local_grid
+Punjab,30.552924,69.431834,3.496,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.435,0.335,0.397,0.257,local_grid
+Punjab,33.070898,74.766581,1.222,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.571,0.243,0.508,0.247,local_grid
+Punjab,28.611619,72.67962,1.735,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.492,0.279,0.443,0.267,local_grid
+Punjab,28.405742,73.400665,1.677,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.498,0.277,0.448,0.263,local_grid
+Punjab,29.52802,73.322478,2.175,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.469,0.305,0.425,0.247,local_grid
+Punjab,32.425465,73.98875,1.33,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.559,0.256,0.498,0.239,local_grid
+Punjab,28.400316,74.887672,0.818,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.528,0.22,0.473,0.259,local_grid
+Punjab,29.196391,69.528217,2.528,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.457,0.283,0.415,0.274,local_grid
+Punjab,31.306541,71.562626,2.09,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.504,0.288,0.453,0.247,local_grid
+Punjab,33.093633,74.230334,1.587,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.559,0.269,0.498,0.239,local_grid
+Punjab,29.761403,75.112686,1.367,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.498,0.247,0.449,0.241,local_grid
+Punjab,29.590966,72.441848,2.264,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.466,0.306,0.422,0.254,local_grid
+Punjab,29.363773,75.009866,1.061,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.508,0.231,0.457,0.248,local_grid
+Punjab,28.769951,69.573955,2.271,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.471,0.269,0.426,0.278,local_grid
+Punjab,30.528131,75.353491,1.622,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.5,0.258,0.45,0.236,local_grid
+Punjab,33.495902,73.866509,2.141,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.54,0.301,0.483,0.233,local_grid
+Punjab,33.490151,74.750025,1.616,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.558,0.265,0.498,0.245,local_grid
+Punjab,31.072579,71.227167,2.24,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.492,0.291,0.444,0.251,local_grid
+Punjab,32.718081,73.336134,1.767,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.548,0.282,0.49,0.234,local_grid
+Punjab,30.128775,69.876247,2.972,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.446,0.312,0.406,0.263,local_grid
+Punjab,32.554132,70.901009,1.44,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.557,0.242,0.497,0.25,local_grid
+Punjab,33.789285,70.769921,2.411,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.529,0.294,0.474,0.23,local_grid
+Punjab,28.497927,74.369787,1.125,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.515,0.242,0.463,0.259,local_grid
+Punjab,28.696348,70.393537,1.594,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.243,0.446,0.284,local_grid
+Punjab,31.595988,74.634828,1.32,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.539,0.25,0.482,0.239,local_grid
+Punjab,28.976825,71.192974,1.471,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.496,0.248,0.447,0.28,local_grid
+Punjab,32.753131,75.228141,0.71,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.586,0.209,0.52,0.254,local_grid
+Punjab,30.954818,70.177775,2.669,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.474,0.299,0.429,0.257,local_grid
+Punjab,27.790586,70.700902,1.938,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.504,0.267,0.453,0.282,local_grid
+Punjab,28.556844,73.433718,1.624,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.274,0.447,0.262,local_grid
+Punjab,28.491911,72.388613,1.698,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.275,0.446,0.271,local_grid
+Punjab,32.212706,72.844811,1.756,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.539,0.281,0.482,0.236,local_grid
+Punjab,28.998542,74.20516,1.305,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.502,0.253,0.451,0.254,local_grid
+Punjab,32.350146,73.807802,1.403,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.555,0.261,0.495,0.238,local_grid
+Punjab,28.551875,70.054898,1.83,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.49,0.251,0.442,0.283,local_grid
+Punjab,33.729157,71.725227,2.422,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.529,0.308,0.474,0.227,local_grid
+Punjab,29.656166,72.280363,2.284,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.466,0.306,0.422,0.254,local_grid
+Punjab,32.008617,75.129302,0.715,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.571,0.211,0.508,0.249,local_grid
+Punjab,29.5619,74.941331,1.283,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.5,0.244,0.45,0.244,local_grid
+Punjab,27.861587,72.686708,2.153,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.494,0.302,0.445,0.269,local_grid
+Punjab,31.820838,69.945974,2.114,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.517,0.266,0.464,0.258,local_grid
+Punjab,28.612207,71.856597,1.521,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.499,0.26,0.449,0.277,local_grid
+Punjab,33.980507,72.93586,2.807,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.513,0.339,0.46,0.223,local_grid
+Punjab,33.764651,74.206602,2.171,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.537,0.301,0.481,0.236,local_grid
+Punjab,30.73798,74.087057,2.327,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.48,0.31,0.434,0.23,local_grid
+Punjab,27.815939,69.965778,2.357,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.488,0.279,0.441,0.276,local_grid
+Punjab,33.091286,74.160584,1.625,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.557,0.271,0.497,0.238,local_grid
+Punjab,29.212165,72.537695,1.95,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.477,0.29,0.431,0.26,local_grid
+Punjab,31.639103,74.593208,1.309,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.54,0.25,0.483,0.239,local_grid
+Punjab,31.620197,71.816687,1.87,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.52,0.279,0.467,0.245,local_grid
+Punjab,30.132196,71.897881,2.533,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.461,0.316,0.418,0.25,local_grid
+Punjab,31.937552,74.591693,1.088,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.556,0.238,0.496,0.242,local_grid
+Punjab,30.65033,70.811821,2.502,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.472,0.299,0.427,0.256,local_grid
+Punjab,29.238305,73.850687,1.643,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.488,0.274,0.44,0.251,local_grid
+Punjab,33.007697,69.942196,2.234,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.535,0.272,0.479,0.245,local_grid
+Punjab,28.132633,72.926045,1.937,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.291,0.446,0.267,local_grid
+Punjab,28.650126,74.330452,1.133,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.512,0.243,0.46,0.258,local_grid
+Punjab,29.717175,70.177619,2.419,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.461,0.286,0.418,0.27,local_grid
+Punjab,33.686308,70.309744,2.554,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.525,0.295,0.47,0.232,local_grid
+Punjab,29.550681,70.237042,2.223,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.467,0.276,0.423,0.273,local_grid
+Punjab,28.450685,69.429003,2.431,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.471,0.277,0.426,0.276,local_grid
+Punjab,28.06007,70.365313,1.857,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.5,0.257,0.45,0.283,local_grid
+Punjab,28.046983,72.905977,2.002,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.294,0.446,0.267,local_grid
+Punjab,32.124644,71.701146,1.51,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.546,0.257,0.488,0.246,local_grid
+Punjab,29.766942,72.37761,2.41,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.462,0.314,0.419,0.251,local_grid
+Punjab,33.387532,74.491903,1.694,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.556,0.272,0.496,0.241,local_grid
+Punjab,27.982588,70.40714,1.897,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.5,0.26,0.45,0.282,local_grid
+Punjab,29.238842,70.821264,1.678,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.487,0.254,0.439,0.278,local_grid
+Punjab,31.413012,71.839201,2.067,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.508,0.29,0.456,0.244,local_grid
+Punjab,28.020152,71.579046,1.723,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.505,0.268,0.454,0.28,local_grid
+Punjab,31.104394,69.920199,2.763,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.475,0.301,0.429,0.257,local_grid
+Punjab,33.117481,69.616967,2.63,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.522,0.29,0.468,0.242,local_grid
+Punjab,33.711472,69.90459,2.878,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.513,0.307,0.461,0.231,local_grid
+Punjab,33.183237,74.806184,1.298,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.569,0.247,0.507,0.247,local_grid
+Punjab,34.067209,74.192358,2.304,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.529,0.308,0.474,0.237,local_grid
+Punjab,32.766604,73.219148,1.833,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.547,0.286,0.488,0.233,local_grid
+Punjab,32.763476,70.120768,1.909,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.544,0.257,0.486,0.249,local_grid
+Punjab,31.184442,72.43676,2.453,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.488,0.317,0.44,0.236,local_grid
+Punjab,33.274219,72.123076,2.164,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.539,0.298,0.482,0.23,local_grid
+Punjab,30.203082,73.201336,2.734,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.455,0.335,0.413,0.235,local_grid
+Punjab,29.432012,70.152587,2.173,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.469,0.272,0.425,0.275,local_grid
+Punjab,30.806202,71.843025,2.539,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.475,0.316,0.429,0.244,local_grid
+Punjab,29.211705,71.541822,1.67,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.487,0.264,0.44,0.273,local_grid
+Punjab,30.081551,71.297723,2.364,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.467,0.299,0.423,0.259,local_grid
+Punjab,30.166517,73.483034,2.613,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.329,0.416,0.234,local_grid
+Punjab,29.629697,75.088033,1.261,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.501,0.241,0.451,0.243,local_grid
+Punjab,33.656262,72.233554,2.528,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.526,0.319,0.471,0.225,local_grid
+Punjab,29.834348,72.566152,2.508,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.321,0.416,0.247,local_grid
+Punjab,33.215643,73.280783,2.181,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.538,0.305,0.481,0.229,local_grid
+Punjab,32.928547,72.549606,1.968,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.544,0.291,0.486,0.232,local_grid
+Punjab,31.813965,71.057749,1.592,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.535,0.253,0.479,0.253,local_grid
+Punjab,32.476806,70.534668,1.534,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.553,0.242,0.493,0.253,local_grid
+Punjab,32.216188,74.550386,1.003,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.566,0.233,0.504,0.244,local_grid
+Punjab,28.558668,73.047716,1.736,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.493,0.28,0.444,0.264,local_grid
+Punjab,28.318122,73.726865,1.538,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.505,0.269,0.454,0.262,local_grid
+Punjab,28.249206,75.009233,0.817,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.531,0.218,0.476,0.259,local_grid
+Punjab,28.593152,75.14917,0.622,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.531,0.205,0.476,0.257,local_grid
+Punjab,32.905747,72.92146,1.977,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.543,0.293,0.486,0.231,local_grid
+Punjab,32.787057,74.150201,1.391,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.562,0.258,0.501,0.24,local_grid
+Punjab,33.849176,70.845638,2.426,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.528,0.296,0.473,0.229,local_grid
+Punjab,31.535493,69.8798,2.41,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.499,0.281,0.449,0.258,local_grid
+Punjab,31.705077,70.344877,1.911,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.521,0.26,0.467,0.258,local_grid
+Punjab,31.372179,72.791826,2.333,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.312,0.448,0.234,local_grid
+Punjab,30.728903,72.488054,2.759,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.465,0.334,0.421,0.236,local_grid
+Punjab,32.665502,74.175393,1.308,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.564,0.254,0.502,0.241,local_grid
+Punjab,30.898996,72.95752,2.713,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.471,0.334,0.426,0.231,local_grid
+Punjab,33.753036,70.030375,2.8,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.515,0.304,0.463,0.231,local_grid
+Punjab,28.461173,69.835025,2.037,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.484,0.26,0.437,0.281,local_grid
+Punjab,31.976111,71.853511,1.621,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.538,0.265,0.482,0.245,local_grid
+Punjab,32.733089,73.394512,1.753,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.549,0.281,0.49,0.234,local_grid
+Punjab,29.868645,74.780036,1.659,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.489,0.267,0.441,0.239,local_grid
+Punjab,32.656459,70.950263,1.474,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.558,0.245,0.497,0.248,local_grid
+Punjab,30.067248,71.218084,2.349,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.467,0.297,0.423,0.26,local_grid
+Punjab,28.724476,70.201479,1.719,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.491,0.247,0.442,0.283,local_grid
+Punjab,33.784829,71.971215,2.532,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.525,0.317,0.47,0.225,local_grid
+Punjab,30.191579,73.751083,2.469,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.465,0.32,0.421,0.234,local_grid
+Punjab,31.294455,75.010454,1.36,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.529,0.248,0.474,0.239,local_grid
+Punjab,32.77196,72.224154,1.777,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.549,0.278,0.49,0.236,local_grid
+Punjab,30.146337,75.318452,1.546,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.496,0.254,0.447,0.237,local_grid
+Punjab,32.365442,75.102287,0.646,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.581,0.207,0.517,0.251,local_grid
+Punjab,28.470111,74.488255,1.056,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.518,0.237,0.465,0.259,local_grid
+Punjab,31.84098,70.043722,2.019,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.521,0.262,0.467,0.258,local_grid
+Punjab,31.523677,73.485188,2.044,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.511,0.297,0.459,0.233,local_grid
+Punjab,27.779967,72.07134,2.082,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.499,0.293,0.449,0.275,local_grid
+Punjab,33.065097,71.10169,1.752,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.553,0.263,0.493,0.241,local_grid
+Punjab,30.680563,71.998116,2.637,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.468,0.323,0.424,0.243,local_grid
+Punjab,29.662528,74.902496,1.401,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.496,0.251,0.447,0.242,local_grid
+Punjab,32.778411,69.974589,2.035,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.54,0.262,0.483,0.249,local_grid
+Punjab,34.180725,74.66312,2.017,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.537,0.288,0.481,0.245,local_grid
+Punjab,29.545405,74.405069,1.615,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.489,0.269,0.441,0.244,local_grid
+Punjab,28.391727,75.394539,0.556,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.537,0.198,0.481,0.258,local_grid
+Punjab,32.026951,73.265763,1.757,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.535,0.282,0.479,0.235,local_grid
+Punjab,28.287865,74.771904,0.943,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.526,0.228,0.471,0.259,local_grid
+Punjab,27.888497,70.769051,1.828,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.505,0.262,0.454,0.283,local_grid
+Punjab,28.629642,74.038284,1.3,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.507,0.254,0.456,0.259,local_grid
+Punjab,28.988327,74.854893,0.884,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.516,0.224,0.463,0.253,local_grid
+Punjab,31.965749,69.520593,2.418,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.51,0.277,0.458,0.257,local_grid
+Punjab,27.735294,69.615113,2.753,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.477,0.296,0.431,0.271,local_grid
+Punjab,31.638514,74.189039,1.565,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.531,0.268,0.476,0.236,local_grid
+Punjab,29.250593,74.481394,1.304,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.5,0.251,0.45,0.249,local_grid
+Punjab,28.072008,74.18588,1.46,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.513,0.262,0.461,0.261,local_grid
+Punjab,33.73067,74.009861,2.256,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.535,0.307,0.478,0.234,local_grid
+Punjab,32.237785,74.411679,1.09,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.563,0.24,0.502,0.243,local_grid
+Punjab,27.960983,70.530871,1.852,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.502,0.26,0.452,0.283,local_grid
+Punjab,28.512004,72.377639,1.691,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.274,0.446,0.271,local_grid
+Punjab,32.543723,73.143072,1.746,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.546,0.281,0.488,0.234,local_grid
+Punjab,33.232352,70.246799,2.203,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.538,0.275,0.481,0.24,local_grid
+Punjab,32.475037,70.477553,1.561,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.552,0.243,0.492,0.253,local_grid
+Punjab,29.459932,73.630419,1.966,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.476,0.293,0.43,0.247,local_grid
+Punjab,34.071331,73.030416,2.822,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.511,0.34,0.459,0.223,local_grid
+Punjab,28.054252,73.059485,1.982,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.294,0.446,0.266,local_grid
+Punjab,27.975279,74.693289,1.216,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.524,0.244,0.47,0.26,local_grid
+Punjab,32.312259,70.35608,1.614,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.547,0.244,0.488,0.255,local_grid
+Punjab,28.296187,70.419553,1.671,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.5,0.248,0.45,0.284,local_grid
+Punjab,34.070177,72.09722,2.685,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.516,0.326,0.463,0.223,local_grid
+Punjab,32.796526,73.182091,1.862,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.546,0.287,0.488,0.233,local_grid
+Punjab,31.420685,70.185295,2.271,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.501,0.278,0.451,0.258,local_grid
+Punjab,33.849159,71.13819,2.395,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.529,0.298,0.474,0.228,local_grid
+Punjab,31.457112,73.568633,2.063,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.509,0.298,0.457,0.232,local_grid
+Punjab,31.920016,75.037626,0.816,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.565,0.218,0.503,0.247,local_grid
+Punjab,28.664853,72.400952,1.684,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.493,0.274,0.444,0.27,local_grid
+Punjab,30.326224,72.192429,2.704,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.328,0.416,0.243,local_grid
+Punjab,28.474914,70.117977,1.797,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.492,0.25,0.444,0.283,local_grid
+Punjab,29.507491,71.158698,1.878,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.479,0.27,0.433,0.271,local_grid
+Punjab,30.481371,73.027024,2.833,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.457,0.34,0.415,0.233,local_grid
+Punjab,31.825089,71.812046,1.704,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.532,0.269,0.476,0.245,local_grid
+Punjab,30.35709,70.627534,2.566,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.464,0.3,0.42,0.26,local_grid
+Punjab,31.523991,71.23395,1.837,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.519,0.269,0.465,0.251,local_grid
+Punjab,27.934389,71.85224,1.872,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.502,0.279,0.452,0.278,local_grid
+Punjab,30.781862,70.676116,2.497,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.476,0.297,0.43,0.256,local_grid
+Punjab,31.420977,72.751209,2.285,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.5,0.309,0.45,0.234,local_grid
+Punjab,32.263014,73.252486,1.69,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.543,0.278,0.485,0.235,local_grid
+Punjab,31.940815,71.228906,1.509,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.541,0.251,0.484,0.252,local_grid
+Punjab,32.818309,72.649781,1.902,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.545,0.288,0.487,0.233,local_grid
+Punjab,30.504218,73.118676,2.818,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.458,0.34,0.416,0.232,local_grid
+Punjab,30.044273,72.427709,2.638,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.457,0.327,0.414,0.245,local_grid
+Punjab,32.488587,74.707058,0.905,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.575,0.226,0.511,0.247,local_grid
+Punjab,33.686872,72.372161,2.588,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.523,0.324,0.469,0.224,local_grid
+Punjab,31.081788,74.17921,2.069,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.498,0.295,0.449,0.231,local_grid
+Punjab,29.743929,74.408032,1.796,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.483,0.278,0.436,0.24,local_grid
+Punjab,30.911921,70.006726,2.828,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.467,0.306,0.423,0.257,local_grid
+Punjab,28.168384,74.436159,1.236,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.519,0.247,0.465,0.26,local_grid
+Punjab,28.061191,71.01173,1.638,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.507,0.255,0.456,0.284,local_grid
+Punjab,29.871845,70.355266,2.436,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.462,0.289,0.419,0.268,local_grid
+Punjab,29.740307,73.830425,2.103,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.472,0.299,0.427,0.241,local_grid
+Punjab,27.795438,74.345758,1.603,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.515,0.268,0.463,0.26,local_grid
+Punjab,33.267562,71.570796,1.993,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.545,0.282,0.487,0.234,local_grid
+Punjab,28.698484,72.965126,1.741,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.49,0.28,0.442,0.263,local_grid
+Punjab,28.477872,71.526008,1.452,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.504,0.252,0.454,0.281,local_grid
+Punjab,33.92979,75.372333,1.563,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.557,0.254,0.497,0.255,local_grid
+Punjab,32.718682,71.196865,1.495,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.558,0.25,0.497,0.245,local_grid
+Punjab,32.169823,73.602979,1.555,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.545,0.27,0.487,0.236,local_grid
+Punjab,30.220971,73.209421,2.74,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.456,0.336,0.414,0.234,local_grid
+Punjab,27.76973,70.575252,2.005,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.502,0.269,0.452,0.281,local_grid
+Punjab,31.113074,70.298883,2.469,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.485,0.29,0.438,0.257,local_grid
+Punjab,28.778395,74.401456,1.102,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.511,0.24,0.459,0.256,local_grid
+Punjab,34.129365,72.691414,2.832,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.51,0.339,0.458,0.222,local_grid
+Punjab,33.153953,75.340962,0.976,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.58,0.222,0.516,0.254,local_grid
+Punjab,28.620373,72.034298,1.577,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.265,0.448,0.275,local_grid
+Punjab,30.251723,69.788301,3.108,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.443,0.318,0.403,0.261,local_grid
+Punjab,32.609646,71.946052,1.605,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.552,0.265,0.493,0.24,local_grid
+Punjab,30.750625,70.219105,2.749,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.466,0.304,0.422,0.258,local_grid
+Punjab,28.876023,74.833332,0.848,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.519,0.222,0.466,0.255,local_grid
+Punjab,27.990219,70.720399,1.754,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.505,0.257,0.454,0.283,local_grid
+Punjab,29.598386,72.290205,2.233,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.467,0.303,0.423,0.255,local_grid
+Punjab,31.511894,72.309069,2.12,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.508,0.297,0.457,0.239,local_grid
+Punjab,28.24675,70.786371,1.549,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.506,0.247,0.455,0.285,local_grid
+Punjab,33.183325,73.189291,2.177,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.538,0.305,0.481,0.229,local_grid
+Punjab,31.919469,73.38824,1.772,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.532,0.282,0.476,0.235,local_grid
+Punjab,32.65887,69.654462,2.259,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.53,0.27,0.475,0.251,local_grid
+Punjab,30.082955,72.591117,2.694,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.455,0.331,0.413,0.242,local_grid
+Punjab,29.899967,74.451321,1.9,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.481,0.284,0.434,0.238,local_grid
+Punjab,30.836721,73.988628,2.333,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.483,0.311,0.436,0.23,local_grid
+Punjab,33.238101,72.379228,2.204,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.538,0.302,0.481,0.229,local_grid
+Punjab,33.61209,72.881456,2.6,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.523,0.327,0.469,0.224,local_grid
+Punjab,33.226783,71.377604,1.918,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.548,0.276,0.489,0.236,local_grid
+Punjab,30.94231,72.541607,2.66,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.474,0.329,0.429,0.235,local_grid
+Punjab,28.382368,71.73117,1.536,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.503,0.259,0.453,0.279,local_grid
+Punjab,33.662695,73.148077,2.607,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.523,0.328,0.469,0.225,local_grid
+Punjab,28.853793,71.367019,1.436,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.499,0.249,0.449,0.28,local_grid
+Punjab,28.94542,69.451421,2.45,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.462,0.278,0.419,0.276,local_grid
+Punjab,33.728493,72.034065,2.517,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.526,0.317,0.471,0.225,local_grid
+Punjab,29.698978,72.950711,2.412,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.461,0.317,0.418,0.246,local_grid
+Punjab,27.747544,70.995935,1.915,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.506,0.27,0.455,0.281,local_grid
+Punjab,32.269718,73.165996,1.712,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.542,0.279,0.485,0.235,local_grid
+Punjab,34.081739,73.084182,2.815,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.511,0.34,0.459,0.224,local_grid
+Punjab,30.803788,73.944739,2.37,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.481,0.314,0.434,0.23,local_grid
+Punjab,33.571631,73.696245,2.3,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.534,0.311,0.478,0.23,local_grid
+Punjab,33.960873,74.070232,2.343,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.529,0.311,0.474,0.234,local_grid
+Punjab,33.334209,69.996035,2.487,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.528,0.287,0.473,0.238,local_grid
+Punjab,32.460688,71.984541,1.572,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.551,0.264,0.492,0.241,local_grid
+Punjab,31.295175,73.290025,2.335,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.313,0.446,0.231,local_grid
+Punjab,34.003798,75.305926,1.617,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.554,0.258,0.494,0.254,local_grid
+Punjab,29.573484,73.775896,1.977,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.476,0.293,0.43,0.244,local_grid
+Punjab,32.574893,71.413606,1.451,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.557,0.25,0.497,0.245,local_grid
+Punjab,28.505154,69.549776,2.297,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.474,0.271,0.429,0.277,local_grid
+Punjab,32.75273,72.287168,1.783,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.548,0.279,0.49,0.236,local_grid
+Punjab,34.106011,72.136338,2.703,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.515,0.328,0.462,0.223,local_grid
+Punjab,34.05646,71.810614,2.592,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.519,0.318,0.466,0.224,local_grid
+Punjab,32.858934,69.817398,2.227,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.534,0.27,0.478,0.248,local_grid
+Punjab,31.310501,74.192565,1.864,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.512,0.284,0.46,0.233,local_grid
+Punjab,33.710561,74.317757,2.069,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.541,0.294,0.484,0.238,local_grid
+Punjab,27.94031,71.573484,1.789,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.505,0.271,0.454,0.28,local_grid
+Punjab,28.01654,69.966622,2.18,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.489,0.269,0.441,0.279,local_grid
+Punjab,32.089487,73.650875,1.553,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.544,0.27,0.486,0.237,local_grid
+Punjab,32.729184,74.579285,1.088,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.572,0.238,0.509,0.245,local_grid
+Punjab,32.506305,74.185317,1.242,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.563,0.25,0.502,0.241,local_grid
+Punjab,28.018264,70.730664,1.727,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.505,0.256,0.454,0.284,local_grid
+Punjab,31.742336,74.534564,1.262,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.545,0.248,0.487,0.24,local_grid
+Punjab,27.729251,72.439239,2.234,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.305,0.446,0.271,local_grid
+Punjab,32.102368,69.480604,2.395,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.514,0.275,0.462,0.256,local_grid
+Punjab,30.308811,74.763373,1.925,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.486,0.282,0.438,0.234,local_grid
+Punjab,32.065483,70.749716,1.497,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.545,0.243,0.487,0.255,local_grid
+Punjab,33.243077,71.422992,1.94,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.547,0.277,0.488,0.235,local_grid
+Punjab,33.24674,71.123556,1.918,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.548,0.272,0.489,0.237,local_grid
+Punjab,31.537082,71.721334,1.917,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.516,0.28,0.463,0.246,local_grid
+Punjab,29.486363,74.708001,1.361,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.251,0.448,0.245,local_grid
+Punjab,28.919359,69.817351,2.086,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.475,0.262,0.43,0.279,local_grid
+Punjab,29.922525,73.677599,2.349,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.465,0.314,0.421,0.238,local_grid
+Punjab,32.948305,75.392335,0.776,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.586,0.21,0.52,0.256,local_grid
+Punjab,29.626353,71.788446,2.104,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.472,0.291,0.427,0.262,local_grid
+Punjab,28.589338,72.806719,1.745,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.492,0.28,0.443,0.266,local_grid
+Punjab,34.18427,73.575374,2.647,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.515,0.33,0.463,0.229,local_grid
+Punjab,31.568883,71.693451,1.88,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.518,0.278,0.465,0.246,local_grid
+Punjab,33.649442,72.331191,2.551,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.525,0.321,0.47,0.224,local_grid
+Punjab,28.573385,71.528809,1.434,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.503,0.251,0.453,0.281,local_grid
+Punjab,28.136583,70.532072,1.713,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.503,0.252,0.452,0.284,local_grid
+Punjab,27.814847,72.065007,2.048,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.499,0.291,0.449,0.275,local_grid
+Punjab,31.824512,71.394084,1.603,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.535,0.258,0.479,0.25,local_grid
+Punjab,30.432482,75.151177,1.716,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.495,0.266,0.446,0.235,local_grid
+Punjab,32.58776,72.599225,1.771,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.546,0.28,0.488,0.235,local_grid
+Punjab,29.549516,74.77168,1.379,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.497,0.252,0.447,0.244,local_grid
+Punjab,29.228131,71.284591,1.641,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.488,0.259,0.44,0.275,local_grid
+Punjab,33.608921,72.530207,2.566,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.525,0.323,0.47,0.224,local_grid
+Punjab,32.525067,72.903543,1.77,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.545,0.282,0.487,0.234,local_grid
+Punjab,31.947355,71.126238,1.502,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.542,0.249,0.484,0.253,local_grid
+Punjab,29.268918,71.267203,1.672,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.487,0.261,0.439,0.275,local_grid
+Punjab,28.71037,74.633318,0.94,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.518,0.229,0.465,0.257,local_grid
+Punjab,29.541105,72.725085,2.263,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.466,0.308,0.422,0.251,local_grid
+Punjab,32.847834,74.081327,1.47,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.56,0.263,0.5,0.239,local_grid
+Punjab,30.549511,72.20517,2.727,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.462,0.33,0.419,0.241,local_grid
+Punjab,34.165561,73.415045,2.726,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.513,0.335,0.461,0.227,local_grid
+Punjab,32.99515,74.805579,1.131,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.574,0.238,0.51,0.247,local_grid
+Punjab,32.819334,70.429594,1.745,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.55,0.252,0.491,0.248,local_grid
+Punjab,31.35411,69.921554,2.542,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.489,0.289,0.441,0.258,local_grid
+Punjab,31.943994,75.127632,0.751,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.568,0.213,0.506,0.248,local_grid
+Sindh,26.266207,68.434971,6.352,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.485,0.357,0.208,local_grid
+Sindh,23.786382,70.91094,6.142,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.371,0.501,0.344,0.211,local_grid
+Sindh,24.135614,66.593072,7.46,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.334,0.554,0.314,0.166,local_grid
+Sindh,24.879546,66.707993,6.518,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.382,0.501,0.353,0.18,local_grid
+Sindh,25.966613,68.825613,6.021,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.402,0.469,0.37,0.213,local_grid
+Sindh,25.225364,66.639514,6.304,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.49,0.363,0.184,local_grid
+Sindh,24.180322,68.207171,7.49,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.334,0.547,0.314,0.173,local_grid
+Sindh,23.914748,69.681492,6.687,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.356,0.514,0.332,0.193,local_grid
+Sindh,24.676507,67.819736,6.9,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.366,0.515,0.34,0.181,local_grid
+Sindh,25.649454,68.358065,6.297,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.394,0.482,0.363,0.202,local_grid
+Sindh,23.608636,66.926731,8.406,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.287,0.603,0.275,0.154,local_grid
+Sindh,28.086376,66.405795,4.767,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.397,0.409,0.366,0.225,local_grid
+Sindh,26.24247,68.700659,6.162,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.394,0.476,0.363,0.213,local_grid
+Sindh,25.33209,68.427237,6.25,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.479,0.365,0.2,local_grid
+Sindh,27.659022,70.353657,3.522,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.452,0.349,0.411,0.263,local_grid
+Sindh,24.953812,67.915705,6.625,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.38,0.499,0.351,0.187,local_grid
+Sindh,24.860911,68.655358,6.324,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.484,0.359,0.197,local_grid
+Sindh,27.152943,67.472789,6.069,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.377,0.47,0.349,0.211,local_grid
+Sindh,25.319826,70.772808,4.408,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.46,0.404,0.417,0.244,local_grid
+Sindh,23.85256,68.565617,7.819,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.314,0.566,0.298,0.169,local_grid
+Sindh,27.300102,67.107134,5.803,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.382,0.458,0.353,0.212,local_grid
+Sindh,23.846345,67.049565,8.077,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.305,0.584,0.29,0.159,local_grid
+Sindh,28.377881,66.443521,4.603,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.399,0.365,0.23,local_grid
+Sindh,24.579274,66.547033,6.785,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.368,0.518,0.342,0.175,local_grid
+Sindh,24.175273,69.314702,6.62,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.365,0.506,0.339,0.193,local_grid
+Sindh,24.856522,69.075297,5.961,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.401,0.467,0.369,0.205,local_grid
+Sindh,26.669016,70.392346,4.578,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.441,0.407,0.402,0.248,local_grid
+Sindh,23.624655,70.410836,6.568,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.352,0.517,0.329,0.199,local_grid
+Sindh,26.819419,67.164894,6.353,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.376,0.488,0.348,0.201,local_grid
+Sindh,27.619274,70.42081,3.52,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.453,0.35,0.412,0.263,local_grid
+Sindh,24.92217,70.71833,4.605,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.45,0.414,0.409,0.238,local_grid
+Sindh,25.963179,69.236095,5.636,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.416,0.451,0.381,0.222,local_grid
+Sindh,28.720178,68.09922,4.742,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.385,0.396,0.356,0.245,local_grid
+Sindh,27.828429,67.896476,5.245,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.424,0.357,0.231,local_grid
+Sindh,27.75591,69.223449,4.423,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.418,0.384,0.383,0.249,local_grid
+Sindh,24.72505,68.345923,6.661,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.375,0.502,0.347,0.189,local_grid
+Sindh,25.251705,66.767109,6.337,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.392,0.491,0.362,0.185,local_grid
+Sindh,23.755141,68.02845,8.251,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.297,0.589,0.283,0.16,local_grid
+Sindh,23.698978,67.177792,8.342,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.292,0.597,0.279,0.156,local_grid
+Sindh,27.370953,69.728029,4.36,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.431,0.386,0.393,0.25,local_grid
+Sindh,27.440618,67.89062,5.641,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.445,0.355,0.223,local_grid
+Sindh,28.228101,69.191004,4.07,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.418,0.364,0.383,0.255,local_grid
+Sindh,24.255337,67.075478,7.416,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.339,0.547,0.318,0.168,local_grid
+Sindh,27.204096,67.212837,5.961,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.379,0.466,0.351,0.21,local_grid
+Sindh,26.237922,71.06134,4.465,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.453,0.411,0.412,0.25,local_grid
+Sindh,23.62084,66.477925,8.249,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.293,0.599,0.28,0.156,local_grid
+Sindh,28.76404,69.147803,3.992,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.41,0.36,0.377,0.257,local_grid
+Sindh,24.259932,70.61732,5.452,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.408,0.459,0.374,0.221,local_grid
+Sindh,28.177978,68.920142,4.359,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.409,0.378,0.375,0.25,local_grid
+Sindh,26.833319,67.68398,6.401,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.373,0.488,0.346,0.206,local_grid
+Sindh,23.862702,69.194468,7.253,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.334,0.539,0.314,0.182,local_grid
+Sindh,25.132727,69.519019,5.343,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.426,0.438,0.39,0.22,local_grid
+Sindh,27.948475,66.485355,4.901,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.415,0.365,0.223,local_grid
+Sindh,26.697712,67.487019,6.488,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.374,0.493,0.346,0.202,local_grid
+Sindh,28.14422,67.592223,5.01,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.412,0.357,0.234,local_grid
+Sindh,26.776005,69.001642,5.742,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.398,0.455,0.366,0.225,local_grid
+Sindh,25.660066,69.584818,5.228,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.432,0.432,0.394,0.227,local_grid
+Sindh,27.374002,69.064608,5.007,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.408,0.415,0.375,0.239,local_grid
+Sindh,27.543796,71.02206,3.401,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.352,0.417,0.264,local_grid
+Sindh,25.780216,68.81854,5.988,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.405,0.467,0.372,0.212,local_grid
+Sindh,23.664843,70.141334,6.684,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.349,0.52,0.326,0.195,local_grid
+Sindh,26.305196,68.317419,6.419,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.488,0.355,0.207,local_grid
+Sindh,24.089174,70.581385,5.744,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.474,0.362,0.215,local_grid
+Sindh,25.654038,69.608134,5.205,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.433,0.431,0.395,0.227,local_grid
+Sindh,24.376746,70.919283,5.189,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.42,0.449,0.384,0.228,local_grid
+Sindh,24.527897,67.337847,7.074,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.357,0.526,0.333,0.175,local_grid
+Sindh,28.066711,70.689139,3.002,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.325,0.417,0.268,local_grid
+Sindh,24.703167,68.608064,6.514,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.38,0.495,0.351,0.193,local_grid
+Sindh,27.414174,70.528319,3.707,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.452,0.362,0.411,0.26,local_grid
+Sindh,25.571074,68.829992,5.945,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.407,0.465,0.374,0.21,local_grid
+Sindh,27.456925,69.836339,4.128,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.436,0.375,0.398,0.254,local_grid
+Sindh,27.671393,69.078689,4.643,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.412,0.395,0.378,0.245,local_grid
+Sindh,24.143999,70.648674,5.627,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.399,0.469,0.367,0.218,local_grid
+Sindh,28.100977,70.151058,3.268,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.449,0.332,0.408,0.266,local_grid
+Sindh,24.119285,67.360668,7.698,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.326,0.561,0.307,0.165,local_grid
+Sindh,27.466722,66.508758,5.37,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.441,0.362,0.213,local_grid
+Sindh,28.691968,68.17258,4.711,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.386,0.394,0.357,0.245,local_grid
+Sindh,27.340425,70.571584,3.798,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.451,0.367,0.41,0.259,local_grid
+Sindh,25.652075,67.899923,6.475,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.491,0.358,0.195,local_grid
+Sindh,26.765454,69.13065,5.626,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.402,0.449,0.37,0.228,local_grid
+Sindh,25.727528,69.228341,5.594,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.419,0.448,0.383,0.22,local_grid
+Sindh,28.463983,68.597909,4.487,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.398,0.383,0.367,0.249,local_grid
+Sindh,24.623059,68.172868,6.862,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.366,0.512,0.34,0.184,local_grid
+Sindh,25.649356,67.016211,6.403,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.391,0.492,0.36,0.188,local_grid
+Sindh,24.446932,69.617442,5.901,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.47,0.365,0.207,local_grid
+Sindh,25.365284,70.888022,4.376,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.462,0.404,0.418,0.245,local_grid
+Sindh,24.866703,66.864945,6.579,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.38,0.503,0.352,0.18,local_grid
+Sindh,27.518224,70.540869,3.551,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.455,0.353,0.413,0.262,local_grid
+Sindh,25.046189,67.349814,6.576,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.382,0.499,0.353,0.184,local_grid
+Sindh,24.565984,68.853458,6.479,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.378,0.494,0.35,0.194,local_grid
+Sindh,26.035767,67.619367,6.579,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.382,0.498,0.353,0.195,local_grid
+Sindh,23.8349,68.663009,7.775,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.315,0.564,0.299,0.171,local_grid
+Sindh,28.588528,69.46684,3.666,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.425,0.345,0.388,0.261,local_grid
+Sindh,26.176634,66.920253,6.47,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.497,0.355,0.191,local_grid
+Sindh,24.912669,67.785438,6.678,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.377,0.503,0.349,0.185,local_grid
+Sindh,27.576978,70.520541,3.508,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.455,0.35,0.413,0.263,local_grid
+Sindh,28.288538,71.027472,2.786,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.462,0.318,0.419,0.269,local_grid
+Sindh,28.708307,70.879096,2.711,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.456,0.312,0.414,0.269,local_grid
+Sindh,23.973475,67.04763,7.869,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.316,0.572,0.299,0.162,local_grid
+Sindh,25.183226,68.998622,5.835,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.409,0.46,0.376,0.209,local_grid
+Sindh,24.104285,70.375246,5.822,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.391,0.476,0.361,0.212,local_grid
+Sindh,26.807132,68.949113,5.768,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.456,0.365,0.225,local_grid
+Sindh,24.459619,67.590301,7.191,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.351,0.532,0.328,0.174,local_grid
+Sindh,24.433623,70.404086,5.291,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.417,0.447,0.382,0.222,local_grid
+Sindh,26.637985,69.855108,4.994,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.427,0.423,0.39,0.24,local_grid
+Sindh,25.139371,68.144887,6.449,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.49,0.358,0.193,local_grid
+Sindh,25.705246,69.97207,4.88,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.444,0.418,0.404,0.235,local_grid
+Sindh,27.616236,67.372024,5.451,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.386,0.437,0.356,0.222,local_grid
+Sindh,28.496002,66.96708,4.727,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.4,0.359,0.235,local_grid
+Sindh,28.259835,66.87186,4.793,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.392,0.405,0.361,0.231,local_grid
+Sindh,24.975607,70.378449,4.718,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.447,0.415,0.406,0.234,local_grid
+Sindh,24.533359,68.343769,6.892,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.363,0.514,0.338,0.184,local_grid
+Sindh,25.939268,67.552717,6.559,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.497,0.354,0.194,local_grid
+Sindh,27.293275,70.401273,3.951,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.447,0.373,0.407,0.257,local_grid
+Sindh,28.147791,67.994814,4.956,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.408,0.359,0.238,local_grid
+Sindh,26.360422,67.56751,6.599,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.377,0.499,0.349,0.198,local_grid
+Sindh,24.872942,67.157894,6.658,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.377,0.505,0.349,0.181,local_grid
+Sindh,28.488099,70.573547,2.821,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.456,0.313,0.414,0.27,local_grid
+Sindh,27.642265,68.833009,4.895,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.404,0.407,0.372,0.241,local_grid
+Sindh,26.151161,68.889805,5.995,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.401,0.468,0.369,0.216,local_grid
+Sindh,26.390154,68.442446,6.34,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.385,0.484,0.356,0.21,local_grid
+Sindh,24.285125,66.99062,7.345,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.342,0.544,0.32,0.169,local_grid
+Sindh,28.551699,68.665545,4.417,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.399,0.38,0.367,0.25,local_grid
+Sindh,28.556669,67.168811,4.77,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.401,0.357,0.237,local_grid
+Sindh,26.482966,67.376271,6.562,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.376,0.498,0.348,0.197,local_grid
+Sindh,24.91656,66.541257,6.437,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.386,0.499,0.356,0.18,local_grid
+Sindh,24.218557,70.709188,5.485,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.406,0.462,0.373,0.221,local_grid
+Sindh,25.271972,69.258207,5.558,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.42,0.447,0.384,0.216,local_grid
+Sindh,26.018073,68.282121,6.41,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.488,0.358,0.204,local_grid
+Sindh,26.365808,67.280023,6.565,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.378,0.499,0.35,0.195,local_grid
+Sindh,28.74074,70.246047,2.991,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.446,0.318,0.406,0.268,local_grid
+Sindh,27.456396,68.603169,5.277,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.427,0.365,0.233,local_grid
+Sindh,24.394961,70.72713,5.207,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.419,0.447,0.384,0.226,local_grid
+Sindh,25.375213,66.635501,6.273,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.395,0.489,0.364,0.185,local_grid
+Sindh,25.380499,70.133948,4.731,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.449,0.412,0.408,0.235,local_grid
+Sindh,26.838085,69.928941,4.803,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.429,0.413,0.392,0.244,local_grid
+Sindh,27.726904,67.396187,5.352,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.386,0.431,0.357,0.224,local_grid
+Sindh,28.403673,68.458551,4.602,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.389,0.364,0.246,local_grid
+Sindh,26.922871,66.410851,6.042,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.479,0.355,0.199,local_grid
+Sindh,28.765516,67.720213,4.832,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.381,0.401,0.352,0.242,local_grid
+Sindh,23.922728,68.553832,7.713,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.32,0.56,0.302,0.171,local_grid
+Sindh,24.270956,67.115936,7.402,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.34,0.546,0.319,0.168,local_grid
+Sindh,26.887871,68.246759,6.21,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.379,0.477,0.351,0.214,local_grid
+Sindh,28.393633,67.900036,4.844,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.402,0.358,0.24,local_grid
+Sindh,27.376137,68.567167,5.426,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.435,0.362,0.231,local_grid
+Sindh,27.031747,69.218568,5.305,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.407,0.433,0.374,0.234,local_grid
+Sindh,26.058477,70.865287,4.47,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.455,0.409,0.413,0.248,local_grid
+Sindh,25.382111,67.233007,6.447,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.493,0.359,0.187,local_grid
+Sindh,27.126089,70.376236,4.186,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.444,0.386,0.404,0.254,local_grid
+Sindh,23.809319,68.513274,7.924,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.31,0.572,0.294,0.168,local_grid
+Sindh,28.240936,69.923208,3.357,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.443,0.334,0.403,0.265,local_grid
+Sindh,28.7574,68.897645,4.226,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.402,0.37,0.37,0.254,local_grid
+Sindh,27.031978,67.821657,6.202,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.375,0.476,0.348,0.212,local_grid
+Sindh,28.527185,68.121777,4.74,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.396,0.358,0.244,local_grid
+Sindh,27.440256,68.294759,5.496,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.438,0.359,0.228,local_grid
+Sindh,26.521458,69.782978,5.104,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.426,0.428,0.389,0.237,local_grid
+Sindh,26.246458,70.663306,4.546,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.45,0.41,0.409,0.247,local_grid
+Sindh,25.780365,69.441237,5.392,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.426,0.44,0.389,0.225,local_grid
+Sindh,25.380285,68.318336,6.307,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.394,0.482,0.363,0.199,local_grid
+Sindh,25.888261,66.991293,6.442,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.494,0.358,0.19,local_grid
+Sindh,24.076963,69.537203,6.559,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.364,0.505,0.339,0.195,local_grid
+Sindh,27.008692,69.515676,5.034,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.417,0.421,0.382,0.239,local_grid
+Sindh,23.702786,67.93477,8.357,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.291,0.595,0.279,0.158,local_grid
+Sindh,24.628611,70.057312,5.268,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.422,0.441,0.386,0.221,local_grid
+Sindh,28.075278,67.559398,5.06,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.414,0.357,0.232,local_grid
+Sindh,27.072816,67.008005,6.069,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.379,0.474,0.351,0.206,local_grid
+Sindh,25.030793,67.051676,6.517,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.498,0.355,0.183,local_grid
+Sindh,25.074308,69.571262,5.32,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.427,0.437,0.39,0.22,local_grid
+Sindh,28.3337,67.351855,4.876,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.405,0.358,0.235,local_grid
+Sindh,26.418811,69.696538,5.209,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.424,0.433,0.388,0.234,local_grid
+Sindh,28.555197,69.267284,3.869,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.418,0.354,0.383,0.258,local_grid
+Sindh,24.926556,69.339747,5.644,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.414,0.452,0.379,0.212,local_grid
+Sindh,25.266554,70.987803,4.379,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.461,0.405,0.418,0.245,local_grid
+Sindh,25.678316,69.62151,5.195,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.433,0.431,0.395,0.228,local_grid
+Sindh,23.720783,68.280289,8.201,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.297,0.586,0.284,0.162,local_grid
+Sindh,28.15056,69.268069,4.045,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.421,0.364,0.385,0.255,local_grid
+Sindh,25.908503,70.798906,4.455,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.457,0.407,0.415,0.247,local_grid
+Sindh,28.040719,67.914414,5.057,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.413,0.358,0.235,local_grid
+Sindh,26.431652,68.702174,6.149,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.391,0.475,0.361,0.215,local_grid
+Sindh,26.887453,67.970323,6.313,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.375,0.482,0.348,0.21,local_grid
+Sindh,24.869866,70.689558,4.656,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.447,0.416,0.407,0.237,local_grid
+Sindh,28.404147,70.363618,2.954,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.453,0.318,0.412,0.269,local_grid
+Sindh,28.686663,69.90146,3.253,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.438,0.328,0.399,0.266,local_grid
+Sindh,27.57627,69.984173,3.864,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.442,0.362,0.403,0.258,local_grid
+Sindh,26.09916,68.545325,6.265,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.392,0.481,0.362,0.209,local_grid
+Sindh,24.849177,69.43065,5.616,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.413,0.452,0.379,0.213,local_grid
+Sindh,25.104465,67.6117,6.568,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.383,0.497,0.354,0.187,local_grid
+Sindh,26.646999,68.326917,6.331,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.38,0.484,0.352,0.211,local_grid
+Sindh,24.738054,70.235463,5.014,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.433,0.429,0.395,0.227,local_grid
+Sindh,28.074964,67.188188,5.007,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.414,0.359,0.23,local_grid
+Sindh,23.639037,67.979811,8.44,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.287,0.599,0.275,0.157,local_grid
+Sindh,27.747056,70.344117,3.445,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.452,0.344,0.411,0.264,local_grid
+Sindh,24.319311,70.039379,5.711,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.4,0.465,0.368,0.213,local_grid
+Sindh,24.201662,68.233294,7.443,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.337,0.544,0.316,0.174,local_grid
+Sindh,28.792769,67.305177,4.811,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.381,0.402,0.353,0.239,local_grid
+Sindh,24.400611,68.387162,7.053,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.355,0.523,0.331,0.182,local_grid
+Sindh,26.822276,70.784634,4.316,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.447,0.399,0.406,0.253,local_grid
+Sindh,28.70027,66.727311,4.636,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.398,0.359,0.236,local_grid
+Sindh,24.317587,70.116468,5.654,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.402,0.463,0.37,0.214,local_grid
+Sindh,25.007287,70.558791,4.606,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.451,0.411,0.41,0.237,local_grid
+Sindh,27.049957,66.925671,6.07,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.38,0.474,0.351,0.204,local_grid
+Sindh,27.929152,67.228875,5.137,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.421,0.358,0.227,local_grid
+Sindh,25.802176,68.995269,5.834,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.41,0.46,0.376,0.215,local_grid
+Sindh,26.203984,69.624966,5.286,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.425,0.436,0.388,0.231,local_grid
+Sindh,26.993971,71.062597,4.119,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.449,0.392,0.408,0.256,local_grid
+Sindh,28.796994,68.827359,4.296,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.399,0.374,0.367,0.253,local_grid
+Sindh,24.095035,69.820864,6.259,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.375,0.492,0.348,0.202,local_grid
+Sindh,28.678653,67.896134,4.797,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.399,0.355,0.242,local_grid
+Sindh,25.998286,68.396452,6.343,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.391,0.484,0.36,0.205,local_grid
+Sindh,23.86738,69.559643,6.882,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.348,0.523,0.325,0.189,local_grid
+Sindh,25.437356,70.10108,4.752,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.449,0.413,0.408,0.235,local_grid
+Sindh,27.927024,70.259785,3.334,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.451,0.337,0.41,0.265,local_grid
+Sindh,25.766663,67.911265,6.493,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.492,0.357,0.196,local_grid
+Sindh,27.493868,70.16653,3.799,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.447,0.361,0.406,0.259,local_grid
+Sindh,26.154539,70.597246,4.565,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.451,0.41,0.41,0.246,local_grid
+Sindh,24.348325,70.531623,5.352,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.413,0.452,0.379,0.222,local_grid
+Sindh,24.099695,67.12157,7.68,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.326,0.561,0.307,0.164,local_grid
+Sindh,26.375968,66.717337,6.406,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.383,0.495,0.354,0.192,local_grid
+Sindh,23.874597,66.402438,7.835,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.314,0.577,0.298,0.161,local_grid
+Sindh,25.868847,70.040732,4.856,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.444,0.418,0.404,0.237,local_grid
+Sindh,23.781159,69.465611,7.113,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.337,0.535,0.316,0.185,local_grid
+Sindh,27.880262,67.189604,5.171,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.423,0.358,0.226,local_grid
+Sindh,24.363691,70.445765,5.371,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.413,0.452,0.379,0.221,local_grid
+Sindh,27.880248,68.933026,4.586,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.409,0.391,0.375,0.246,local_grid
+Sindh,27.859839,66.835954,5.089,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.392,0.421,0.361,0.223,local_grid
+Sindh,25.651304,69.867649,4.961,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.441,0.421,0.402,0.233,local_grid
+Sindh,24.93875,69.935946,5.066,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.434,0.428,0.396,0.225,local_grid
+Sindh,26.221729,69.92625,5.009,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.434,0.424,0.396,0.237,local_grid
+Sindh,26.016334,68.12915,6.478,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.386,0.491,0.356,0.201,local_grid
+Sindh,24.739784,67.379383,6.827,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.369,0.513,0.343,0.179,local_grid
+Sindh,27.507752,66.958879,5.451,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.44,0.359,0.217,local_grid
+Sindh,24.047108,67.228569,7.793,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.32,0.567,0.303,0.163,local_grid
+Sindh,24.511802,70.268606,5.264,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.42,0.443,0.384,0.222,local_grid
+Sindh,25.672234,71.054826,4.369,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.462,0.406,0.419,0.248,local_grid
+Sindh,24.313499,69.471637,6.244,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.381,0.487,0.353,0.2,local_grid
+Sindh,25.933393,68.246715,6.411,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.488,0.359,0.202,local_grid
+Sindh,28.150438,70.9853,2.875,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.462,0.323,0.419,0.269,local_grid
+Sindh,28.138867,67.303813,4.984,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.412,0.358,0.232,local_grid
+Sindh,24.748149,69.483547,5.66,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.41,0.455,0.376,0.212,local_grid
+Sindh,25.103235,69.853208,5.039,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.437,0.425,0.398,0.227,local_grid
+Sindh,26.545387,68.989271,5.87,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.399,0.462,0.367,0.222,local_grid
+Sindh,27.908444,69.739504,3.775,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.436,0.354,0.398,0.259,local_grid
+Sindh,23.738204,66.632458,8.119,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.301,0.59,0.287,0.158,local_grid
+Sindh,26.728104,68.685103,6.047,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.469,0.358,0.219,local_grid
+Sindh,24.95296,68.367684,6.446,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.386,0.49,0.356,0.194,local_grid
+Sindh,27.541134,70.285074,3.672,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.45,0.356,0.409,0.261,local_grid
+Sindh,26.51836,68.211237,6.439,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.379,0.489,0.351,0.208,local_grid
+Sindh,25.007623,68.853017,6.053,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.4,0.471,0.368,0.204,local_grid
+Sindh,25.236698,69.051247,5.769,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.412,0.457,0.378,0.211,local_grid
+Sindh,27.118592,66.710572,5.922,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.383,0.469,0.354,0.205,local_grid
+Sindh,23.605551,67.397703,8.521,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.283,0.606,0.272,0.154,local_grid
+Sindh,28.25146,69.437567,3.811,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.427,0.353,0.39,0.259,local_grid
+Sindh,24.494194,70.584241,5.117,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.425,0.44,0.388,0.227,local_grid
+Sindh,26.043771,68.637631,6.188,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.395,0.477,0.364,0.21,local_grid
+Sindh,28.464818,66.679587,4.644,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.399,0.362,0.233,local_grid
+Sindh,24.718927,69.153125,6.019,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.397,0.471,0.366,0.204,local_grid
+Sindh,24.61653,69.593777,5.7,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.407,0.458,0.373,0.211,local_grid
+Sindh,24.71328,66.866038,6.728,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.372,0.511,0.345,0.177,local_grid
+Sindh,24.676323,68.38685,6.691,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.373,0.503,0.346,0.188,local_grid
+Sindh,24.515919,67.033053,7.019,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.359,0.526,0.334,0.174,local_grid
+Sindh,28.073466,67.905867,5.033,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.412,0.358,0.236,local_grid
+Sindh,25.475945,66.659771,6.277,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.395,0.489,0.364,0.186,local_grid
+Sindh,25.458322,67.644594,6.488,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.493,0.358,0.191,local_grid
+Sindh,26.774522,67.365334,6.426,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.374,0.491,0.347,0.202,local_grid
+Sindh,28.2195,70.769433,2.87,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.46,0.319,0.417,0.269,local_grid
+Sindh,24.119121,66.904794,7.586,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.33,0.558,0.31,0.165,local_grid
+Sindh,24.199697,69.311976,6.583,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.367,0.504,0.341,0.194,local_grid
+Sindh,24.234239,70.406197,5.593,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.402,0.463,0.37,0.217,local_grid
+Sindh,27.522212,70.253102,3.71,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.449,0.358,0.408,0.26,local_grid
+Sindh,26.335515,71.084383,4.463,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.452,0.411,0.41,0.25,local_grid
+Sindh,23.829711,68.285945,8.027,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.306,0.577,0.291,0.165,local_grid
+Sindh,25.284471,70.858634,4.395,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.461,0.404,0.418,0.244,local_grid
+Sindh,26.599677,70.189098,4.74,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.437,0.413,0.398,0.244,local_grid
+Sindh,24.485774,70.99958,5.022,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.428,0.441,0.391,0.232,local_grid
+Sindh,26.192926,68.720259,6.144,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.395,0.475,0.364,0.213,local_grid
+Sindh,28.648601,68.189442,4.702,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.387,0.394,0.358,0.245,local_grid
+Sindh,25.66713,69.148338,5.663,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.417,0.452,0.382,0.218,local_grid
+Sindh,24.265874,67.909102,7.452,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.338,0.545,0.317,0.172,local_grid
+Sindh,24.604683,66.885432,6.86,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.366,0.518,0.34,0.175,local_grid
+Sindh,28.103952,69.169856,4.175,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.417,0.37,0.382,0.253,local_grid
+Sindh,25.465099,68.320746,6.302,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.394,0.482,0.363,0.2,local_grid
+Sindh,25.843899,69.375801,5.471,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.422,0.443,0.386,0.224,local_grid
+Sindh,28.419201,70.784064,2.769,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.314,0.417,0.27,local_grid
+Sindh,25.635758,67.947534,6.461,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.49,0.359,0.196,local_grid
+Sindh,25.945442,69.069291,5.795,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.41,0.458,0.376,0.218,local_grid
+Sindh,26.001453,69.496141,5.384,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.424,0.44,0.388,0.227,local_grid
+Sindh,26.482875,67.907363,6.55,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.376,0.495,0.348,0.203,local_grid
+Sindh,25.3978,68.179386,6.373,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.392,0.486,0.361,0.197,local_grid
+Sindh,24.092127,67.180494,7.707,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.325,0.562,0.306,0.164,local_grid
+Sindh,27.360192,68.228755,5.65,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.386,0.446,0.356,0.225,local_grid
+Sindh,24.715603,69.04456,6.128,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.476,0.363,0.202,local_grid
+Sindh,27.528806,67.609885,5.549,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.385,0.441,0.355,0.222,local_grid
+Sindh,27.899307,70.759273,3.121,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.459,0.333,0.417,0.267,local_grid
+Sindh,26.706452,69.544054,5.252,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.417,0.433,0.382,0.235,local_grid
+Sindh,23.873395,70.843943,6.015,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.378,0.493,0.35,0.212,local_grid
+Sindh,25.640921,70.742332,4.419,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.46,0.404,0.417,0.246,local_grid
+Sindh,26.610683,66.421708,6.255,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.49,0.355,0.193,local_grid
+Sindh,23.800418,69.597968,6.952,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.343,0.527,0.322,0.188,local_grid
+Sindh,26.525874,66.524702,6.316,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.383,0.492,0.354,0.193,local_grid
+Sindh,27.465992,70.405083,3.69,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.451,0.359,0.41,0.261,local_grid
+Sindh,26.181371,68.58906,6.243,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.392,0.48,0.361,0.21,local_grid
+Sindh,23.62846,70.097254,6.771,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.345,0.524,0.323,0.194,local_grid
+Sindh,25.319724,70.530189,4.497,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.457,0.405,0.415,0.241,local_grid
+Sindh,25.539915,69.055866,5.737,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.414,0.455,0.38,0.215,local_grid
+Sindh,25.005777,67.154765,6.559,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.382,0.499,0.354,0.183,local_grid
+Sindh,27.629521,68.733975,4.99,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.401,0.411,0.369,0.239,local_grid
+Sindh,26.389737,70.937455,4.472,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.45,0.41,0.409,0.25,local_grid
+Sindh,28.610616,70.421518,2.877,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.452,0.314,0.411,0.269,local_grid
+Sindh,24.575568,69.193082,6.149,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.39,0.479,0.36,0.201,local_grid
+Sindh,28.166367,68.159981,4.886,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.391,0.404,0.361,0.24,local_grid
+Sindh,24.125752,70.211526,5.892,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.477,0.359,0.21,local_grid
+Sindh,26.10517,69.052646,5.839,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.407,0.46,0.374,0.219,local_grid
+Sindh,28.70715,69.253894,3.88,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.415,0.354,0.38,0.258,local_grid
+Sindh,25.809893,68.138927,6.432,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.489,0.359,0.2,local_grid
+Sindh,25.77162,66.956476,6.407,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.39,0.493,0.36,0.189,local_grid
+Sindh,27.732703,70.337269,3.463,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.452,0.345,0.411,0.263,local_grid
+Sindh,25.078865,67.827844,6.565,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.383,0.496,0.354,0.188,local_grid
+Sindh,28.146538,66.512661,4.753,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.396,0.407,0.365,0.227,local_grid
+Sindh,26.306379,68.579276,6.254,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.48,0.359,0.211,local_grid
+Sindh,27.188659,67.167941,5.97,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.379,0.467,0.351,0.209,local_grid
+Sindh,27.07532,68.17065,6.055,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.379,0.468,0.351,0.217,local_grid
+Sindh,26.817317,66.588447,6.181,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.382,0.484,0.353,0.198,local_grid
+Sindh,26.000981,68.854579,6.003,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.402,0.468,0.37,0.214,local_grid
+Sindh,24.714497,67.056231,6.783,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.37,0.513,0.344,0.178,local_grid
+Sindh,24.580066,68.017463,6.972,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.361,0.518,0.336,0.181,local_grid
+Sindh,24.103413,70.852403,5.635,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.397,0.472,0.366,0.219,local_grid
+Sindh,25.705969,70.202157,4.702,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.45,0.411,0.409,0.239,local_grid
+Sindh,28.666969,66.779456,4.651,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.398,0.359,0.236,local_grid
+Sindh,26.988681,70.495623,4.277,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.444,0.392,0.404,0.253,local_grid
+Sindh,26.898019,68.416423,6.108,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.382,0.471,0.353,0.217,local_grid
+Sindh,25.841597,66.568725,6.3,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.491,0.363,0.188,local_grid
+Sindh,26.379924,71.069652,4.46,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.451,0.411,0.41,0.25,local_grid
+Sindh,28.585279,66.589876,4.593,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.392,0.397,0.362,0.234,local_grid
+Sindh,27.270144,67.818295,5.906,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.379,0.46,0.351,0.217,local_grid
+Sindh,28.295544,66.612039,4.691,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.395,0.402,0.364,0.23,local_grid
+Sindh,28.466545,70.336136,2.95,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.452,0.317,0.411,0.269,local_grid
+Sindh,24.211023,66.681174,7.365,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.34,0.548,0.318,0.167,local_grid
+Sindh,27.94048,67.132061,5.104,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.42,0.359,0.227,local_grid
+Sindh,26.38147,70.704001,4.527,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.449,0.409,0.408,0.248,local_grid
+Sindh,26.55073,68.266997,6.402,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.38,0.487,0.351,0.209,local_grid
+Sindh,25.914083,66.696651,6.355,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.391,0.493,0.361,0.189,local_grid
+Sindh,28.637512,67.860075,4.803,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.384,0.399,0.355,0.242,local_grid
+Sindh,24.58469,67.744422,7.019,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.36,0.522,0.335,0.178,local_grid
+Sindh,28.614741,66.843144,4.672,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.389,0.398,0.359,0.236,local_grid
+Sindh,28.109976,69.726866,3.622,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.437,0.346,0.398,0.261,local_grid
+Sindh,27.9161,70.986718,3.062,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.461,0.333,0.418,0.267,local_grid
+Sindh,27.979204,70.833897,3.032,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.461,0.329,0.418,0.268,local_grid
+Sindh,24.260063,70.140206,5.726,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.398,0.467,0.366,0.213,local_grid
+Sindh,26.437514,68.954429,5.931,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.399,0.465,0.367,0.22,local_grid
+Sindh,28.274392,70.967478,2.799,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.461,0.318,0.418,0.269,local_grid
+Sindh,27.265159,68.66981,5.51,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.44,0.363,0.23,local_grid
+Sindh,25.9733,68.215805,6.434,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.489,0.358,0.202,local_grid
+Sindh,25.480315,68.240082,6.343,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.393,0.484,0.362,0.199,local_grid
+Sindh,24.066717,66.76395,7.628,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.327,0.562,0.308,0.164,local_grid
+Sindh,27.655323,68.496543,5.142,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.395,0.419,0.364,0.236,local_grid
+Sindh,28.439559,69.277439,3.886,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.42,0.355,0.384,0.258,local_grid
+Sindh,23.782915,67.14036,8.203,Severe,High,Halophyte / remediation zone,"Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",0.299,0.59,0.285,0.157,local_grid
+Sindh,24.670263,70.985959,4.79,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.439,0.428,0.4,0.236,local_grid
+Sindh,24.737262,68.824052,6.305,Moderate,Medium,Salt-tolerant crop zone,"Sunflower, sugarcane, barley, and managed irrigation",0.388,0.484,0.358,0.198,local_grid
+Sindh,28.46812,70.992806,2.716,Normal / slight,Low,Conventional crop zone,"Wheat, cotton, rice, and standard rotation crops",0.46,0.314,0.417,0.269,local_grid

@@ -20,7 +20,7 @@ ASSET_DIR = Path(__file__).resolve().parent / "output"
 @st.cache_resource
 def load_assets():
     grid_df = pd.read_csv(ASSET_DIR / "salinity_grid.csv")
-    tree = cKDTree(grid_df[["Latitude", "Longitude"]].values)
+    tree = cKDTree(grid_df[["lat", "lon"]].values)
 
     SIMPLIFY_TOL = 0.01
 
@@ -167,14 +167,16 @@ def main():
             place_name = reverse_geocode(lat, lon)
             dist, idx = tree.query([lat, lon])
             row = grid_df.iloc[idx]
-            predicted_ec = row["Predicted_EC"]
+            predicted_ec = row["ec_ds_m"]
             rec = get_recommendation(predicted_ec)
 
             st.markdown(f"### Location: {place_name}")
             st.markdown(f"**Coordinates:** {lat:.4f}, {lon:.4f}")
             st.markdown(f"### Predicted Salinity: {predicted_ec:.2f} dS/m")
-            st.markdown(f"### Status: {rec['status']}")
-            st.markdown(f"**Recommended crops:** {', '.join(rec['crops'])}")
+            st.markdown(f"### Status: {row.get('salinity_class', rec['status'])}")
+            st.markdown(f"**Risk level:** {row.get('risk_level', 'Demo')}")
+            st.markdown(f"**Crop zone:** {row.get('crop_zone', 'Demo crop zone')}")
+            st.markdown(f"**Recommended crops:** {row.get('recommendation', ', '.join(rec['crops']))}")
 
             tons, pkr_cost = calculate_gypsum(predicted_ec)
             if tons > 0:
@@ -187,7 +189,10 @@ def main():
                         "Lat": lat,
                         "Lon": lon,
                         "Predicted_EC": predicted_ec,
-                        "Status": rec["status"],
+                        "Status": row.get("salinity_class", rec["status"]),
+                        "Risk_Level": row.get("risk_level", "Demo"),
+                        "Crop_Zone": row.get("crop_zone", "Demo crop zone"),
+                        "Data_Mode": row.get("data_mode", "demo_simulation"),
                     }
                 ]
             )

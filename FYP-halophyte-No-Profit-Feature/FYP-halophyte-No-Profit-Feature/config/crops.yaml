@@ -1,0 +1,176 @@
+# ============================================================================
+# CROP SALINITY PARAMETERS — Digital Twin for Biosaline Agriculture
+# ============================================================================
+# This file contains all species supported by the system.
+#
+# KEY TERMS:
+#   gr50: The salinity level (dS/m) at which growth drops by 50%
+#   ec_threshold: The salinity level below which yield is NOT affected (100%)
+#   slope: How fast yield drops per unit increase in salinity (%/(dS/m))
+#   max_potential_yield: Maximum yield under optimal conditions (kg/ha)
+#
+# ADDING A NEW CROP:
+#   1. Copy any existing entry below
+#   2. Change the key name
+#   3. Fill parameters from published literature
+#   4. No code changes needed!
+#
+# SOURCES:
+#   - FAO Irrigation & Drainage Paper 29 (Maas-Hoffman coefficients)
+#   - Pakistani research papers (Pak. J. Bot., 2005-2026)
+# ============================================================================
+
+crops:
+
+  # ==========================================================================
+  # PRIMARY CROPS — In our Pakistani training dataset (241 data points)
+  # ==========================================================================
+
+  rice:
+    name: "Rice"
+    scientific_name: "Oryza sativa L."
+    gr50: 7.0
+    ec_threshold: 3.0
+    slope: 12.0
+    max_potential_yield: 6000      # kg/ha
+    source: "Shereen et al., 2005/2022; FAO Paper 29"
+    dataset_points: 36
+    ec_range_tested: [0, 7.5]
+
+  maize:
+    name: "Maize"
+    scientific_name: "Zea mays L."
+    gr50: 8.0
+    ec_threshold: 1.7
+    slope: 12.0
+    max_potential_yield: 8000
+    source: "Akram et al., 2010; FAO Paper 29"
+    dataset_points: 40
+    ec_range_tested: [0, 12]
+
+  wheat:
+    name: "Wheat"
+    scientific_name: "Triticum aestivum L."
+    gr50: 11.5
+    ec_threshold: 6.0
+    slope: 7.1
+    max_potential_yield: 5500
+    source: "Hameed et al., 2008; Shafi et al., 2013; Khan et al., 2009; FAO Paper 29"
+    dataset_points: 53
+    ec_range_tested: [0, 15]
+
+  sorghum:
+    name: "Sorghum"
+    scientific_name: "Sorghum bicolor (L.) Moench"
+    gr50: 12.5
+    ec_threshold: 6.8
+    slope: 5.9
+    max_potential_yield: 5000
+    source: "Kausar et al., 2012; Hussain et al., 2024; FAO Paper 29"
+    dataset_points: 40
+    ec_range_tested: [0, 25.6]
+
+  barley:
+    name: "Barley"
+    scientific_name: "Hordeum vulgare L."
+    gr50: 17.0
+    ec_threshold: 8.0
+    slope: 5.0
+    max_potential_yield: 5500
+    source: "Anwar et al., 2011; Mahmood, 2011; FAO Paper 29"
+    dataset_points: 54
+    ec_range_tested: [0, 15]
+
+  quinoa:
+    name: "Quinoa"
+    scientific_name: "Chenopodium quinoa Willd."
+    gr50: 25.0
+    ec_threshold: 10.0
+    slope: 3.3
+    max_potential_yield: 3000
+    source: "Gul et al., 2026; Adolf et al. (2013)"
+    dataset_points: 18
+    ec_range_tested: [0, 50]
+    note: "Halophyte — shows growth stimulation at low EC (100-200 mM NaCl)"
+
+  # ==========================================================================
+  # ALTERNATIVE CROPS — For recommendations (not in training dataset)
+  # These are suggested when the primary crop is at high risk
+  # ==========================================================================
+
+  panicum_antidotale:
+    name: "Blue Panicgrass"
+    scientific_name: "Panicum antidotale"
+    gr50: 20.0
+    ec_threshold: 10.0
+    slope: 5.0
+    max_potential_yield: 8000      # kg/ha (fodder)
+    source: "Ashraf (2004); El Mouttaqi et al. (2023)"
+    dataset_points: 0
+    note: "Fodder crop, excellent for rangeland rehabilitation"
+
+  rhodes_grass:
+    name: "Rhodes Grass"
+    scientific_name: "Chloris gayana"
+    gr50: 31.5
+    ec_threshold: 15.0
+    slope: 3.0
+    max_potential_yield: 12000
+    source: "Kobayashi (2005)"
+    dataset_points: 0
+    note: "Livestock fodder, salt-secreting halophyte"
+
+  bermudagrass:
+    name: "Bermudagrass"
+    scientific_name: "Cynodon dactylon"
+    gr50: 27.5
+    ec_threshold: 13.0
+    slope: 3.4
+    max_potential_yield: 15000
+    source: "Marcum (1999)"
+    dataset_points: 0
+    note: "Fodder/turf grass"
+
+  seashore_paspalum:
+    name: "Seashore Paspalum"
+    scientific_name: "Paspalum vaginatum"
+    gr50: 40.0
+    ec_threshold: 20.0
+    slope: 2.5
+    max_potential_yield: 10000
+    source: "Duncan & Carrow (2000)"
+    dataset_points: 0
+    note: "Very high salt tolerance, turf/landscaping"
+
+  salicornia:
+    name: "Salicornia"
+    scientific_name: "Salicornia europaea"
+    gr50: 40.0
+    ec_threshold: 20.0
+    slope: 2.5
+    max_potential_yield: 2000
+    source: "Ventura et al. (2011); Glenn et al. (1999)"
+    dataset_points: 0
+    note: "Extreme halophyte, specialty food/biofuel"
+
+  atriplex:
+    name: "Atriplex (Saltbush)"
+    scientific_name: "Atriplex lentiformis"
+    gr50: 35.0
+    ec_threshold: 18.0
+    slope: 2.9
+    max_potential_yield: 6000
+    source: "Glenn et al. (1999)"
+    dataset_points: 0
+    note: "Fodder shrub, excellent for saline land rehabilitation"
+
+  kochia:
+    name: "Kochia"
+    scientific_name: "Kochia scoparia"
+    gr50: 30.0
+    ec_threshold: 15.0
+    slope: 3.3
+    max_potential_yield: 7000
+    source: "Kafi et al. (2010)"
+    dataset_points: 0
+    note: "Forage crop, high biomass production under saline conditions"

@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
+    "dev:backend": "cd backend && .\\.venv\\Scripts\\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000",
+    "dev:all": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts\\dev-all.ps1",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1"
   },

@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (too large for git)
+data/raw/*.csv
+data/raw/*.xlsx
+data/synthetic/*.csv
+*.h5
+*.hdf5
+
+# Trained models (can be large)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+*.secret
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Local packages (installed via pip --target)
+.packages/

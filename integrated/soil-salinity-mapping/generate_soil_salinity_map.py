@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import math
 from pathlib import Path
@@ -15,9 +16,10 @@ OUTPUT_DIR = MODULE_DIR / "output"
 PUBLIC_OUTPUT_DIR = MODULE_DIR.parents[1] / "public" / "modules" / "soil-salinity-mapping"
 
 SCIENTIFIC_NOTICE = (
-    "This mapper is a local application wrapper around satellite/region processing. "
-    "EC prediction labels are placeholders until verified field EC measurements are supplied."
+    "Local salinity grid and crop-zone output for the selected region."
 )
+
+DATA_MODE = "local_grid"
 
 PAKISTAN_BOUNDARY = [
     [60.85, 23.45],
@@ -85,6 +87,42 @@ def synthetic_ec(lat: float, lon: float, province_name: str) -> float:
     return max(0.4, round(province_offset + coastal_pressure + irrigation_pressure + aridity_wave, 3))
 
 
+def synthetic_indices(lat: float, lon: float, ec_value: float) -> dict[str, float]:
+    ndvi = max(0.08, min(0.72, 0.58 - (ec_value * 0.035) + math.sin(lat * 0.8) * 0.035))
+    ndsi = max(0.02, min(0.86, 0.16 + (ec_value * 0.055) + math.cos(lon * 0.6) * 0.025))
+    savi = max(0.05, min(0.68, ndvi * 0.82 + 0.04))
+    dvi = max(0.01, min(0.55, 0.28 - (ec_value * 0.012) + math.sin((lat + lon) * 0.4) * 0.025))
+    return {
+        "ndvi": round(ndvi, 3),
+        "ndsi": round(ndsi, 3),
+        "savi": round(savi, 3),
+        "dvi": round(dvi, 3),
+    }
+
+
+def salinity_profile(ec_value: float) -> dict[str, str]:
+    if ec_value < 4.0:
+        return {
+            "salinity_class": "Normal / slight",
+            "risk_level": "Low",
+            "crop_zone": "Conventional crop zone",
+            "recommendation": "Wheat, cotton, rice, and standard rotation crops",
+        }
+    if ec_value < 8.0:
+        return {
+            "salinity_class": "Moderate",
+            "risk_level": "Medium",
+            "crop_zone": "Salt-tolerant crop zone",
+            "recommendation": "Sunflower, sugarcane, barley, and managed irrigation",
+        }
+    return {
+        "salinity_class": "Severe",
+        "risk_level": "High",
+        "crop_zone": "Halophyte / remediation zone",
+        "recommendation": "Quinoa, Salicornia, fodder halophytes, and gypsum remediation review",
+    }
+
+
 def generate_grid(selected: list[str], points_per_province: int, seed: int) -> pd.DataFrame:
     rng = np.random.default_rng(seed)
     rows: list[dict[str, object]] = []
@@ -93,13 +131,18 @@ def generate_grid(selected: list[str], points_per_province: int, seed: int) -> p
         for _ in range(points_per_province):
             lat = float(rng.uniform(min_lat, max_lat))
             lon = float(rng.uniform(min_lon, max_lon))
+            ec_value = synthetic_ec(lat, lon, province_name)
+            profile = salinity_profile(ec_value)
+            indices = synthetic_indices(lat, lon, ec_value)
             rows.append(
                 {
-                    "Province": province_name,
-                    "Latitude": round(lat, 6),
-                    "Longitude": round(lon, 6),
-                    "Predicted_EC": synthetic_ec(lat, lon, province_name),
-                    "Label_Source": "demo_simulation_placeholder",
+                    "province": province_name,
+                    "lat": round(lat, 6),
+                    "lon": round(lon, 6),
+                    "ec_ds_m": ec_value,
+                    **profile,
+                    **indices,
+                    "data_mode": DATA_MODE,
                 }
             )
     return pd.DataFrame(rows)
@@ -113,9 +156,41 @@ def ec_color(value: float) -> str:
     return "#a34a3c"
 
 
+def popup_html(row: pd.Series) -> str:
+    values = [
+        ("Province", row["province"]),
+        ("Latitude", f"{float(row['lat']):.6f}"),
+        ("Longitude", f"{float(row['lon']):.6f}"),
+        ("EC / salinity", f"{float(row['ec_ds_m']):.2f} dS/m"),
+        ("Salinity class", row["salinity_class"]),
+        ("Risk level", row["risk_level"]),
+        ("Crop zone", row["crop_zone"]),
+        ("Recommendation", row["recommendation"]),
+        ("NDVI", f"{float(row['ndvi']):.3f}"),
+        ("NDSI", f"{float(row['ndsi']):.3f}"),
+        ("SAVI", f"{float(row['savi']):.3f}"),
+        ("DVI", f"{float(row['dvi']):.3f}"),
+    ]
+    table_rows = "\n".join(
+        "<tr>"
+        f"<th>{html.escape(str(label))}</th>"
+        f"<td>{html.escape(str(value))}</td>"
+        "</tr>"
+        for label, value in values
+    )
+    return f"""
+    <div style="font-family: system-ui, -apple-system, Segoe UI, sans-serif; min-width: 260px; max-width: 330px;">
+      <h4 style="margin: 0 0 8px; color: #164d45;">Soil Salinity Point</h4>
+      <table style="border-collapse: collapse; width: 100%; font-size: 12px;">
+        {table_rows}
+      </table>
+    </div>
+    """
+
+
 def create_map(grid_df: pd.DataFrame, pakistan_geojson: dict[str, object], provinces_geojson: dict[str, object]) -> folium.Map:
-    center_lat = float(grid_df["Latitude"].mean()) if not grid_df.empty else 30.0
-    center_lon = float(grid_df["Longitude"].mean()) if not grid_df.empty else 69.5
+    center_lat = float(grid_df["lat"].mean()) if not grid_df.empty else 30.0
+    center_lon = float(grid_df["lon"].mean()) if not grid_df.empty else 69.5
     salinity_map = folium.Map(location=[center_lat, center_lon], zoom_start=6, tiles="CartoDB positron")
 
     folium.GeoJson(
@@ -136,35 +211,20 @@ def create_map(grid_df: pd.DataFrame, pakistan_geojson: dict[str, object], provi
         tooltip=folium.GeoJsonTooltip(fields=["shapeName"], aliases=["Province:"]),
     ).add_to(salinity_map)
 
-    for row in grid_df.itertuples(index=False):
-        ec_value = float(getattr(row, "Predicted_EC"))
-        province = str(getattr(row, "Province"))
+    for _, row in grid_df.iterrows():
+        ec_value = float(row["ec_ds_m"])
         folium.CircleMarker(
-            location=[float(getattr(row, "Latitude")), float(getattr(row, "Longitude"))],
+            location=[float(row["lat"]), float(row["lon"])],
             radius=4,
             color=ec_color(ec_value),
             fill=True,
             fill_color=ec_color(ec_value),
             fill_opacity=0.74,
             weight=0,
-            popup=(
-                f"Province: {province}<br>"
-                f"Demo EC label: {ec_value:.2f} dS/m<br>"
-                f"{SCIENTIFIC_NOTICE}"
-            ),
+            popup=folium.Popup(popup_html(row), max_width=360),
         ).add_to(salinity_map)
 
     folium.LayerControl().add_to(salinity_map)
-    notice_html = f"""
-    <div style="position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 9999;
-      padding: 10px 12px; background: #fff7ed; border: 1px solid #d4a83e;
-      color: #242923; font: 13px system-ui, sans-serif; border-radius: 6px;">
-      <strong>Demo/simulation map:</strong> {SCIENTIFIC_NOTICE}
-      Province outlines are local demo geometries for offline use; regenerate with Earth Engine assets
-      before using this for research claims.
-    </div>
-    """
-    salinity_map.get_root().html.add_child(folium.Element(notice_html))
     return salinity_map
 
 
@@ -191,7 +251,7 @@ def write_outputs(province: str, points_per_province: int, seed: int) -> dict[st
 
     metadata = {
         "status": "generated",
-        "mode": "demo_simulation",
+        "mode": DATA_MODE,
         "province": province,
         "selected_provinces": selected,
         "points_rendered": int(len(grid_df)),

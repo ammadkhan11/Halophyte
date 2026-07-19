@@ -14,6 +14,12 @@ from model_loader import (
 )
 from prediction_service import predict
 from schemas import PredictionRequest, PredictionResponse
+from biosaline_service import (
+    BiosalineSetupError,
+    biosaline_crops,
+    biosaline_predict,
+    biosaline_status,
+)
 from soil_salinity_service import generate_soil_salinity_map, soil_salinity_status
 
 
@@ -120,3 +126,30 @@ def soil_salinity_mapper_generate_map(request: dict[str, object] | None = None) 
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Soil salinity map generation failed: {exc}") from exc
+
+
+@app.get("/biosaline-crop-screening/status")
+def biosaline_crop_screening_status() -> dict[str, object]:
+    return biosaline_status()
+
+
+@app.get("/biosaline-crop-screening/crops")
+def biosaline_crop_screening_crops() -> dict[str, object]:
+    try:
+        return biosaline_crops()
+    except BiosalineSetupError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Crop salinity crop metadata failed: {exc}") from exc
+
+
+@app.post("/biosaline-crop-screening/predict")
+def biosaline_crop_screening_predict(request: dict[str, object]) -> dict[str, object]:
+    try:
+        return biosaline_predict(request)
+    except BiosalineSetupError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Crop salinity screening failed: {exc}") from exc

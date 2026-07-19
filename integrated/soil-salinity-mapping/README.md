@@ -31,6 +31,13 @@ python -m ee.cli.eecli authenticate
 $env:EARTHENGINE_PROJECT='your-google-cloud-project-id'
 ```
 
+You can also copy `.env.example` to `.env` in this folder, or set the same
+variable in the project-root `.env`:
+
+```text
+EARTHENGINE_PROJECT=your-google-cloud-project-id
+```
+
 Generate local outputs directly:
 
 ```powershell

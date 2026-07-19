@@ -1,0 +1,72 @@
+# ============================================================================
+# ML MODEL & PREDICTION PARAMETERS
+# ============================================================================
+# Configuration for the ML surrogate model training and prediction engine.
+# ============================================================================
+
+# Training data source
+training_data:
+  source_file: "data/raw/AuthenticHalophyteData.xlsx"
+  sheet_name: "SalinityYieldData"
+  total_points: 241
+  source_papers: 11
+  
+  # Features used for ML model
+  features:
+    - ec_soil_dS_m          # Soil salinity (primary predictor)
+    - species_encoded       # Crop species (one-hot or label encoded)
+    - temperature_C         # Growing temperature
+  
+  # Target variable
+  target: "relative_yield_pct"
+
+# ML Surrogate model configuration
+surrogate_model:
+  algorithm: "gradient_boosting"
+  test_split: 0.2
+  random_state: 42
+  
+  # Gradient Boosting hyperparameters
+  gradient_boosting:
+    n_estimators: 200
+    max_depth: 5
+    learning_rate: 0.1
+    min_samples_leaf: 5
+  
+  # Random Forest (alternative)
+  random_forest:
+    n_estimators: 150
+    max_depth: 8
+    min_samples_leaf: 3
+
+# Valid input ranges (warn user if outside these)
+valid_ranges:
+  salinity_ec: [0.0, 50.0]       # dS/m
+  temperature: [15.0, 45.0]      # °C
+  rainfall: [50.0, 800.0]        # mm/season
+
+# Performance targets
+targets:
+  min_r_squared: 0.85             # Real data is noisy — realistic target
+  max_prediction_time_ms: 100
+
+# Risk level thresholds (relative to crop tolerance)
+risk_levels:
+  low: "EC < crop ec_threshold"
+  medium: "EC between ec_threshold and GR50"
+  high: "EC > crop GR50"
+
+# Irrigation recommendation rules
+irrigation_rules:
+  minimal_supplemental:
+    condition: "rainfall > 400 AND ec < 5"
+    description: "Minimal supplemental irrigation"
+  weekly:
+    condition: "rainfall 200-400 OR ec 5-10"
+    description: "Weekly irrigation"
+  twice_weekly:
+    condition: "rainfall < 200 OR ec 10-20"
+    description: "Twice weekly irrigation"
+  daily_drip:
+    condition: "ec > 20"
+    description: "Daily drip irrigation with leaching fraction"

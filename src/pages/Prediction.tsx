@@ -173,7 +173,8 @@ export default function Prediction() {
           <p className="eyebrow">Phase 2 Model</p>
           <h1>Salt Tolerance Prediction</h1>
           <p className="page-subtitle">
-            Estimate missing GR50 and ion concentration values using regression-based patterns from the cleaned 30-grass dataset.
+            Estimate GR50 and ion concentration fields from the curated halophyte grass dataset using the existing
+            regression workflow.
           </p>
         </div>
       </header>
@@ -183,7 +184,7 @@ export default function Prediction() {
           <div className="section-heading">
             <div>
               <p className="eyebrow">Prediction Input</p>
-              <h2>Choose Context and Known Value</h2>
+              <h2>Scenario Inputs</h2>
             </div>
             <Activity aria-hidden="true" size={22} />
           </div>
@@ -212,8 +213,8 @@ export default function Prediction() {
           </div>
           <p className="mode-helper-text">
             {mode === 'grass_based'
-              ? 'Uses the selected grass species profile to complete the remaining values.'
-              : 'Uses similar grasses from the selected mechanism group to estimate missing values.'}
+              ? 'Complete values from a selected species profile.'
+              : 'Estimate values from records in the selected mechanism group.'}
           </p>
 
           {loadingMetadata ? (
@@ -297,17 +298,11 @@ export default function Prediction() {
           <div className="section-heading">
             <div>
               <p className="eyebrow">Model Note</p>
-              <h2>Estimated Prediction</h2>
+              <h2>Model Scope</h2>
             </div>
           </div>
-          <p>
-            This prediction is an estimated value based on limited dataset patterns. It should be used for academic learning
-            and comparison, not as a final biological measurement.
-          </p>
-          <p>
-            Grass-based mode completes the selected species profile from the dataset. Mechanism-based mode estimates from
-            similar grasses in the selected mechanism group.
-          </p>
+          <p>Grass-based mode uses the selected species record as context.</p>
+          <p>Mechanism-based mode estimates from similar records within the chosen mechanism group.</p>
         </section>
       </section>
 
@@ -323,7 +318,7 @@ export default function Prediction() {
 
           {result.mode === 'grass_based' ? (
             <div className="prediction-context-note">
-              Uses the selected grass as the base profile, then adjusts remaining values using learned regression patterns.
+              Selected species profile used as the base context for the calculated fields.
             </div>
           ) : null}
 
@@ -346,8 +341,8 @@ export default function Prediction() {
               </dl>
               <p>
                 {Math.abs(result.known_value_comparison.difference) <= 0.000001
-                  ? 'Entered value matches the stored dataset value, so predictions remain close to the selected species profile.'
-                  : 'Entered value differs from the stored dataset value, so remaining values are regression-adjusted from the selected species profile.'}
+                  ? 'Entered value matches the stored dataset value.'
+                  : 'Entered value differs from the stored dataset value; remaining fields are adjusted from the selected profile.'}
               </p>
             </div>
           ) : null}

@@ -9,7 +9,9 @@ export interface SoilSalinityAsset {
 export interface EarthEngineStatus {
   python_api_installed: boolean;
   authenticated: boolean;
+  configured: boolean;
   project: string;
+  python_executable: string;
   message: string;
 }
 
@@ -20,7 +22,9 @@ export interface SoilSalinityStatus {
   required_assets: SoilSalinityAsset[];
   assets_ready: boolean;
   map_ready: boolean;
-  generation_state: 'not_generated_yet' | 'assets_generated' | 'map_generated';
+  generation_state: 'not_generated_yet' | 'assets_generated' | 'demo_map_generated' | 'earth_engine_map_generated';
+  data_mode: 'local_grid' | 'earth_engine';
+  map_label: string;
   can_generate_demo: boolean;
   map_url: string | null;
   local_app_path: string;
@@ -29,18 +33,18 @@ export interface SoilSalinityStatus {
   python_executable: string;
   notebook_path: string;
   public_notebook_path: string;
-  setup_commands: string[];
 }
 
 export interface SoilSalinityMapResult {
   status: string;
-  mode: string;
+  mode: 'local_grid' | 'earth_engine';
   province: string;
   selected_provinces: string[];
   points_rendered: number;
   total_points: number;
   map_url: string;
-  generation_state: string;
+  generation_state: 'demo_map_generated' | 'earth_engine_map_generated';
+  map_label: string;
   output_dir: string;
   python_executable: string;
   scientific_notice: string;

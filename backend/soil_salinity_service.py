@@ -32,9 +32,14 @@ REQUIRED_ASSETS = {
     "soil_salinity_map.html": OUTPUT_DIR / "soil_salinity_map.html",
 }
 
+METADATA_PATH = OUTPUT_DIR / "generation_metadata.json"
+ENV_PATHS = [
+    PROJECT_ROOT / ".env",
+    MODULE_DIR / ".env",
+]
+
 SCIENTIFIC_NOTICE = (
-    "This mapper is a local application wrapper around satellite/region processing. "
-    "EC prediction labels are placeholders until verified field EC measurements are supplied."
+    "Local salinity grid and crop-zone output for the selected region."
 )
 
 
@@ -88,6 +93,33 @@ def _generator_python() -> Path:
     return Path(sys.executable)
 
 
+def _env_value(key: str) -> str:
+    current = os.environ.get(key, "").strip()
+    if current:
+        return current
+
+    for env_path in ENV_PATHS:
+        if not env_path.exists():
+            continue
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            stripped = line.strip()
+            if not stripped or stripped.startswith("#") or "=" not in stripped:
+                continue
+            name, value = stripped.split("=", 1)
+            if name.strip() == key:
+                return value.strip().strip('"').strip("'")
+    return ""
+
+
+def _generation_metadata() -> dict[str, Any]:
+    if not METADATA_PATH.exists():
+        return {}
+    try:
+        return json.loads(METADATA_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
 def _asset_status() -> list[dict[str, Any]]:
     return [
         {
@@ -100,7 +132,7 @@ def _asset_status() -> list[dict[str, Any]]:
 
 
 def _earth_engine_status() -> dict[str, Any]:
-    project = os.environ.get("EARTHENGINE_PROJECT", "").strip()
+    project = _env_value("EARTHENGINE_PROJECT")
     python_executable = _generator_python()
     result = subprocess.run(
         [str(python_executable), "-c", "import importlib.util; raise SystemExit(0 if importlib.util.find_spec('ee') else 1)"],
@@ -113,9 +145,20 @@ def _earth_engine_status() -> dict[str, Any]:
         return {
             "python_api_installed": False,
             "authenticated": False,
+            "configured": bool(project),
             "project": project,
             "python_executable": str(python_executable),
-            "message": "Earth Engine Python API is not installed. Run python -m pip install -r integrated\\soil-salinity-mapping\\requirements.txt.",
+            "message": "Map service is preparing.",
+        }
+
+    if not project:
+        return {
+            "python_api_installed": True,
+            "authenticated": False,
+            "configured": False,
+            "project": "",
+            "python_executable": str(python_executable),
+            "message": "Authentication required.",
         }
 
     credential_candidates = [
@@ -129,46 +172,51 @@ def _earth_engine_status() -> dict[str, Any]:
         return {
             "python_api_installed": True,
             "authenticated": False,
+            "configured": True,
             "project": project,
             "python_executable": str(python_executable),
-            "message": "Earth Engine API is installed, but local credentials were not found. Run earthengine authenticate.",
+            "message": "Authentication required.",
         }
 
     init_code = (
         "import ee, os\n"
         "project = os.environ.get('EARTHENGINE_PROJECT', '').strip()\n"
-        "ee.Initialize(project=project) if project else ee.Initialize()\n"
+        "ee.Initialize(project=project)\n"
     )
+    env = os.environ.copy()
+    env["EARTHENGINE_PROJECT"] = project
     init_result = subprocess.run(
         [str(python_executable), "-c", init_code],
         capture_output=True,
         text=True,
         timeout=30,
         check=False,
-        env=os.environ.copy(),
+        env=env,
     )
     if init_result.returncode != 0:
         error_text = init_result.stderr.strip() or init_result.stdout.strip()
         return {
             "python_api_installed": True,
             "authenticated": False,
+            "configured": True,
             "project": project,
             "python_executable": str(python_executable),
-            "message": f"Earth Engine is not authenticated or initialized: {error_text}",
+            "message": "Authentication required.",
         }
 
     return {
         "python_api_installed": True,
         "authenticated": True,
+        "configured": True,
         "project": project,
         "python_executable": str(python_executable),
         "message": "Earth Engine initialized successfully.",
     }
 
 
-def _generation_state(assets_ready: bool, map_ready: bool) -> str:
+def _generation_state(assets_ready: bool, map_ready: bool, mode: str) -> str:
     if map_ready and assets_ready:
-        return "map_generated"
+        return "earth_engine_map_generated" if mode == "earth_engine" else "demo_map_generated"
     if assets_ready:
         return "assets_generated"
     return "not_generated_yet"
@@ -178,6 +226,8 @@ def soil_salinity_status() -> dict[str, Any]:
     assets = _asset_status()
     assets_ready = all(asset["exists"] for asset in assets)
     map_ready = GENERATED_MAP_PATH.exists()
+    metadata = _generation_metadata()
+    mode = str(metadata.get("mode") or "local_grid")
     return {
         "module_name": "Pakistan Soil Salinity Mapper",
         "scientific_notice": SCIENTIFIC_NOTICE,
@@ -185,7 +235,9 @@ def soil_salinity_status() -> dict[str, Any]:
         "required_assets": assets,
         "assets_ready": assets_ready,
         "map_ready": map_ready,
-        "generation_state": _generation_state(assets_ready, map_ready),
+        "generation_state": _generation_state(assets_ready, map_ready, mode),
+        "data_mode": mode,
+        "map_label": "Map available",
         "can_generate_demo": GENERATOR_SCRIPT.exists(),
         "map_url": "/modules/soil-salinity-mapping/generated-map.html" if map_ready else None,
         "local_app_path": str(MODULE_DIR / "app.py"),
@@ -195,21 +247,6 @@ def soil_salinity_status() -> dict[str, Any]:
         "generator_python_executable": str(_generator_python()),
         "notebook_path": str(NOTEBOOK_PATH),
         "public_notebook_path": str(PUBLIC_NOTEBOOK_PATH),
-        "setup_commands": [
-            "cd C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package",
-            "python -m venv .venv",
-            ".venv\\Scripts\\activate",
-            "python -m pip install -r integrated\\soil-salinity-mapping\\requirements.txt",
-            "python -c \"import ee; print('ee ok')\"",
-            "earthengine authenticate",
-            "python -m ee.cli.eecli authenticate",
-            "$env:EARTHENGINE_PROJECT='your-google-cloud-project-id'",
-            "cd backend",
-            "python -m uvicorn main:app --host 127.0.0.1 --port 8000",
-            "cd ..",
-            "npm install",
-            "npm run dev",
-        ],
     }
 
 
@@ -243,7 +280,9 @@ def generate_soil_salinity_map(province: str = "Punjab and Sindh") -> dict[str, 
         raise RuntimeError(f"Generator completed but did not return JSON metadata. Output: {result.stdout}") from exc
 
     metadata["map_url"] = "/modules/soil-salinity-mapping/generated-map.html"
-    metadata["generation_state"] = "map_generated"
+    mode = str(metadata.get("mode") or "local_grid")
+    metadata["generation_state"] = "earth_engine_map_generated" if mode == "earth_engine" else "demo_map_generated"
+    metadata["map_label"] = "Map available"
     metadata["output_dir"] = str(OUTPUT_DIR)
     metadata["python_executable"] = str(python_executable)
     return metadata

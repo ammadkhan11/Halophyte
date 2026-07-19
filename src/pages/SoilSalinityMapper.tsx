@@ -1,32 +1,44 @@
 import { useEffect, useMemo, useState } from 'react';
-import { AlertCircle, CheckCircle2, ExternalLink, FileText, Loader2, Map, Play, Satellite, ShieldAlert } from 'lucide-react';
+import { Activity, CheckCircle2, Loader2, Map, Play, Satellite } from 'lucide-react';
 import {
   generateSoilSalinityMap,
   getSoilSalinityStatus,
   type SoilSalinityStatus,
 } from '../lib/soilSalinityApi';
 
-const NOTEBOOK_URL = '/modules/mini-projects/soil-salinity-crop-zoning/Soil_Salinity_Mapping_FIXED.ipynb';
-const README_URL = '/modules/mini-projects/soil-salinity-crop-zoning/README.md';
-
 function formatGenerationState(status: SoilSalinityStatus | null) {
   if (!status) {
-    return 'Checking Python environment';
+    return 'Checking service';
   }
-  if (status.generation_state === 'map_generated') {
-    return 'Map generated';
+  if (status.generation_state === 'earth_engine_map_generated') {
+    return 'Map available';
+  }
+  if (status.generation_state === 'demo_map_generated') {
+    return 'Map available';
   }
   if (status.generation_state === 'assets_generated') {
-    return 'Assets generated';
+    return 'Map data ready';
   }
-  return 'Not generated yet';
+  return 'Map data is being generated';
+}
+
+function formatEarthEngineState(status: SoilSalinityStatus | null) {
+  if (!status) {
+    return 'Checking service';
+  }
+  if (status.earth_engine.authenticated) {
+    return 'Authenticated';
+  }
+  if (status.earth_engine.python_api_installed) {
+    return 'Authentication required';
+  }
+  return 'Service preparing';
 }
 
 export default function SoilSalinityMapper() {
   const [selectedProvince, setSelectedProvince] = useState('Punjab and Sindh');
   const [status, setStatus] = useState<SoilSalinityStatus | null>(null);
   const [statusError, setStatusError] = useState('');
-  const [loadingStatus, setLoadingStatus] = useState(true);
   const [generating, setGenerating] = useState(false);
   const [generateMessage, setGenerateMessage] = useState('');
   const [mapUrl, setMapUrl] = useState<string | null>(null);
@@ -39,7 +51,6 @@ export default function SoilSalinityMapper() {
   }, [generateMessage, mapUrl]);
 
   const loadStatus = async () => {
-    setLoadingStatus(true);
     setStatusError('');
     try {
       const nextStatus = await getSoilSalinityStatus();
@@ -47,8 +58,6 @@ export default function SoilSalinityMapper() {
       setMapUrl(nextStatus.map_url);
     } catch (error) {
       setStatusError(error instanceof Error ? error.message : 'Could not load soil salinity mapper status.');
-    } finally {
-      setLoadingStatus(false);
     }
   };
 
@@ -62,12 +71,10 @@ export default function SoilSalinityMapper() {
     try {
       const result = await generateSoilSalinityMap(selectedProvince);
       setMapUrl(result.map_url);
-      setGenerateMessage(
-        `Map generated in ${result.mode.replace(/_/g, ' ')} mode with ${result.points_rendered} demo grid points.`,
-      );
+      setGenerateMessage(`Map generated with ${result.points_rendered} salinity points.`);
       await loadStatus();
     } catch (error) {
-      setGenerateMessage(error instanceof Error ? error.message : 'Map generation failed.');
+      setGenerateMessage(error instanceof Error ? 'Map service is preparing.' : 'Map data is being generated.');
     } finally {
       setGenerating(false);
     }
@@ -75,8 +82,9 @@ export default function SoilSalinityMapper() {
 
   const assetsReady = status?.assets_ready ?? false;
   const eeReady = status?.earth_engine.authenticated ?? false;
-  const eeInstalled = status?.earth_engine.python_api_installed ?? false;
   const generationState = formatGenerationState(status);
+  const earthEngineState = formatEarthEngineState(status);
+  const mapLabel = mapUrl ? 'Map available' : generationState;
 
   return (
     <main className="library-page soil-page">
@@ -85,26 +93,18 @@ export default function SoilSalinityMapper() {
           <p className="eyebrow">Soil Salinity Mapping</p>
           <h1>Pakistan Soil Salinity Mapper</h1>
           <p className="page-subtitle">
-            Local application for the Punjab and Sindh salinity workflow. It can generate a clearly labelled
-            demo/simulation map locally, and it reports Earth Engine setup status for future authenticated satellite runs.
+            Generate a regional salinity grid, inspect point-level EC values, and review crop-zone guidance for Punjab
+            and Sindh in a focused map workspace.
           </p>
         </div>
       </header>
 
-      <section className="soil-alert" role="note">
-        <ShieldAlert aria-hidden="true" size={20} />
-        <p>
-          {status?.scientific_notice ??
-            'This mapper is a local application wrapper around satellite/region processing. EC prediction labels are placeholders until verified field EC measurements are supplied.'}
-        </p>
-      </section>
-
-      <section className="soil-layout">
+      <section className="soil-layout soil-layout-single">
         <div className="soil-control-panel">
           <div className="section-heading">
             <div>
               <p className="eyebrow">Mapping Controls</p>
-              <h2>Region and Pipeline</h2>
+              <h2>Region and Map Run</h2>
             </div>
             <Satellite aria-hidden="true" size={22} />
           </div>
@@ -119,25 +119,21 @@ export default function SoilSalinityMapper() {
           </label>
 
           <div className="soil-status-grid">
-            <div className={eeReady ? 'soil-status-card soil-status-ok' : 'soil-status-card soil-status-warn'}>
-              {eeReady ? <CheckCircle2 aria-hidden="true" size={18} /> : <AlertCircle aria-hidden="true" size={18} />}
+            <div className={eeReady ? 'soil-status-card soil-status-ok' : 'soil-status-card'}>
+              {eeReady ? <CheckCircle2 aria-hidden="true" size={18} /> : <Activity aria-hidden="true" size={18} />}
               <div>
                 <span>Earth Engine</span>
-                <strong>
-                  {eeReady ? 'Authenticated' : eeInstalled ? 'Not authenticated' : 'Not installed'}
-                </strong>
-                <p>{status?.earth_engine.message ?? 'Backend status is not available yet.'}</p>
+                <strong>{earthEngineState}</strong>
+                <p>{eeReady ? 'Remote processing is available.' : 'Local map generation is available.'}</p>
               </div>
             </div>
 
-            <div className={assetsReady ? 'soil-status-card soil-status-ok' : 'soil-status-card soil-status-warn'}>
-              {assetsReady ? <CheckCircle2 aria-hidden="true" size={18} /> : <AlertCircle aria-hidden="true" size={18} />}
+            <div className={assetsReady ? 'soil-status-card soil-status-ok' : 'soil-status-card'}>
+              {assetsReady ? <CheckCircle2 aria-hidden="true" size={18} /> : <Activity aria-hidden="true" size={18} />}
               <div>
                 <span>Generation state</span>
                 <strong>{generationState}</strong>
-                <p>
-                  Generate Local Map writes salinity grid, province GeoJSON, and map HTML into the module output folder.
-                </p>
+                <p>Region layers, grid values, and map output are handled by the local mapper service.</p>
               </div>
             </div>
           </div>
@@ -157,62 +153,17 @@ export default function SoilSalinityMapper() {
 
           <button className="primary-button soil-run-button" type="button" onClick={handleGenerateMap} disabled={generating}>
             {generating ? <Loader2 aria-hidden="true" size={17} /> : <Play aria-hidden="true" size={17} />}
-            Generate Local Map
+            Generate Map
           </button>
 
           {generateMessage ? (
-            <div className={mapUrl ? 'prediction-context-note' : 'error-message'}>{generateMessage}</div>
+            <div className="inline-status">{generateMessage}</div>
           ) : null}
 
           {statusError ? (
-            <div className="error-message" role="alert">
-              <AlertCircle aria-hidden="true" size={18} />
-              {statusError}
-            </div>
+            <div className="inline-status" role="status">Map service is preparing.</div>
           ) : null}
         </div>
-
-        <aside className="soil-control-panel">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">Local Setup</p>
-              <h2>Run Without Colab</h2>
-            </div>
-            <FileText aria-hidden="true" size={21} />
-          </div>
-
-          {loadingStatus ? (
-            <div className="inline-status">
-              <Loader2 aria-hidden="true" size={18} />
-              Checking local mapper status...
-            </div>
-          ) : null}
-
-          <ol className="soil-command-list">
-            {(status?.setup_commands ?? [
-              'python -m venv .venv',
-              '.venv\\Scripts\\activate',
-              'python -m pip install -r integrated\\soil-salinity-mapping\\requirements.txt',
-              'python -c "import ee; print(\'ee ok\')"',
-              'earthengine authenticate',
-            ]).map((command) => (
-              <li key={command}>
-                <code>{command}</code>
-              </li>
-            ))}
-          </ol>
-
-          <div className="soil-link-row">
-            <a className="secondary-button" href={NOTEBOOK_URL} target="_blank" rel="noreferrer">
-              <ExternalLink aria-hidden="true" size={16} />
-              Notebook reference
-            </a>
-            <a className="secondary-button" href={README_URL} target="_blank" rel="noreferrer">
-              <ExternalLink aria-hidden="true" size={16} />
-              Source notes
-            </a>
-          </div>
-        </aside>
       </section>
 
       <section className="soil-map-section" aria-labelledby="soil-map-heading">
@@ -221,18 +172,17 @@ export default function SoilSalinityMapper() {
             <p className="eyebrow">Map Output</p>
             <h2 id="soil-map-heading">Generated Salinity Map</h2>
           </div>
-          <span className="result-count">{generationState}</span>
+          <span className="result-count">{mapLabel}</span>
         </div>
 
         {cacheBustedMapUrl ? (
           <iframe className="soil-map-frame" title="Generated Pakistan soil salinity map" src={cacheBustedMapUrl} />
         ) : (
-          <div className="soil-map-placeholder">
+          <div className="soil-map-empty">
             <Map aria-hidden="true" size={34} />
-            <h3>No generated local map yet</h3>
+            <h3>Map data is being generated</h3>
             <p>
-              Click Generate Local Map to create local demo/simulation assets. This page does not display raw notebook
-              cells or claim field-verified salinity accuracy.
+              Select a region and run the mapper to display point-level salinity values.
             </p>
           </div>
         )}

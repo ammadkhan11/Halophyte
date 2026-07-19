@@ -17,19 +17,19 @@ export default function GrassStats({ records }: GrassStatsProps) {
     {
       label: 'Total grasses',
       value: records.length,
-      detail: 'dictionary records',
+      detail: 'curated records',
       icon: Leaf,
     },
     {
       label: 'Salt-Secreting grasses',
       value: saltSecretingCount,
-      detail: 'with secretion marker',
+      detail: 'secretion mechanism',
       icon: BarChart3,
     },
     {
       label: 'Non-Secreting grasses',
       value: nonSecretingCount,
-      detail: 'without secretion marker',
+      detail: 'retention strategy',
       icon: BarChart3,
     },
     {
