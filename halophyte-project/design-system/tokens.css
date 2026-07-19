@@ -1,0 +1,69 @@
+/* ── DESIGN TOKENS ─────────────────────────────────────────────
+   Pull this file in on its own if you just want the palette,
+   type, and spacing scale for a new project — components.css
+   depends on these variable names.
+   ──────────────────────────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root{
+  /* ground / surface */
+  --salt:#eef0ea;        /* page background — pale mineral, not warm cream */
+  --salt-deep:#e2e5db;    /* recessed surfaces, inactive tag bg */
+  --card:#f7f8f3;         /* card / panel surface, sits above --salt */
+  --line:#c9cebd;         /* borders, hairlines, dividers */
+
+  /* ink */
+  --ink:#242923;          /* primary text, near-black with a green cast */
+  --ink-soft:#5b6259;     /* secondary text, meta, captions */
+
+  /* accents — each has a job, not decoration */
+  --brack:#3f6b63;        /* brackish teal — primary interactive accent */
+  --brack-deep:#264c46;   /* teal, active/pressed state, links */
+  --clay:#b9793e;         /* clay/terracotta — secondary accent (uses, tags) */
+  --clay-deep:#8f5a2b;    /* clay, pressed state */
+  --mustard:#d4a83e;      /* single-use highlight — sparingly, for markers/pins */
+  --danger:#a34a3c;       /* warnings, flags (e.g. invasive species) */
+
+  --radius:3px;           /* base corner radius — deliberately small/sharp, not rounded */
+}
+
+/* ── TYPE ROLES ──────────────────────────────────────────────── */
+/* Display: Fraunces — a characterful serif with real optical-size
+   range, used for headings and scientific/proper names. Its
+   italic is soft and slightly organic — reads like a field-guide
+   or herbarium label rather than a tech product. Use sparingly:
+   headings and one emphasis word, not body copy. */
+
+/* Body: IBM Plex Sans — a neutral, highly legible grotesque for
+   all UI copy, labels, descriptions. */
+
+/* Utility/data: IBM Plex Mono — every number, measurement, count,
+   or coordinate uses this. Encodes "this is measured data" at a
+   glance, distinct from the narrative type. */
+
+body, .base-body{
+  font-family:'IBM Plex Sans', sans-serif;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.type-display{
+  font-family:'Fraunces', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.type-display em{
+  font-style: italic;
+  color: var(--brack-deep);
+  font-weight: 500;
+}
+.type-data{
+  font-family:'IBM Plex Mono', monospace;
+}
+.type-caption{
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--ink-soft);
+  font-weight: 600;
+}

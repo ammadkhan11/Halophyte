@@ -1,13 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Activity, AlertCircle, BarChart3, ExternalLink, FileSearch, Loader2, Sprout } from 'lucide-react';
-import { getEvidence, type EvidenceEdge } from '../lib/researchApi';
+import { Activity, AlertCircle, Loader2, Sprout } from 'lucide-react';
 import {
   getGrassOptions,
-  getModelMetrics,
   getPredictionMetadata,
   predictValues,
   type GrassOption,
-  type ModelMetricsResponse,
   type PredictionMode,
   type PredictionResponse,
 } from '../lib/predictionApi';
@@ -73,11 +70,7 @@ export default function Prediction() {
   const [grassOptions, setGrassOptions] = useState<GrassOption[]>([]);
   const [numericFields, setNumericFields] = useState(DEFAULT_FIELDS);
   const [mechanismOptions, setMechanismOptions] = useState(DEFAULT_MECHANISMS);
-  const [metrics, setMetrics] = useState<ModelMetricsResponse | null>(null);
   const [result, setResult] = useState<PredictionResponse | null>(null);
-  const [relatedEvidence, setRelatedEvidence] = useState<EvidenceEdge[]>([]);
-  const [evidenceLoading, setEvidenceLoading] = useState(false);
-  const [evidenceError, setEvidenceError] = useState('');
   const [loadingMetadata, setLoadingMetadata] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
@@ -89,10 +82,9 @@ export default function Prediction() {
       setLoadingMetadata(true);
       setError('');
       try {
-        const [metadata, grasses, modelMetrics] = await Promise.all([
+        const [metadata, grasses] = await Promise.all([
           getPredictionMetadata(),
           getGrassOptions(),
-          getModelMetrics(),
         ]);
 
         if (!isActive) {
@@ -102,7 +94,6 @@ export default function Prediction() {
         setGrassOptions(grasses.length > 0 ? grasses : metadata.available_species);
         setNumericFields(metadata.numeric_fields.length > 0 ? metadata.numeric_fields : DEFAULT_FIELDS);
         setMechanismOptions(metadata.mechanism_options.length > 0 ? metadata.mechanism_options : DEFAULT_MECHANISMS);
-        setMetrics(modelMetrics);
       } catch (loadError) {
         if (!isActive) {
           return;
@@ -126,47 +117,6 @@ export default function Prediction() {
     () => grassOptions.find((grass) => grass.species === species),
     [grassOptions, species],
   );
-
-  const overallBestModel = metrics?.metrics_summary?.overall_model_ranking?.[0];
-
-  useEffect(() => {
-    let isActive = true;
-
-    async function loadRelatedEvidence() {
-      if (!result) {
-        setRelatedEvidence([]);
-        return;
-      }
-
-      setEvidenceLoading(true);
-      setEvidenceError('');
-      try {
-        const evidence = await getEvidence({
-          species: result.species ?? '',
-          mechanism: result.mechanism ?? '',
-          status: 'All',
-        });
-        if (isActive) {
-          setRelatedEvidence(evidence);
-        }
-      } catch (loadError) {
-        if (isActive) {
-          setEvidenceError(loadError instanceof Error ? loadError.message : 'Related literature evidence could not be loaded.');
-          setRelatedEvidence([]);
-        }
-      } finally {
-        if (isActive) {
-          setEvidenceLoading(false);
-        }
-      }
-    }
-
-    loadRelatedEvidence();
-
-    return () => {
-      isActive = false;
-    };
-  }, [result]);
 
   const validateForm = () => {
     if (mode === 'grass_based' && !species) {
@@ -409,62 +359,6 @@ export default function Prediction() {
             <PredictionGroup title="K+" fields={['k_shoot', 'k_root']} predictions={result.predictions} />
           </div>
 
-          <section className="related-evidence-section">
-            <div className="section-heading">
-              <div>
-                <p className="eyebrow">Literature evidence</p>
-                <h2>Related research evidence</h2>
-              </div>
-              <FileSearch aria-hidden="true" size={21} />
-            </div>
-            <p className="mode-helper-text">
-              These graph records are literature evidence or project-data backbone records. They are separate from the model output above and do not turn predicted values into published facts.
-            </p>
-            {evidenceLoading ? (
-              <div className="inline-status">
-                <Loader2 aria-hidden="true" size={18} />
-                Loading related research evidence...
-              </div>
-            ) : null}
-            {evidenceError ? (
-              <div className="error-message" role="alert">
-                <AlertCircle aria-hidden="true" size={18} />
-                {evidenceError}
-              </div>
-            ) : null}
-            {!evidenceLoading && relatedEvidence.length > 0 ? (
-              <div className="related-evidence-grid">
-                {relatedEvidence.slice(0, 6).map((edge) => (
-                  <article className="related-evidence-card" key={edge.id}>
-                    <div>
-                      <span className={`review-badge review-badge-${edge.review_status.replace(/_/g, '-')}`}>
-                        {edge.review_status.replace(/_/g, ' ')}
-                      </span>
-                      <h3>{edge.relation_type.replace(/_/g, ' ')}</h3>
-                      <p>{edge.source_name} -&gt; {edge.target_name}</p>
-                    </div>
-                    <blockquote>{edge.evidence_quote}</blockquote>
-                    <div className="evidence-source">
-                      <span>{edge.paper_title ?? 'Source record unavailable'}</span>
-                      {edge.paper_url ? (
-                        <a href={edge.paper_url} target="_blank" rel="noreferrer">
-                          <ExternalLink aria-hidden="true" size={14} />
-                          {edge.paper_external_id ?? 'Open source'}
-                        </a>
-                      ) : null}
-                    </div>
-                  </article>
-                ))}
-              </div>
-            ) : null}
-            {!evidenceLoading && !evidenceError && relatedEvidence.length === 0 ? (
-              <div className="empty-state">
-                <h3>No related evidence yet</h3>
-                <p>Seed the Phase 4 graph or import Phase 1 CSV data to add research context for this prediction.</p>
-              </div>
-            ) : null}
-          </section>
-
           {result.similar_grasses.length > 0 ? (
           <section className="similar-grasses-section">
             <div className="section-heading">
@@ -491,44 +385,6 @@ export default function Prediction() {
           <div className="prediction-context-note">{result.note}</div>
         </section>
       ) : null}
-
-      <details className="metrics-section">
-        <summary>
-          <BarChart3 aria-hidden="true" size={18} />
-          Model Evaluation Summary
-        </summary>
-        <p>
-          For regression, R2 is the closest accuracy-like score, while MAE and RMSE show prediction error.
-        </p>
-        {metrics?.message ? (
-          <div className="empty-state">
-            <p>Run the Phase 2 notebook to generate model comparison results.</p>
-          </div>
-        ) : overallBestModel ? (
-          <div className="metrics-grid">
-            <div>
-              <span>Best Overall Model</span>
-              <strong>{overallBestModel.model_name}</strong>
-            </div>
-            <div>
-              <span>MAE</span>
-              <strong>{overallBestModel.average_mae.toFixed(3)}</strong>
-            </div>
-            <div>
-              <span>RMSE</span>
-              <strong>{overallBestModel.average_rmse.toFixed(3)}</strong>
-            </div>
-            <div>
-              <span>R2 Score</span>
-              <strong>{overallBestModel.average_r2.toFixed(3)}</strong>
-            </div>
-          </div>
-        ) : (
-          <div className="empty-state">
-            <p>Run the Phase 2 notebook to generate model comparison results.</p>
-          </div>
-        )}
-      </details>
     </main>
   );
 }

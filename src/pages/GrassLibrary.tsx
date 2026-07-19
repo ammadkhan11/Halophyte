@@ -25,11 +25,7 @@ import {
   formatRange,
 } from '../utils/grassFormatters';
 
-type GrassLibraryProps = {
-  onViewResearchEvidence: (context: { species: string; mechanism: string }) => void;
-};
-
-export default function GrassLibrary({ onViewResearchEvidence }: GrassLibraryProps) {
+export default function GrassLibrary() {
   const [filters, setFilters] = useState<GrassSearchFilters>({ ...defaultGrassSearchFilters });
   const [sortOption, setSortOption] = useState<GrassSortOption>(defaultGrassSortOption);
   const [selectedGrass, setSelectedGrass] = useState<GrassLibraryRecord | null>(null);
@@ -165,10 +161,6 @@ export default function GrassLibrary({ onViewResearchEvidence }: GrassLibraryPro
         <GrassDetailModal
           grass={selectedGrass}
           onClose={() => setSelectedGrass(null)}
-          onViewResearchEvidence={(grass) => {
-            setSelectedGrass(null);
-            onViewResearchEvidence({ species: grass.scientific_name, mechanism: grass.mechanism });
-          }}
         />
       )}
     </main>

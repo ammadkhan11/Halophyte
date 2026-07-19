@@ -49,14 +49,3 @@ class PredictionResponse(BaseModel):
     similar_grasses: list[SimilarGrass]
     model_used: str
     note: str
-
-
-class Phase1ImportRequest(BaseModel):
-    csv_path: str | None = Field(
-        default=None,
-        description="Optional server-side CSV path. Defaults to ml/data/halophyte_grass_library.csv.",
-    )
-
-
-class ReviewStatusRequest(BaseModel):
-    status: Literal["approved", "rejected", "pending", "needs_source_review"]

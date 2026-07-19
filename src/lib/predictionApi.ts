@@ -54,34 +54,6 @@ export interface PredictionResponse {
   note: string;
 }
 
-export interface ModelMetricRow {
-  known_input_field: string;
-  model_name: string;
-  target_fields: string;
-  average_mae: number;
-  average_rmse: number;
-  average_r2: number;
-}
-
-export interface ModelMetricsResponse {
-  message?: string;
-  comparison_results?: ModelMetricRow[];
-  metrics_summary?: {
-    overall_model_ranking?: Array<{
-      model_name: string;
-      average_mae: number;
-      average_rmse: number;
-      average_r2: number;
-    }>;
-    selected_model_per_known_input_for_app?: Array<{
-      known_input_field: string;
-      metric_best_model: string;
-      selected_model_for_app: string;
-      selected_model_rmse: number;
-    }>;
-  };
-}
-
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://127.0.0.1:8000';
 
 async function requestJson<T>(path: string, options?: RequestInit): Promise<T> {
@@ -120,8 +92,4 @@ export function predictValues(payload: PredictionRequest) {
     method: 'POST',
     body: JSON.stringify(payload),
   });
-}
-
-export function getModelMetrics() {
-  return requestJson<ModelMetricsResponse>('/model-metrics');
 }

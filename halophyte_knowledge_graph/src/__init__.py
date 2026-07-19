@@ -1,1 +1,0 @@
-"""Halophyte knowledge graph package."""

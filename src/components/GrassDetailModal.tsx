@@ -1,15 +1,14 @@
 import { useEffect } from 'react';
-import { FileSearch, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import type { GrassLibraryRecord } from '../data/grassLibraryData';
 import { cleanDisplayText, formatIonValue, formatNumber, formatRange } from '../utils/grassFormatters';
 
 type GrassDetailModalProps = {
   grass: GrassLibraryRecord;
   onClose: () => void;
-  onViewResearchEvidence: (grass: GrassLibraryRecord) => void;
 };
 
-export default function GrassDetailModal({ grass, onClose, onViewResearchEvidence }: GrassDetailModalProps) {
+export default function GrassDetailModal({ grass, onClose }: GrassDetailModalProps) {
   useEffect(() => {
     const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
@@ -76,18 +75,6 @@ export default function GrassDetailModal({ grass, onClose, onViewResearchEvidenc
           <span>{grass.salt_tolerance_level} tolerance</span>
           <span>{formatRange(grass.gr50_min_ds_m, grass.gr50_max_ds_m)}</span>
         </div>
-
-        <section className="research-link-panel" aria-label="Research evidence shortcut">
-          <div>
-            <p className="eyebrow">Phase 4</p>
-            <h3>Research evidence</h3>
-            <p>Open literature-backed graph evidence filtered to this species and mechanism.</p>
-          </div>
-          <button className="secondary-button" type="button" onClick={() => onViewResearchEvidence(grass)}>
-            <FileSearch aria-hidden="true" size={16} />
-            View research evidence
-          </button>
-        </section>
 
         <dl className="detail-grid">
           {details.map(([label, value]) => (
