@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "properties": {
+    "shapeName": "Pakistan demo boundary"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          60.85,
+          23.45
+        ],
+        [
+          77.1,
+          23.45
+        ],
+        [
+          77.1,
+          37.15
+        ],
+        [
+          60.85,
+          37.15
+        ],
+        [
+          60.85,
+          23.45
+        ]
+      ]
+    ]
+  }
+}

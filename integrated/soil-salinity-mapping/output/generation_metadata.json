@@ -1,0 +1,19 @@
+{
+  "status": "generated",
+  "mode": "demo_simulation",
+  "province": "Punjab and Sindh",
+  "selected_provinces": [
+    "Punjab",
+    "Sindh"
+  ],
+  "points_rendered": 720,
+  "total_points": 720,
+  "scientific_notice": "This mapper is a local application wrapper around satellite/region processing. EC prediction labels are placeholders until verified field EC measurements are supplied.",
+  "outputs": {
+    "salinity_grid_csv": "C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package\\integrated\\soil-salinity-mapping\\output\\salinity_grid.csv",
+    "pakistan_boundary_geojson": "C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package\\integrated\\soil-salinity-mapping\\output\\pakistan_boundary.geojson",
+    "target_provinces_geojson": "C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package\\integrated\\soil-salinity-mapping\\output\\target_provinces.geojson",
+    "soil_salinity_map_html": "C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package\\integrated\\soil-salinity-mapping\\output\\soil_salinity_map.html",
+    "public_map_html": "C:\\Users\\Ammad Khan\\Downloads\\halophyte_library_data_package\\public\\modules\\soil-salinity-mapping\\generated-map.html"
+  }
+}

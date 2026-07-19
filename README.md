@@ -13,7 +13,7 @@ Final year project web application for exploring halophyte grass records and est
 - Integrated navigation for internal modules and side-project materials.
 - Embedded Halophyte Knowledge Graph module served unchanged from its standalone HTML frontend.
 - Embedded Halophyte Field Match module served unchanged from its standalone HTML frontend.
-- Mini Projects route with the soil salinity crop-zoning notebook workflow rendered as static HTML.
+- Pakistan Soil Salinity Mapper route with local setup/status checks and generated-map support.
 - Backend API with dataset/model metadata and prediction endpoints.
 
 ## Phase 1: Grass Dictionary
@@ -46,14 +46,15 @@ The main React app uses path-based navigation so direct refresh works in Vite de
 - `/prediction` - salt tolerance prediction model.
 - `/knowledge-graph` - embedded Halophyte Knowledge Graph standalone HTML app.
 - `/field-match` - embedded Halophyte Field Match standalone HTML app.
-- `/mini-projects` - rendered soil salinity mapping notebook workflow.
-- `/soil-salinity-mapping` - alias for the Mini Projects route.
+- `/soil-salinity-mapping` - Pakistan Soil Salinity Mapper app page.
+- `/mini-projects` - redirects to the Soil Salinity Mapper route.
 
 Static integrated module files are served from:
 
 - `public/modules/knowledge-graph/index.html`
 - `public/modules/field-match/index.html`
-- `public/modules/mini-projects/`
+- `public/modules/mini-projects/` for notebook provenance/reference material
+- `public/modules/soil-salinity-mapping/generated-map.html` after local map generation
 
 The local Streamlit app extracted from the soil salinity notebook is available at:
 

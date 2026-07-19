@@ -6,3 +6,4 @@ pandas
 scipy
 shapely
 geopy
+earthengine-api

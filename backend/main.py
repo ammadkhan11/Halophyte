@@ -14,6 +14,7 @@ from model_loader import (
 )
 from prediction_service import predict
 from schemas import PredictionRequest, PredictionResponse
+from soil_salinity_service import generate_soil_salinity_map, soil_salinity_status
 
 
 app = FastAPI(
@@ -101,3 +102,21 @@ def predict_values(request: PredictionRequest) -> dict[str, object]:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Prediction failed: {exc}") from exc
+
+
+@app.get("/soil-salinity/status")
+def soil_salinity_mapper_status() -> dict[str, object]:
+    return soil_salinity_status()
+
+
+@app.post("/soil-salinity/generate-map")
+def soil_salinity_mapper_generate_map(request: dict[str, object] | None = None) -> dict[str, object]:
+    province = str((request or {}).get("province") or "Punjab and Sindh")
+    try:
+        return generate_soil_salinity_map(province=province)
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Soil salinity map generation failed: {exc}") from exc

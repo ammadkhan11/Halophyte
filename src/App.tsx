@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import GrassLibrary from './pages/GrassLibrary';
 import Prediction from './pages/Prediction';
+import SoilSalinityMapper from './pages/SoilSalinityMapper';
 
 type AppPage = 'library' | 'prediction' | 'knowledgeGraph' | 'fieldMatch' | 'miniProjects';
 
@@ -9,7 +10,7 @@ const ROUTES: Record<AppPage, string> = {
   prediction: '/prediction',
   knowledgeGraph: '/knowledge-graph',
   fieldMatch: '/field-match',
-  miniProjects: '/mini-projects',
+  miniProjects: '/soil-salinity-mapping',
 };
 
 function pageFromPath(pathname: string): AppPage {
@@ -40,6 +41,9 @@ export default function App() {
   const [activePage, setActivePage] = useState<AppPage>(() => pageFromPath(window.location.pathname));
 
   useEffect(() => {
+    if (window.location.pathname === '/mini-projects' || window.location.pathname === '/salinity-map') {
+      window.history.replaceState({}, '', ROUTES.miniProjects);
+    }
     const handlePopState = () => setActivePage(pageFromPath(window.location.pathname));
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -75,7 +79,7 @@ export default function App() {
           {renderNavButton('prediction', 'Prediction Model')}
           {renderNavButton('knowledgeGraph', 'Knowledge Graph')}
           {renderNavButton('fieldMatch', 'Field Match')}
-          {renderNavButton('miniProjects', 'Mini Projects')}
+          {renderNavButton('miniProjects', 'Soil Salinity Mapper')}
         </div>
       </nav>
       {activePage === 'library' ? (
@@ -87,7 +91,7 @@ export default function App() {
       ) : activePage === 'fieldMatch' ? (
         <StaticModulePage title="Halophyte Field Match" src="/modules/field-match/index.html" />
       ) : (
-        <StaticModulePage title="Soil Salinity Mapping" src="/modules/mini-projects/soil-salinity-crop-zoning/notebook.html" />
+        <SoilSalinityMapper />
       )}
     </>
   );

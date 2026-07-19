@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 import folium
 import numpy as np
@@ -13,19 +14,21 @@ from streamlit_folium import st_folium
 
 st.set_page_config(page_title="Pakistan Soil Tool", layout="wide")
 
+ASSET_DIR = Path(__file__).resolve().parent / "output"
+
 
 @st.cache_resource
 def load_assets():
-    grid_df = pd.read_csv("salinity_grid.csv")
+    grid_df = pd.read_csv(ASSET_DIR / "salinity_grid.csv")
     tree = cKDTree(grid_df[["Latitude", "Longitude"]].values)
 
     SIMPLIFY_TOL = 0.01
 
-    with open("pakistan_boundary.geojson", encoding="utf-8") as file:
+    with open(ASSET_DIR / "pakistan_boundary.geojson", encoding="utf-8") as file:
         pak_gj = json.load(file)
     pakistan_shape = shape(pak_gj["geometry"]).simplify(SIMPLIFY_TOL, preserve_topology=True)
 
-    with open("target_provinces.geojson", encoding="utf-8") as file:
+    with open(ASSET_DIR / "target_provinces.geojson", encoding="utf-8") as file:
         raw_prov_gj = json.load(file)
 
     simplified_features = []
